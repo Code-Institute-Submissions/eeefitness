@@ -98,36 +98,37 @@ My mentor suggested that I look at more efficient layouts for the About page as 
 
 My mentor also helpfully showed me how to embed a Google Map in order to allow visitors to the site to locate the gym more easily.  I included this in the Footer section of the desktop view.
  
+
 ### Wireframes:
-    [Home page for Desktop](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/desktop-home.png)
+[Home page for Desktop](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/desktop-classes.png)
 
-    [Facilities page for Desktop](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/desktop-facilities.png)
+[Facilities page for Desktop](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/desktop-facilities.png)
 
-    [Classes page for Desktop](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/desktop-classes.png)
+[Classes page for Desktop](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/desktop-classes.png)
 
-    [Membership page for Desktop](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/desktop-membership.png)
+[Membership page for Desktop](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/desktop-membership.png)
 
-    [Contact Us page for Desktop](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/desktop-contact.png)
+[Contact Us page for Desktop](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/desktop-contact.png)
 
-    [Home page for Tablet](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/tablet-home.png)
+[Home page for Tablet](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/tablet-home.png)
 
-    [Facilities page for Tablet](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/tablet-facilities.png)
+[Facilities page for Tablet](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/tablet-facilities.png)
 
-    [Classes page for Tablet](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/tablet-classes.png)
+[Classes page for Tablet](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/tablet-classes.png)
 
-    [Membership page for Tablet](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/tablet-membership.png)
+[Membership page for Tablet](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/tablet-membership.png)
 
-    [Contact Us page for Tablet](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/tablet-contact.png)
+[Contact Us page for Tablet](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/tablet-contact.png)
 
-    [Home page for Mobile](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/mobile-home.png)
+[Home page for Mobile](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/mobile-home.png)
 
-    [Facilities page for Mobile](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/mobile-facilities.png)
+[Facilities page for Mobile](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/mobile-facilities.png)
 
-    [Classes page for Mobile](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/mobile-classes.png)
+[Classes page for Mobile](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/mobile-classes.png)
 
-    [Membership page for Mobile](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/mobile-membership.png)
+[Membership page for Mobile](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/mobile-membership.png)
 
-    [Contact Us page for Mobile](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/mobile-contact.png)
+[Contact Us page for Mobile](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/mobile-contact.png)
 
  
 
@@ -161,7 +162,7 @@ Icons may be used alongside the text within the site in order to help the user t
 #### Colour Scheme
 The colour scheme was chose on the basis that I wanted a simple, clean and visually appealing site that evoked both an energetic, clean and professional atmosphere. Orange is colour that is traditionally associated with energy.  White is a colour associated with cleanliness.  Grey is a colour associated with business and professionalism. 
 
-<img src="https://github.com/nualagr/eeefitness/blob/master/assets/images/eeefitness-colour-palatte.png">
+<img src="https://github.com/nualagr/eeefitness/blob/master/assets/images/eeefitness-colour-palette.png.png" />
 
 - For the navigation bar I will be using #2D3142, Space Cadet, which a relatively dark, professional looking grey.  As most gym equipment is grey in colour, shades of grey appeared to be appropriate for the functional navigational bar and the footer.
 - The background colour of site will be #FAFAFA, Cultured, a subtle white colour, to keep the website’s image clean and to provide easy contrast.
