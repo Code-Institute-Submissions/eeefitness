@@ -169,7 +169,6 @@ The colour scheme was chose on the basis that I wanted a simple, clean and visua
 - When a user scrolls over navigation links the shade of white will change to #FB5607, Orange Pantone, to indicate to the user which link they will be pressing.  To be consistent the social media links in the footer will also change from white to orange when hovered over.
 - Orange Pantone will be used as an accent colour throughout the site, from the logo to horizontal lines between sections, to call-to-action buttons.
 - #BFC0C0, Silver, will be used as a background colour for certain sections and headings in order to provide a softer contrast from preceding/subsequent sections what use the Cultured colour. 
-- For the testimonial and latest sighting sections of the site the background colour will be F2E7CF Champagne which will give the area a subtle highlight to draw attention and is a shade of brown/yellow found on the African plains.
 - Text colour throughout the site will be either Cultured, Silver, Dark Blue Grey (#4F5D75) or Space Cadet, depending on which is easier for the user to read against the assigned background colour of the element in question.
 
 ## Technologies Used:
@@ -181,12 +180,12 @@ The colour scheme was chose on the basis that I wanted a simple, clean and visua
 
 
 ## Credits
-- coolors.co
-- statistica.com’s digital marketing outlook article on the Fitness Sector in Ireland.
-- offsprout.com’s article on The 10 Best Website Designs for Gyms and Fitness (2019 edition). 
-- ilovewp.com’s article, “Most Used Google Fonts on Gym Websites”. 
-- Code Institue and the very helpful tutors.
-- My mentor for this project Reuben Ferrante. 
+- [coolors.co](https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff)
+- [statistica.com](https://www.statista.com/outlook/313/140/fitness/ireland#market-age)’s digital marketing outlook article on the Fitness Sector in Ireland.
+- [offsprout.com](https://offsprout.com/blog/10-best-website-designs-for-gyms-2019/)’s article on The 10 Best Website Designs for Gyms and Fitness (2019 edition). 
+- [ilovewp.com](https://www.ilovewp.com/resources/wordpress-for-gyms/most-used-google-fonts-on-gym-websites/)’s article, “Most Used Google Fonts on Gym Websites”. 
+- [Code Institue](https://codeinstitute.net/5-day-coding-challenge/?utm_term=code%20institute&utm_campaign=a%26c_BR_IRL_Code_Institute&utm_source=adwords&utm_medium=ppc&hsa_net=adwords&hsa_tgt=kwd-319867646331&hsa_ad=417883007028&hsa_acc=8983321581&hsa_grp=56427889338&hsa_mt=e&hsa_cam=1378516521&hsa_kw=code%20institute&hsa_ver=3&hsa_src=g&gclid=CjwKCAjw74b7BRA_EiwAF8yHFIDc09EJev6sA8NIXe-u-TOM6nIkNPI8co9lLsTOpib4Oe8QaJ7k6xoCgNQQAvD_BwE&gclsrc=aw.ds) and the very helpful tutors.
+- My mentor for this project Reuben Ferrante for his help and guidance. 
 
 ## Images:
 
