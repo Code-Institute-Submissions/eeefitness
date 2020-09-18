@@ -13,7 +13,7 @@ body {
     background-color:  #2D3142;    
 }
 .bg-color-footer-area-bottom {
-    background-color: #0C0C10;
+    background-color: #2D3142;
 }
 
 
@@ -27,6 +27,7 @@ body {
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
     color: #fafafa; 
+    padding: 20px 0;
 }
 
 .container-fluid {
@@ -66,7 +67,6 @@ button:focus {
 .nav-link {
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
-    font-style: italic;
     font-weight: 500;
     color: #FFF !important;
     transition: all 0.35s ease-in-out;
@@ -117,7 +117,7 @@ footer {
 .footer-area-top iframe {
     width: 80%;
     height: 80%;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
 }
 
 .footer-area-top ul {
@@ -141,6 +141,10 @@ footer {
     text-decoration: none;
 }
 
+.footer-area-top ul li a {
+    padding-bottom: 25px;
+}
+
 table
 {
     width: 90%;
@@ -148,9 +152,10 @@ table
 }
 
 .footer-area-bottom {
-    padding: 20px 0;
+    padding: 20px 0px 5px 0px;
     text-align: center;
     margin: 0;
+    border-top: 1px solid #FAFAFA;
 }
 
 .social-links li a i {
@@ -178,4 +183,8 @@ table
 .footer-area-bottom a:visited {
     color: #fafafa;
     text-decoration: none;
+}
+
+.footer-bottom {
+    font-size: small;
 }
