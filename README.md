@@ -96,7 +96,7 @@ I aimed to make sure the main content areas were expressed in similar ways, to c
 
 My mentor suggested that I look at more efficient layouts for the About page as it would result in an unpleasant user experience for the mobile user.  Taking my mentor’s advice on board I looked at either including Tabs or a Dashboard.  I also looked at including a dropdown menu from the About item with three separate pages for Services, Facilities and Classes.  Again, this seemed to require more clicks and a less pleasant experience for the user. Instead I opted to include information about the gym staff and services on the Home page and create five main pages: Home, Facilities, Classes, Membership, Contact Us.  This should allow the end user to access the information that they seek with fewer clicks, hopefully leading the user toward continuing the experience.
 
-My mentor also helpfully showed me how to embed a Google Map in order to allow visitors to the site to locate the gym more easily.  I included this in the Footer section of the desktop view.
+My mentor also helpfully showed me how to embed a Google Map in order to allow visitors to the site to locate the gym more easily.  Initially I included this in the Footer section of the desktop view, however when it came to building the site I also added it to the tablet view, partially for aesthetic reasons and partially because it was pointed out to me that many tablet users use their device as a replacement for a desktop computer and therefore expect much of the functionality of the desktop view when browsing online.
  
 
 ### Wireframes:
@@ -189,3 +189,4 @@ The colour scheme was chose on the basis that I wanted a simple, clean and visua
 
 ## Images:
 
+- Created my free logo at [LogoMakr.com](https://www.logomaker.com/)
