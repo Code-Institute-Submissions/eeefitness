@@ -9,13 +9,14 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
     <header>
         <!-- Navigation Bar copied from Bootstap documentation - https://getbootstrap.com/docs/4.5/components/navbar/ & modified -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-color-navbar">
-            <a class="navbar-brand ml-md-3 ml-lg-5" href="index.html">EEE Fitness</a>
+            <a class="navbar-brand ml-md-3 ml-lg-5" href="index.html"><i class="fas fa-spinner"></i> EEE Fitness</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -39,18 +40,46 @@
                 </ul>
                 </div>
         </nav>
+        <!-- /Navigation Bar-->
 
     </header>
     <main>
+        <section>
+        <!-- Hero Image jumbotron and call out copied from Code Institue Bootstrap Project - https://github.com/nualagr/bootstrap4 & modified -->
+        <div class="container-fluid hero-image-container">
+            <div class="opaque-overlay">&nbsp;</div>
+            <div class="row">
+                <div class="col-12">
+                    <section class="callout jumbotron text-center">
+                        <h1 class="jumbotron-header">
+                        Exercise Energise Empower
+                        </h1>
+                        <p class="lead">
+                        Stop wishing. Start doing. 
+                        </p>
+                        <button
+                        class="btn btn-lg btn--cta btn--orange"
+                        data-toggle="modal"
+                        data-target="#signUpModal"
+                        >
+                        Sign Up!
+                        </button>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- /Hero Image-->
+        </section>
     </main>
-    <footer class="footer container-fluid"> 
+    <!-- Footer copied from Code Institue Resume Project - https://github.com/nualagr/resume & modified -->
+    <footer class="footer-area container-fluid"> 
       <div id="footer-details" class="row footer-area-top bg-color-footer-area-top">
         <div class="col-md-4 d-none d-md-block">
             <h5 class="uppercase general-sub">Find Us</h5>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d148.8976870658205!2d-6.254800827598746!3d53.33675805502598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e98484f0af1%3A0x87ca230452423859!2sEly%20Place%20Upper%2C%20Saint%20Peter&#39;s%2C%20Dublin!5e0!3m2!1sen!2sie!4v1600414698068!5m2!1sen!2sie" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" title="Google map showing the location of EEEFitness" tabindex="0"></iframe>
         </div>
         <div class="col-xs-12 col-md-4">
-            <div class="footer-gym-address">
+            <div id="footer-gym-address">
                 <h5 class="uppercase general-sub">Contact Us</h5>			
                     <ul>
                         <li>
@@ -138,6 +167,7 @@
 			</div>
 	    </div>
     </footer>
+    <!-- /Footer-->
 
 </body>
 </html>

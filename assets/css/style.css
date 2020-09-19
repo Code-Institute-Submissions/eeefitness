@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+/*Fix to adjust the body of the site to full width - answer found on StackOverflow, user:  Dan Beaulieu (https://stackoverflow.com/questions/29595233/website-not-filling-entire-width-of-screen)*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     background-color: #FFF;
     color: #2D3142;
     font-family: 'Roboto', sans-serif;
 }
+
 /*----------------------------------Colours*/
 .bg-color-navbar {
-    background-color: #2D3142;
+    background-color: rgba(45, 49, 66, 0.7);
 }
 .bg-color-footer-area-top {
     background-color:  #2D3142;    
@@ -15,7 +22,6 @@ body {
 .bg-color-footer-area-bottom {
     background-color: #2D3142;
 }
-
 
 /*----------------------------------Special paddings/margins/text*/
 
@@ -30,10 +36,6 @@ body {
     padding: 20px 0;
 }
 
-.container-fluid {
-    padding-right: 0;
-    padding-left:0;
-}
 
 /*----------------------------------Navigation Bar*/
 /* over-write the Bootstrap navbar class */
@@ -50,6 +52,10 @@ body {
     font-style: italic;
     margin-left: 10px;
     font-size: 1.55rem;
+}
+
+.navbar-brand i {
+    color: #FB5607;
 }
 
 .navbar .navbar-toggler {
@@ -83,21 +89,90 @@ button:focus {
     color: #FB5607 !important;
 }
 
+/*----------------------------------Containers */
+.container-fluid {
+    padding: 0 !important;
+}
+
+.hero-image-container {
+    height: 100vh;
+    background: url("../images/woman-weightlifting-orange.jpg") fixed center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*----------------------------------Jumbotron*/
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    color: #D3D3D3;
+    margin: 25px 0; 
+    font-weight: bold;   
+}
+
+/*----------------------------------Buttons*/
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--orange {
+    color: white;
+    background-color: #FB5607;
+    border-color: #FB5607;
+    border-width: 2px;
+}
+
+.btn--orange:hover,
+.btn--orange:active,
+.btn--orange:focus,
+.btn--orange:active:focus {
+    background-color: #FAFAFA;
+    border-color: #FB5607;
+    color: #FB5607;
+}
+
 /*----------------------------------Footer*/
 
 footer {
     color: #fafafa;
     min-height: 120px;
-    display: block;
 } 
 
-.footer {
-    position: fixed;
+.footer-area {
     margin: 0;
     border: 0;
     left: 0;
     bottom: 0;
     width: 100%;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 #footer-details {
@@ -126,12 +201,12 @@ footer {
     list-style-type: none;
 }
 
-.footer-gym-address ul li i {
+#footer-gym-address ul li i {
     color: #fb5607;
     padding-right: 8px;
 }
 
-.footer-gym-address ul li p {
+#footer-gym-address ul li p {
     margin-left: 28px;
 }
 
