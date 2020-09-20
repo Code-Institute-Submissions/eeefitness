@@ -22,8 +22,31 @@ body {
 .bg-color-footer-area-bottom {
     background-color: #2D3142;
 }
-
+.text-muted {
+  color: #6c757d !important;
+}
+section#contactUsSection {
+  background-color: #FB5607;
+}
 /*----------------------------------Special paddings/margins/text*/
+.banner-image-container h1.page-heading {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: #FAFAFA;
+    padding: 20px 0;
+}
+
+.banner-image-container h2.page-subheading {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: #D3D3D3;
+    padding: 5px 0;
+}
+
+.banner-image-container p i {
+    font-size: 2rem;
+    color: #D3D3D3;
+}
 
 .uppercase {
     text-transform: uppercase;
@@ -32,11 +55,30 @@ body {
 .general-sub {
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
-    color: #fafafa; 
+    color: #FAFAFA; 
     padding: 20px 0;
 }
 
+.text-center {
+  text-align: center !important;
+}
 
+.page-section {
+  padding: 6rem 0;
+}
+
+.page-section h2.section-heading {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: "Open Sans", sans serif;
+}
+
+.page-section h3.section-subheading {
+  font-size: 1rem;
+  font-style: italic;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 4rem;
+}
 /*----------------------------------Navigation Bar*/
 /* over-write the Bootstrap navbar class */
 .navbar {
@@ -90,9 +132,6 @@ button:focus {
 }
 
 /*----------------------------------Containers */
-.container-fluid {
-    padding: 0 !important;
-}
 
 .hero-image-container {
     height: 100vh;
@@ -101,7 +140,6 @@ button:focus {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,16 +155,36 @@ button:focus {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.banner-image-contact-container {
+    height: 60vh;
+    background: url("../images/man-battlerope-exercise.jpg") fixed center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
 /*----------------------------------Jumbotron*/
 .jumbotron {
     background-color: transparent;
 }
 
 .jumbotron h1 {
-    color: white;
+    color: #FAFAFA;
     font-weight: bold;
     margin-bottom: 30px;
 }
+
+.jumbotron h2 {
+    color: #D3D3D3;
+    font-weight: bold;
+    margin-bottom: 25px;
+} 
 
 .jumbotron .lead {
     color: #D3D3D3;
@@ -158,6 +216,39 @@ button:focus {
     color: #FB5607;
 }
 
+.btn--grey {
+    color: #2D3142;
+    background-color: #D3D3D3;
+    border-color: #D3D3D3;
+    border-width: 2px;
+}
+
+.btn--grey:hover,
+.btn--grey:active,
+.btn--grey:focus,
+.btn--grey:active:focus {
+    background-color: #FAFAFA;
+    border-color: #2D3142;
+    color: #2D3142;
+}
+
+/*----------------------------------Banner Image Contact Container*/
+
+.banner-image-contact-container a i {
+    color: #FB5607;
+    padding-right: 8px;
+}
+
+.banner-image-contact-container a i:link, 
+.banner-image-contact-container a i:visited {
+    text-decoration: none;
+}
+
+.banner-image-contact-container a i:hover,
+.banner-image-contact-container a i:active {
+    color: #FAFAFA;
+}
+
 /*----------------------------------Footer*/
 
 footer {
@@ -175,11 +266,11 @@ footer {
     padding-left: 0;
 }
 
-#footer-details {
+#footerDetails {
     color: #D3D3D3;
 }
 
-#footer-details h5 {
+#footerDetails h5 {
     color: #FAFAFA;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -201,12 +292,12 @@ footer {
     list-style-type: none;
 }
 
-#footer-gym-address ul li i {
+#footerGymAddress ul li i {
     color: #fb5607;
     padding-right: 8px;
 }
 
-#footer-gym-address ul li p {
+#footerGymAddress ul li p {
     margin-left: 28px;
 }
 
@@ -263,3 +354,33 @@ table
 .footer-bottom {
     font-size: small;
 }
+
+/*----------------------------------Contact Us Form*/
+
+section#contactUsSection .section-heading {
+    color: #FAFAFA;
+}
+
+section#contactUsSection form#contactForm .form-group {
+  margin-bottom: 1.35rem;
+}
+
+section#contactUsSection form#contactForm .form-group input,
+section#contactUsSection form#contactForm .form-group textarea {
+  padding: 1.25rem;
+}
+
+/* Code to make the input areas in the Contact Us Form taller found at: https://startbootstrap.com/themes/agency/ */
+section#contactUsSection form#contactForm .form-group input.form-control {
+  height: auto;
+}
+
+section#contactUsSection form#contactForm .form-control:focus {
+  border-color: #4F5D75;
+  box-shadow: none;
+}
+
+section#contactUsSection form#contactForm .form-group textarea {
+    overflow: auto; /*adds a scroll-bar when necessary*/
+}
+
