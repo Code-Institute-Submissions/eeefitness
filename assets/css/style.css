@@ -25,6 +25,13 @@ body {
 .text-muted {
   color: #6c757d !important;
 }
+
+section#membershipPricingSection {
+  background-color: #FB5607;
+}
+
+
+
 section#contactUsSection {
   background-color: #FB5607;
 }
@@ -155,6 +162,20 @@ button:focus {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.banner-image-membership-container {
+    height: 60vh;
+    background: url("../images/hands-grasping-kettlebell-on-floor.jpg") fixed center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
 .banner-image-contact-container {
     height: 60vh;
     background: url("../images/man-battlerope-exercise.jpg") fixed center no-repeat;
@@ -231,7 +252,22 @@ button:focus {
     border-color: #2D3142;
     color: #2D3142;
 }
+/*----------------------------------Banner Image Membership Container*/
 
+.banner-image-membership-container a i {
+    color: #FB5607;
+    padding-right: 8px;
+}
+
+.banner-image-membership-container a i:link, 
+.banner-image-membership-container a i:visited {
+    text-decoration: none;
+}
+
+.banner-image-membership-container a i:hover,
+.banner-image-membership-container a i:active {
+    color: #FAFAFA;
+}
 /*----------------------------------Banner Image Contact Container*/
 
 .banner-image-contact-container a i {
@@ -353,6 +389,15 @@ table
 
 .footer-bottom {
     font-size: small;
+}
+/*----------------------------------Membership Pricing Section*/
+section#membershipPricingSection .card-list ul li {
+    list-style-image: url("../images/check-solid.svg");
+}
+
+section#membershipPricingSection h2.section-heading {
+  color: #FAFAFA;
+  margin-bottom: 3rem;
 }
 
 /*----------------------------------Contact Us Form*/

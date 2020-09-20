@@ -4,7 +4,7 @@
 
 <img src="documentation/deployment-screen-shots/screenshot.png">
 
-EEE Fitness is a fictional gym whose motto is Exercise Energize Empower. 
+EEE Fitness is a fictitious gym whose motto is Exercise Energize Empower. 
 This project is the first of four Milestone Projects that make up the Full Stack Web Development Program at The Code Institute, and the main requirements were to make a static but responsive website with a minimum of 3 pages using HTML5 and CSS3.
 
 Click <a href="http://index.html">here</a> view the website live.
