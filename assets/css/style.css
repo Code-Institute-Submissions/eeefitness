@@ -409,16 +409,28 @@ table
     font-size: small;
 }
 /*----------------------------------Facilities Section*/
+section#facilitiesSection .facility-image img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
 
-
+section#facilitiesSection .facility-info h2{
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0.7em 0;
+}
 /*----------------------------------Membership Pricing Section*/
 section#membershipPricingSection .card-list ul li {
     list-style-image: url("../images/check-solid.svg");
 }
 
 section#membershipPricingSection h2.section-heading {
-  color: #FAFAFA;
-  margin-bottom: 3rem;
+    color: #FAFAFA;
+    margin-bottom: 3rem;
 }
 
 section#membershipPricingSection .card-header {
