@@ -160,32 +160,36 @@ button:focus {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.banner-image-membership-container {
+.banner-image-container {
     height: 60vh;
-    background: url("../images/hands-grasping-kettlebell-on-floor.jpg") fixed center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
 
+.banner-image-membership-container {
+    background: url("../images/hands-grasping-kettlebell-on-floor.jpg") fixed center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.banner-image-facilities-container {
+    background: url("../images/orange-dumbbells-on-shelf.jpg") fixed center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .banner-image-contact-container {
-    height: 60vh;
     background: url("../images/man-battlerope-exercise.jpg") fixed center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
 }
 
 /*----------------------------------Jumbotron*/
@@ -264,6 +268,22 @@ button:focus {
 
 .banner-image-membership-container a i:hover,
 .banner-image-membership-container a i:active {
+    color: #FAFAFA;
+}
+/*----------------------------------Banner Image Facilities Container*/
+
+.banner-image-facilities-container a i {
+    color: #FB5607;
+    padding-right: 8px;
+}
+
+.banner-image-contact-facilities a i:link, 
+.banner-image-contact-facilities a i:visited {
+    text-decoration: none;
+}
+
+.banner-image-contact-facilities a i:hover,
+.banner-image-contact-facilities a i:active {
     color: #FAFAFA;
 }
 /*----------------------------------Banner Image Contact Container*/
@@ -388,6 +408,9 @@ table
 .footer-bottom {
     font-size: small;
 }
+/*----------------------------------Facilities Section*/
+
+
 /*----------------------------------Membership Pricing Section*/
 section#membershipPricingSection .card-list ul li {
     list-style-image: url("../images/check-solid.svg");
@@ -401,7 +424,18 @@ section#membershipPricingSection h2.section-heading {
 section#membershipPricingSection .card-header {
     color: #2D3142;
     font-size: 2em;
+}
+
+section#membershipPricingSection .card-header-12-month {
     background-color: #FC7536;
+}
+
+section#membershipPricingSection .card-header-6-month {
+    background-color: #FD905E;
+}
+
+section#membershipPricingSection .card-header-3-month {
+    background-color: #FDAC86;
 }
 
 section#membershipPricingSection .membership-sign-up-button-row {
