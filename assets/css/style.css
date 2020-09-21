@@ -184,6 +184,14 @@ button:focus {
     background-size: cover;
 }
 
+.banner-image-classes-container {
+    background: url("../images/female-gym-class-arms-outstretched.jpg") fixed center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .banner-image-contact-container {
     background: url("../images/man-battlerope-exercise.jpg") fixed center no-repeat;
     -webkit-background-size: cover;
@@ -254,22 +262,6 @@ button:focus {
     border-color: #2D3142;
     color: #2D3142;
 }
-/*----------------------------------Banner Image Membership Container*/
-
-.banner-image-membership-container a i {
-    color: #FB5607;
-    padding-right: 8px;
-}
-
-.banner-image-membership-container a i:link, 
-.banner-image-membership-container a i:visited {
-    text-decoration: none;
-}
-
-.banner-image-membership-container a i:hover,
-.banner-image-membership-container a i:active {
-    color: #FAFAFA;
-}
 /*----------------------------------Banner Image Facilities Container*/
 
 .banner-image-facilities-container a i {
@@ -286,6 +278,39 @@ button:focus {
 .banner-image-contact-facilities a i:active {
     color: #FAFAFA;
 }
+/*----------------------------------Banner Image Classes Container*/
+
+.banner-image-classes-container a i {
+    color: #FB5607;
+    padding-right: 8px;
+}
+
+.banner-image-classes-facilities a i:link, 
+.banner-image-classes-facilities a i:visited {
+    text-decoration: none;
+}
+
+.banner-image-classes-facilities a i:hover,
+.banner-image-classes-facilities a i:active {
+    color: #FAFAFA;
+}
+/*----------------------------------Banner Image Membership Container*/
+
+.banner-image-membership-container a i {
+    color: #FB5607;
+    padding-right: 8px;
+}
+
+.banner-image-membership-container a i:link, 
+.banner-image-membership-container a i:visited {
+    text-decoration: none;
+}
+
+.banner-image-membership-container a i:hover,
+.banner-image-membership-container a i:active {
+    color: #FAFAFA;
+}
+
 /*----------------------------------Banner Image Contact Container*/
 
 .banner-image-contact-container a i {
@@ -416,13 +441,24 @@ section#facilitiesSection .facility-image img {
     justify-content: center;
 }
 
-section#facilitiesSection .facility-info h2{
-    position: relative;
-    width: 100%;
-    height: auto;
+section#facilitiesSection .facility-info h2 {
     text-align: center;
     margin: 0.7em 0;
 }
+
+/*----------------------------------Classes Section*/
+section#classesSection .class-image img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+section#classesSection .class-info h2 {
+    text-align: center;
+    margin: 0.7em 0;
+}
+
 /*----------------------------------Membership Pricing Section*/
 section#membershipPricingSection .card-list ul li {
     list-style-image: url("../images/check-solid.svg");
