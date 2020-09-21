@@ -27,13 +27,11 @@ body {
 }
 
 section#membershipPricingSection {
-  background-color: #FB5607;
+  background-color: #4A516D;
 }
 
-
-
 section#contactUsSection {
-  background-color: #FB5607;
+  background-color: #FC7536;
 }
 /*----------------------------------Special paddings/margins/text*/
 .banner-image-container h1.page-heading {
@@ -400,6 +398,15 @@ section#membershipPricingSection h2.section-heading {
   margin-bottom: 3rem;
 }
 
+section#membershipPricingSection .card-header {
+    color: #2D3142;
+    font-size: 2em;
+    background-color: #FC7536;
+}
+
+section#membershipPricingSection .membership-sign-up-button-row {
+    margin-top: 3rem;
+}
 /*----------------------------------Contact Us Form*/
 
 section#contactUsSection .section-heading {
