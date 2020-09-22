@@ -51,7 +51,7 @@ section#contactUsSection {
 }
 
 .text-center {
-  text-align: center !important;
+  text-align: center!important;
 }
 
 .page-section {
@@ -200,7 +200,7 @@ button:focus {
 
 .jumbotron h2 {
     color: #FAFAFA;
-    margin-bottom: 20px;
+    margin: 1rem 0 2rem 0;
     font-family: "Open Sans", sans-serif;
 } 
 
@@ -230,8 +230,8 @@ button:focus {
 
 .btn--grey {
     color: #2D3142;
-    background-color: #D3D3D3;
-    border-color: #D3D3D3;
+    background-color: #FAFAFA;
+    border-color: #2D3142;
     border-width: 2px;
 }
 
@@ -239,73 +239,8 @@ button:focus {
 .btn--grey:active,
 .btn--grey:focus,
 .btn--grey:active:focus {
-    background-color: #FAFAFA;
+    background-color: #2D3142;
     border-color: #2D3142;
-    color: #2D3142;
-}
-/*----------------------------------Banner Image Facilities Container*/
-
-.banner-image-facilities-container a i {
-    color: #FB5607;
-    padding-right: 8px;
-}
-
-.banner-image-contact-facilities a i:link, 
-.banner-image-contact-facilities a i:visited {
-    text-decoration: none;
-}
-
-.banner-image-contact-facilities a i:hover,
-.banner-image-contact-facilities a i:active {
-    color: #FAFAFA;
-}
-/*----------------------------------Banner Image Classes Container*/
-
-.banner-image-classes-container a i {
-    color: #FB5607;
-    padding-right: 8px;
-}
-
-.banner-image-classes-facilities a i:link, 
-.banner-image-classes-facilities a i:visited {
-    text-decoration: none;
-}
-
-.banner-image-classes-facilities a i:hover,
-.banner-image-classes-facilities a i:active {
-    color: #FAFAFA;
-}
-/*----------------------------------Banner Image Membership Container*/
-
-.banner-image-membership-container a i {
-    color: #FB5607;
-    padding-right: 8px;
-}
-
-.banner-image-membership-container a i:link, 
-.banner-image-membership-container a i:visited {
-    text-decoration: none;
-}
-
-.banner-image-membership-container a i:hover,
-.banner-image-membership-container a i:active {
-    color: #FAFAFA;
-}
-
-/*----------------------------------Banner Image Contact Container*/
-
-.banner-image-contact-container a i {
-    color: #FB5607;
-    padding-right: 8px;
-}
-
-.banner-image-contact-container a i:link, 
-.banner-image-contact-container a i:visited {
-    text-decoration: none;
-}
-
-.banner-image-contact-container a i:hover,
-.banner-image-contact-container a i:active {
     color: #FAFAFA;
 }
 
@@ -414,6 +349,19 @@ table
 .footer-bottom {
     font-size: small;
 }
+/*----------------------------------Services Section*/
+section#servicesSection .services-icons i {
+    color: #FC7536;
+    border-color: #FC7536;
+    font-size: 2.5rem;
+    display: block;
+}
+
+section#servicesSection .services-find-out-more-button-row button {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
 /*----------------------------------Facilities Section*/
 section#facilitiesSection .facility-image img {
     position: relative;
