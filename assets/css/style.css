@@ -50,6 +50,7 @@ section#contactUsSection {
     font-weight: 500;
     color: #FAFAFA; 
     padding: 20px 0;
+    text-align: center;
 }
 
 .text-center {
@@ -300,7 +301,7 @@ footer {
 
 .footer-area-top ul {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 2em;
     list-style-type: none;
 }
 
@@ -327,6 +328,10 @@ table
 {
     width: 90%;
     height: 100%;
+}
+
+.footer-area-top table {
+    margin: 0 0 0 2em;
 }
 
 .footer-area-bottom {
@@ -388,6 +393,10 @@ section#servicesSection .services-find-out-more-button-row button {
     font-size: 1em;
     font-family: "Roboto", sans-serif;
     color: #FAFAFA;
+}
+
+.member-picture {
+    object-fit: cover;
 }
 
 .carousel-inner .row {
