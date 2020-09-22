@@ -29,7 +29,7 @@ section#testimonialsSection {
     background-color: #2D3142;
 }
 section#membershipPricingSection {
-  background-color: #D3D3D3;
+  background-color: #FAFAFA;
 }
 
 section#contactUsSection {
@@ -464,6 +464,11 @@ section#membershipPricingSection .card-header {
 
 section#membershipPricingSection .card-header {
     background-color: #FC7536;
+}
+
+section#membershipPricingSection .card-body {
+    background-color: #2D3142;
+    color: #FAFAFA;
 }
 
 section#membershipPricingSection .membership-sign-up-button-row {
