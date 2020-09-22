@@ -74,7 +74,14 @@ section#contactUsSection {
   text-align: center;
   color: #FAFAFA;
 }
+
 .page-section h3.section-subheading {
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  margin: 2rem 0 2rem 0;
+}
+
+.page-section h4.section-subheading {
   font-size: 1rem;
   font-style: italic;
   font-family: "Open Sans", sans-serif;
@@ -393,6 +400,17 @@ section#servicesSection .services-find-out-more-button-row button {
     width: 25%;
 }
 
+/*----------------------------------Trainers Section*/
+section#trainersSection .trainers-container img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+section#trainersSection .trainers-container p {
+    margin-bottom: 2em;
+}
 /*----------------------------------Facilities Section*/
 
 section#facilitiesSection .facility-image img {
