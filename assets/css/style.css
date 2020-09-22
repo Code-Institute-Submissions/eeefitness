@@ -23,31 +23,17 @@ body {
     background-color: #2D3142;
 }
 .text-muted {
-  color: #6c757d !important;
+  color: #4A516D !important;
 }
 
 section#membershipPricingSection {
-  background-color: #4A516D;
+  background-color: #D3D3D3;
 }
 
 section#contactUsSection {
   background-color: #FC7536;
 }
 /*----------------------------------Special paddings/margins/text*/
-.banner-image-container h1.page-heading {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    color: #FAFAFA;
-    padding: 20px 0;
-}
-
-.banner-image-container h2.page-subheading {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    color: #D3D3D3;
-    padding: 5px 0;
-}
-
 .banner-image-container p i {
     font-size: 2rem;
     color: #D3D3D3;
@@ -94,7 +80,7 @@ section#contactUsSection {
 
 .navbar-brand {
     font-weight: 500;
-    color: #fafafa;
+    color: #FAFAFA;
     font-family: 'Open Sans';
     font-style: italic;
     margin-left: 10px;
@@ -208,20 +194,15 @@ button:focus {
 .jumbotron h1 {
     color: #FAFAFA;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
 }
 
 .jumbotron h2 {
-    color: #D3D3D3;
-    font-weight: bold;
-    margin-bottom: 25px;
+    color: #FAFAFA;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
 } 
-
-.jumbotron .lead {
-    color: #D3D3D3;
-    margin: 25px 0; 
-    font-weight: bold;   
-}
 
 /*----------------------------------Buttons*/
 
@@ -465,7 +446,7 @@ section#membershipPricingSection .card-list ul li {
 }
 
 section#membershipPricingSection h2.section-heading {
-    color: #FAFAFA;
+    color: #2D3142;
     margin-bottom: 3rem;
 }
 
@@ -474,16 +455,8 @@ section#membershipPricingSection .card-header {
     font-size: 2em;
 }
 
-section#membershipPricingSection .card-header-12-month {
+section#membershipPricingSection .card-header {
     background-color: #FC7536;
-}
-
-section#membershipPricingSection .card-header-6-month {
-    background-color: #FD905E;
-}
-
-section#membershipPricingSection .card-header-3-month {
-    background-color: #FDAC86;
 }
 
 section#membershipPricingSection .membership-sign-up-button-row {
