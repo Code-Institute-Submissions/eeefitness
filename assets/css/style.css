@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-    background-color: #FFF;
+    background-color: #FAFAFA;
     color: #2D3142;
     font-family: 'Roboto', sans-serif;
 }
@@ -204,6 +204,14 @@ button:focus {
     background-size: cover;
 }
 
+.banner-image-registration-container {
+    background: url("../images/legs-on-treadmill.jpg") fixed center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 /*----------------------------------Jumbotron*/
 .jumbotron {
     background-color: transparent;
@@ -326,7 +334,7 @@ footer {
 
 table
 {
-    width: 90%;
+    width: 80%;
     height: 100%;
     margin: 0 auto;
 }
@@ -374,11 +382,12 @@ section#servicesSection .services-icons i {
     border-color: #FC7536;
     font-size: 2.5rem;
     display: block;
+    margin-bottom: 1rem;
 }
 
 section#servicesSection .services-find-out-more-button-row button {
     font-size: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 3.5rem;
 }
 /*----------------------------------Testimonials Section*/
 
@@ -424,6 +433,7 @@ section#facilitiesSection .facility-image img {
     width: 100%;
     height: auto;
     justify-content: center;
+    border-radius: 0.25rem;
 }
 
 section#facilitiesSection .facility-info h2 {
@@ -437,9 +447,11 @@ section#classesSection .class-image img {
     width: 100%;
     height: auto;
     justify-content: center;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
 }
 
-section#classesSection .class-info h2 {
+section#classesSection h2 {
     text-align: center;
     margin: 0.7em 0;
 }
@@ -500,3 +512,34 @@ section#contactUsSection form#contactForm .form-group textarea {
     overflow: auto; /*adds a scroll-bar when necessary*/
 }
 
+/*----------------------------------Registration Form*/
+section#registrationFormSection .section-heading {
+    color: #2D3142;
+}
+
+section#registrationFormSection form#registrationForm .form-group {
+  margin-bottom: 1.35rem;
+}
+
+section#registrationFormSection form#registrationForm .form-group input {
+  padding: 1.25rem;
+} 
+
+section#registrationFormSection form#registrationForm .form-group .form-control#membershipPackage {
+    padding: 1.25rem;
+    height: auto;
+} 
+
+/* Code to make the input areas in the Contact Us Form taller found at: https://startbootstrap.com/themes/agency/ */
+section#registrationFormSection form#registrationForm .form-group input.form-control {
+  height: auto;
+}
+
+section#registrationFormSection form#registrationForm .form-control:focus {
+  border-color: #4F5D75;
+  box-shadow: none;
+}
+
+section#registrationFormSection form#registrationForm #registrationButton {
+    margin-top: 3rem;
+}
