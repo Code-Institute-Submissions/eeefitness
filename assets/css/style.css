@@ -328,10 +328,7 @@ table
 {
     width: 90%;
     height: 100%;
-}
-
-.footer-area-top table {
-    marginsub: 0 0 0 2em;
+    margin: 0 auto;
 }
 
 .footer-area-bottom {
