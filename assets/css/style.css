@@ -401,7 +401,7 @@ section#servicesSection .services-find-out-more-button-row button {
     color: #FAFAFA;
 }
 
-.member-picture {
+.gym-member-image {
     object-fit: cover;
 }
 
@@ -458,7 +458,7 @@ section#classesSection h2 {
 
 /*----------------------------------Membership Pricing Section*/
 section#membershipPricingSection .card-list ul li {
-    list-style-image: url("../images/check-solid.svg");
+    list-style-image: url("../images/check-solid-white.svg");
 }
 
 section#membershipPricingSection h2.section-heading {
