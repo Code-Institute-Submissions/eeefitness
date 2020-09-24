@@ -106,7 +106,7 @@ section#contactUsSection {
 }
 
 .navbar-brand i {
-    color: #FB5607;
+    color: #FC7536;
 }
 
 .navbar .navbar-toggler {
@@ -114,7 +114,7 @@ section#contactUsSection {
 } 
 
 button:focus {
-     outline-color: #FB5607;
+     outline-color: #FC7536;
 }
 
 .navbar .navbar-nav a {
@@ -133,11 +133,11 @@ button:focus {
 }
 
 .nav-item a:hover {
-    color: #FB5607 !important;
+    color: #FC7536 !important;
 }
 
 .nav-item .active {
-    color: #FB5607 !important;
+    color: #FC7536 !important;
 }
 
 /*----------------------------------Containers */
@@ -240,8 +240,8 @@ button:focus {
 
 .btn--orange {
     color: white;
-    background-color: #FB5607;
-    border-color: #FB5607;
+    background-color: #FC7536;
+    border-color: #FC7536;
     border-width: 2px;
 }
 
@@ -250,8 +250,8 @@ button:focus {
 .btn--orange:focus,
 .btn--orange:active:focus {
     background-color: #FAFAFA;
-    border-color: #FB5607;
-    color: #FB5607;
+    border-color: #FC7536;
+    color: #FC7536;
 }
 
 .btn--grey {
@@ -314,7 +314,7 @@ footer {
 }
 
 #footerGymAddress ul li i {
-    color: #fb5607;
+    color: #FC7536;
     padding-right: 8px;
 }
 
@@ -355,7 +355,7 @@ table
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #fb5607;
+    background: #FC7536;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -364,7 +364,7 @@ table
 
 .social-links li a i:hover {
     background-color: #fafafa;
-    color: #fb5607;
+    color: #FC7536;
 }
 
 .footer-area-bottom a:link, 
