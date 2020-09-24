@@ -189,4 +189,81 @@ The colour scheme was chose on the basis that I wanted a simple, clean and visua
 
 ## Images:
 
-- Created my free logo at [LogoMakr.com](https://www.logomaker.com/)
+
+### index.html
+- hero image   
+https://www.pexels.com/photo/woman-kneeling-with-barbel-on-shoulders-3076514/
+Photo by Jonathan Borba from Pexels
+- gym member male image to accompany testimonial  
+https://www.pexels.com/photo/man-wearing-black-crew-neck-shirt-and-straight-cut-jeans-804009/
+Photo by Samad Ismayilov from Pexels
+- gym member female - Janet Doe - to accompany testimonial  
+https://www.pexels.com/photo/adult-blond-confidence-confident-1146352/
+Photo by mentatdgt from Pexels
+- gym member female - Jane Doe - to accompany testimonial  
+https://www.pexels.com/photo/selective-focus-photo-of-smiling-woman-in-active-wear-carrying-gym-bag-3764401/
+Photo by Andrea Piacquadio from Pexels
+- male trainer 1 image  
+https://www.pexels.com/photo/man-in-black-crew-neck-t-shirt-standing-in-front-of-boxing-gloves-3912953/
+Photo by ThisIsEngineering from Pexels
+- trainer female  
+https://unsplash.com/photos/HzXDD6l7gW4
+Photo by ŞULE MAKAROĞLU on Unsplash
+- male trainer 2 image  
+https://www.pexels.com/photo/man-in-black-tank-top-holding-orange-towel-3917685/
+Photo by Andrea Piacquadio from Pexels
+
+### facilities.html
+- banner image  
+https://www.pexels.com/photo/brown-wooden-chess-piece-on-black-computer-keyboard-4753885/
+Photo by cottonbro from Pexels
+- cardio zone image  
+https://www.pexels.com/photo/an-on-treadmill-1954524/
+Photo by William Choquette from Pexels
+- free weights image  
+https://unsplash.com/photos/CQfNt66ttZM
+Photo by Danielle Cerullo on Unsplash
+- strength training image  
+https://www.pexels.com/photo/serious-sportsman-training-on-exercise-machine-in-modern-gym-3838937/
+Photo by Andrea Piacquadio from Pexels
+- functional training zone image  
+https://www.pexels.com/photo/adult-athlete-body-bodybuilding-414029/
+Image by Pixabay
+
+### classes.html
+- banner image   
+https://www.pexels.com/photo/group-of-women-doing-exercise-3768695/
+Photo by Andrea Piacquadio from Pexels
+- pilates image  
+https://www.pexels.com/photo/group-of-woman-doing-yoga-868483/
+Photo by Andrea Piacquadio from Pexels
+- kettlebells image  
+https://www.pexels.com/photo/athlete-barbell-bodybuilder-bodybuilding-416717/
+Image by Pixabay
+- spinning image  
+https://pixabay.com/photos/sports-indoor-cycling-fitness-gym-1962574/
+Image by Александр Вальков from Pixabay
+- zumba image  
+https://unsplash.com/photos/3ckWUnaCxzc
+Photo by Danielle Cerullo on Unsplash
+- yoga class image  
+https://www.pexels.com/photo/women-keeping-fit-3984353/
+Photo by Gustavo Fring from Pexels
+- boxercise  
+https://burst.shopify.com/photos/kick-boxing-fitness?q=kickboxing
+Photo by: Nicole De Khors on Burst
+
+### membership.html 
+- banner image  
+https://www.pexels.com/photo/people-holding-a-weights-3766211/
+Photo by Andrea Piacquadio from Pexels
+
+### contact.html
+- banner image  
+https://www.pexels.com/photo/man-holding-brown-rope-3253501/
+Photo by Cesar Galeão from Pexels
+
+### register.html
+- banner image  
+https://www.pexels.com/photo/photo-of-person-using-treadmill-3757957/
+Photo by Andrea Piacquadio from Pexels
