@@ -457,27 +457,30 @@ section#classesSection h2 {
 }
 
 /*----------------------------------Membership Pricing Section*/
-section#membershipPricingSection .card-list ul li {
-    list-style-image: url("../images/check-solid-white.svg");
-}
+
 
 section#membershipPricingSection h2.section-heading {
     color: #2D3142;
     margin-bottom: 3rem;
 }
 
-section#membershipPricingSection .card-header {
-    color: #2D3142;
-    font-size: 2em;
+section#membershipPricingSection .card-deck .card {
+    margin-bottom: 35px;
 }
 
 section#membershipPricingSection .card-header {
+    color: #2D3142;
+    font-size: 2em;
     background-color: #FC7536;
 }
 
 section#membershipPricingSection .card-body {
     background-color: #2D3142;
     color: #FAFAFA;
+}
+
+section#membershipPricingSection .card-list ul li {
+    list-style-image: url("../images/check-solid-white.svg");
 }
 
 section#membershipPricingSection .membership-sign-up-button-row {
