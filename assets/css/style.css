@@ -239,6 +239,7 @@ button:focus {
     background-color: #FC7536;
     border-color: #FC7536;
     border-width: 2px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.4)
 }
 
 .btn--orange:hover,
@@ -255,6 +256,7 @@ button:focus {
     background-color: #2D3142;
     border-color: #2D3142;
     border-width: 2px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.4)
 }
 
 .btn--grey:hover,
@@ -424,6 +426,7 @@ section#trainersSection .trainers-container img {
     width: 100%;
     height: auto;
     justify-content: center;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.4)
 }
 
 section#trainersSection .trainers-container p {
@@ -471,6 +474,7 @@ section#membershipPricingSection h2.section-heading {
 
 section#membershipPricingSection .card-deck .card {
     margin-bottom: 35px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.4)
 }
 
 section#membershipPricingSection .card-header {
@@ -498,22 +502,23 @@ section#contactUsSection .section-heading {
 }
 
 section#contactUsSection form#contactForm .form-group {
-  margin-bottom: 1.35rem;
+    margin-bottom: 1.35rem;
 }
 
 section#contactUsSection form#contactForm .form-group input,
 section#contactUsSection form#contactForm .form-group textarea {
-  padding: 1.25rem;
+    padding: 1.25rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.4)
 }
 
 /* Code to make the input areas in the Contact Us Form taller found at: https://startbootstrap.com/themes/agency/ */
 section#contactUsSection form#contactForm .form-group input.form-control {
-  height: auto;
+    height: auto;
 }
 
 section#contactUsSection form#contactForm .form-control:focus {
-  border-color: #4F5D75;
-  box-shadow: none;
+    border-color: #4F5D75;
+    box-shadow: none;
 }
 
 section#contactUsSection form#contactForm .form-group textarea {
@@ -526,26 +531,28 @@ section#registrationFormSection .section-heading {
 }
 
 section#registrationFormSection form#registrationForm .form-group {
-  margin-bottom: 1.35rem;
+    margin-bottom: 1.35rem;
 }
 
 section#registrationFormSection form#registrationForm .form-group input {
-  padding: 1.25rem;
+    padding: 1.25rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.4)
 } 
 
 section#registrationFormSection form#registrationForm .form-group .form-control#membershipPackage {
     padding: 1.25rem;
     height: auto;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.4)
 } 
 
 /* Code to make the input areas in the Contact Us Form taller found at: https://startbootstrap.com/themes/agency/ */
 section#registrationFormSection form#registrationForm .form-group input.form-control {
-  height: auto;
+    height: auto;
 }
 
 section#registrationFormSection form#registrationForm .form-control:focus {
-  border-color: #4F5D75;
-  box-shadow: none;
+    border-color: #4F5D75;
+    box-shadow: none;
 }
 
 section#registrationFormSection form#registrationForm #registrationButton {
