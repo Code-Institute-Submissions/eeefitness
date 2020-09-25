@@ -333,7 +333,6 @@ footer {
     text-decoration: none;
 }
 
-
 table
 {
     width: 80%;
@@ -437,6 +436,7 @@ section#facilitiesSection .facility-image img {
     height: auto;
     justify-content: center;
     border-radius: 0.25rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.4)
 }
 
 section#facilitiesSection .facility-info h2 {
@@ -452,6 +452,7 @@ section#classesSection .class-image img {
     justify-content: center;
     border-radius: 0.25rem;
     margin-bottom: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.4)
 }
 
 section#classesSection h2 {
