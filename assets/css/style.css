@@ -169,7 +169,14 @@ button:focus {
 }
 
 .banner-image-membership-container {
-    background: url("../images/hands-grasping-kettlebell-on-floor.jpg") fixed center no-repeat;
+    background:     
+    /* top, transparent orange, faked with gradient */ 
+    linear-gradient(
+      rgba(124, 0, 0, 0.45), 
+      rgba(124, 0, 0, 0.45)
+    ),
+    /* bottom, image */
+    url("../images/hands-grasping-kettlebell-on-floor.jpg") fixed center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -201,7 +208,13 @@ button:focus {
 }
 
 .banner-image-registration-container {
-    background: url("../images/legs-on-treadmill.jpg") fixed center no-repeat;
+    background:     
+    /* top, transparent orange, faked with gradient */ 
+    linear-gradient(
+      rgba(124, 0, 0, 0.45), 
+      rgba(124, 0, 0, 0.45)
+    ),
+    /* bottom, image */url("../images/legs-on-treadmill.jpg") fixed center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -448,8 +461,6 @@ section#trainersSection .trainers-container img {
 section#trainersSection .trainers-container p {
     margin-bottom: 2em;
 }
-/*----------------------------------Call To Action Section*/
-section#callToActionSection 
 
 /*----------------------------------Facilities Section*/
 
