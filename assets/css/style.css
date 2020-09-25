@@ -322,15 +322,21 @@ footer {
     margin-left: 28px;
 }
 
-.footer-area-top ul li a:link, 
+.footer-area-top ul li a {
+    padding-bottom: 25px;
+}
+
+.footer-area-top ul li a:link,  
 .footer-area-top ul li a:visited {
     color: #D3D3D3;
     text-decoration: none;
 }
 
-.footer-area-top ul li a {
-    padding-bottom: 25px;
+.footer-area-top ul li a:hover{
+    color: #FAFAFA;
+    text-decoration: none;
 }
+
 
 table
 {
