@@ -401,7 +401,7 @@ section#servicesSection .services-find-out-more-button-row button {
     margin: 1em 0 1em 0;
 }
 
-.member-comment {
+.gym-member-comment {
     font-size: 1em;
     font-family: "Roboto", sans-serif;
     color: #FAFAFA;
@@ -409,6 +409,7 @@ section#servicesSection .services-find-out-more-button-row button {
 
 .gym-member-image {
     object-fit: cover;
+    border-radius: 50%;
 }
 
 .carousel-inner .row {
