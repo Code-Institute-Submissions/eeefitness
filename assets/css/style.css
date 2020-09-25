@@ -251,8 +251,8 @@ button:focus {
 }
 
 .btn--grey {
-    color: #2D3142;
-    background-color: #FAFAFA;
+    color: #FAFAFA;
+    background-color: #2D3142;
     border-color: #2D3142;
     border-width: 2px;
 }
@@ -261,9 +261,9 @@ button:focus {
 .btn--grey:active,
 .btn--grey:focus,
 .btn--grey:active:focus {
-    background-color: #2D3142;
+    background-color: #FAFAFA;
     border-color: #2D3142;
-    color: #FAFAFA;
+    color: #2D3142;
 }
 
 /*----------------------------------Footer*/
