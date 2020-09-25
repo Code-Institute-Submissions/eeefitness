@@ -208,6 +208,22 @@ button:focus {
     background-size: cover;
 }
 
+/*Code to overlay tinted gradient found at: https://css-tricks.com/tinted-images-multiple-backgrounds/ */
+.banner-image-call-to-action-container {
+  background: 
+    /* top, transparent orange, faked with gradient */ 
+    linear-gradient(
+      rgba(124, 0, 0, 0.45), 
+      rgba(124, 0, 0, 0.45)
+    ),
+    /* bottom, image */
+    url("../images/female-gym-class-one-arm-up.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 /*----------------------------------Jumbotron*/
 .jumbotron {
     background-color: transparent;
@@ -432,6 +448,9 @@ section#trainersSection .trainers-container img {
 section#trainersSection .trainers-container p {
     margin-bottom: 2em;
 }
+/*----------------------------------Call To Action Section*/
+section#callToActionSection 
+
 /*----------------------------------Facilities Section*/
 
 section#facilitiesSection .facility-image img {
