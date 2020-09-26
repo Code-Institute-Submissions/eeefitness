@@ -585,3 +585,9 @@ section#registrationFormSection form#registrationForm #registrationButton {
    background-position: center 0px;
    }
 }
+
+@media screen and (min-width: 1650px) {
+.banner-image-contact-container {
+    background-position: center 0px;
+}
+}
