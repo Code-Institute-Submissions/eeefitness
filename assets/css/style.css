@@ -27,7 +27,7 @@ body {
   color: #4A516D !important;
 }
 section#testimonialsSection {
-    background-color: #2D3142;
+    background-color: #FC7536;
 }
 section#membershipPricingSection {
   background-color: #FAFAFA;
@@ -422,7 +422,7 @@ section#servicesSection .services-find-out-more-button-row button {
 }
 
 .gym-member-comment {
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: "Roboto", sans-serif;
     color: #FAFAFA;
 }
@@ -434,7 +434,7 @@ section#servicesSection .services-find-out-more-button-row button {
 
 .carousel-inner .row {
     margin: 0 -80px;
-    background-color: #2D3142;
+    background-color: #FC7536;
 }
 
 .carousel-control-prev,
@@ -591,3 +591,11 @@ section#registrationFormSection form#registrationForm #registrationButton {
     background-position: center 0px;
 }
 }
+
+@media screen and (max-width: 1650px) {
+.gym-member-comment {
+    text-align: center;
+}
+}
+
+
