@@ -10,11 +10,12 @@ body {
     background-color: #FAFAFA;
     color: #2D3142;
     font-family: 'Roboto', sans-serif;
+    margin-top: 63px;
 }
 
 /*----------------------------------Colours*/
 .bg-color-navbar {
-    background-color: rgba(45, 49, 66, 0.9);
+    background-color: rgba(45, 49, 66);
 }
 .bg-color-footer-area-top {
     background-color:  #2D3142;    
@@ -33,7 +34,11 @@ section#membershipPricingSection {
 }
 
 section#contactUsSection {
-  background-color: #FC7536;
+  background-color: #FF9A6B;
+}
+
+section#registrationFormSection {
+    background-color: #FC7536;
 }
 /*----------------------------------Special paddings/margins/text*/
 .banner-image-container p i {
@@ -58,6 +63,7 @@ section#contactUsSection {
 }
 
 .page-section h2.section-heading {
+  color: #2D3142;
   margin-top: 0;
   margin-bottom: 2.5rem;
   font-family: "Open Sans", sans serif;
@@ -153,11 +159,10 @@ button:focus {
 
 .opaque-overlay {
     position: absolute;
-    top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .banner-image-container {
@@ -170,12 +175,6 @@ button:focus {
 
 .banner-image-membership-container {
     background:     
-    /* top, transparent orange, faked with gradient */ 
-    linear-gradient(
-      rgba(124, 0, 0, 0.45), 
-      rgba(124, 0, 0, 0.45)
-    ),
-    /* bottom, image */
     url("../images/hands-grasping-kettlebell-on-floor.jpg") fixed center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -208,13 +207,7 @@ button:focus {
 }
 
 .banner-image-registration-container {
-    background:     
-    /* top, transparent orange, faked with gradient */ 
-    linear-gradient(
-      rgba(124, 0, 0, 0.45), 
-      rgba(124, 0, 0, 0.45)
-    ),
-    /* bottom, image */url("../images/legs-on-treadmill.jpg") fixed center no-repeat;
+    background: url("../images/legs-on-treadmill.jpg") fixed center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -265,8 +258,8 @@ button:focus {
 
 .btn--orange {
     color: white;
-    background-color: #FC7536;
-    border-color: #FC7536;
+    background-color: #FB5607;
+    border-color: #FB5607;
     border-width: 2px;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.4)
 }
@@ -276,8 +269,8 @@ button:focus {
 .btn--orange:focus,
 .btn--orange:active:focus {
     background-color: #FAFAFA;
-    border-color: #FC7536;
-    color: #FC7536;
+    border-color: #FB5607;
+    color: #FB5607;
 }
 
 .btn--grey {
@@ -526,10 +519,6 @@ section#membershipPricingSection .membership-sign-up-button-row {
     margin-top: 3rem;
 }
 /*----------------------------------Contact Us Form*/
-
-section#contactUsSection .section-heading {
-    color: #FAFAFA;
-}
 
 section#contactUsSection form#contactForm .form-group {
     margin-bottom: 1.35rem;
