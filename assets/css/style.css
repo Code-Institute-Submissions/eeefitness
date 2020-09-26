@@ -536,7 +536,7 @@ section#contactUsSection form#contactForm .form-group input.form-control {
 }
 
 section#contactUsSection form#contactForm .form-control:focus {
-    border-color: #4F5D75;
+    border-color: #2D3142;
     box-shadow: none;
 }
 
