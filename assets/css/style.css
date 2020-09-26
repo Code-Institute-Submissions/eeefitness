@@ -145,12 +145,13 @@ button:focus {
 /*----------------------------------Containers */
 
 .hero-image-container {
-    height: 100vh;
-    background: url("../images/woman-weightlifting-orange.jpg") fixed center no-repeat;
+    height: 95vh;
+    background:  #2D3142 url("../images/woman-weightlifting-orange.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -576,4 +577,9 @@ section#registrationFormSection form#registrationForm .form-control:focus {
 
 section#registrationFormSection form#registrationForm #registrationButton {
     margin-top: 3rem;
+}
+
+/*----------------------------------Media Queries*/
+@media screen and (max-width: 1650px) {
+
 }
