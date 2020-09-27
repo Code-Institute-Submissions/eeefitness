@@ -34,7 +34,7 @@ section#membershipPricingSection {
 }
 
 section#contactUsSection {
-  background-color: #FF9A6B;
+  background-color: #FAFAFA;
 }
 
 section#registrationFormSection {
@@ -70,12 +70,13 @@ section#registrationFormSection {
   text-align: center;
 }
 
-.page-section h2.section-heading-white {
-  margin-top: 0;
-  margin-bottom: 2.5rem;
-  font-family: "Open Sans", sans serif;
-  text-align: center;
-  color: #FAFAFA;
+.page-section h2.section-heading-orange {
+  color: #FC7536;
+}
+
+section#testimonialsSection h2.section-heading-white,
+section#registrationFormSection h2.section-heading-white {
+    color: #FAFAFA;
 }
 
 .page-section h3.section-subheading {
@@ -292,7 +293,7 @@ button:focus {
 
 .btn--registration {
     border-color: #FFFFFF;
-    border-width: 2px;
+    border-width: 1px;
 }
 /*----------------------------------Footer*/
 
@@ -426,7 +427,8 @@ section#servicesSection .services-find-out-more-button-row button {
 }
 
 .gym-member-comment {
-    font-size: 1.2em;
+    font-size: 1.1em;
+    font-weight: 400;
     font-family: "Roboto", sans-serif;
     color: #FAFAFA;
 }
@@ -531,7 +533,9 @@ section#contactUsSection form#contactForm .form-group {
 section#contactUsSection form#contactForm .form-group input,
 section#contactUsSection form#contactForm .form-group textarea {
     padding: 1.25rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.4)
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.4);
+    border-color: #FC7536;
+    border-width: 3px;
 }
 
 /* Code to make the input areas in the Contact Us Form taller found at: https://startbootstrap.com/themes/agency/ */
@@ -540,7 +544,8 @@ section#contactUsSection form#contactForm .form-group input.form-control {
 }
 
 section#contactUsSection form#contactForm .form-control:focus {
-    border-color: #2D3142;
+    border-color: #FC7536;
+    border-width: 2px;
     box-shadow: none;
 }
 
