@@ -27,8 +27,13 @@ body {
   color: #4A516D !important;
 }
 section#testimonialsSection {
+    background-color: #2D3142;
+}
+
+section#callToActionSection {
     background-color: #FC7536;
 }
+
 section#membershipPricingSection {
   background-color: #FAFAFA;
 }
@@ -75,6 +80,7 @@ section#registrationFormSection {
 }
 
 section#testimonialsSection h2.section-heading-white,
+section#callToActionSection h2.section-heading-white,
 section#registrationFormSection h2.section-heading-white {
     color: #FAFAFA;
 }
@@ -209,22 +215,6 @@ button:focus {
 
 .banner-image-registration-container {
     background: url("../images/legs-on-treadmill.jpg") fixed center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-/*Code to overlay tinted gradient found at: https://css-tricks.com/tinted-images-multiple-backgrounds/ */
-.banner-image-call-to-action-container {
-  background: 
-    /* top, transparent orange, faked with gradient */ 
-    linear-gradient(
-      rgba(124, 0, 0, 0.45), 
-      rgba(124, 0, 0, 0.45)
-    ),
-    /* bottom, image */
-    url("../images/female-gym-class-one-arm-up.jpg") center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -440,7 +430,7 @@ section#servicesSection .services-find-out-more-button-row button {
 
 .carousel-inner .row {
     margin: 0 -80px;
-    background-color: #FC7536;
+    background-color: #2D3142;
 }
 
 .carousel-control-prev,
@@ -460,6 +450,7 @@ section#trainersSection .trainers-container img {
 section#trainersSection .trainers-container p {
     margin-bottom: 2em;
 }
+/*----------------------------------Call To Action Section*/
 
 /*----------------------------------Facilities Section*/
 
