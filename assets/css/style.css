@@ -290,6 +290,10 @@ button:focus {
     color: #2D3142;
 }
 
+.btn--registration {
+    border-color: #FFFFFF;
+    border-width: 2px;
+}
 /*----------------------------------Footer*/
 
 footer {
