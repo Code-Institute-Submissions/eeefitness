@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://index.html">EEE Fitness</a></h1>
+<h1 align="center"><a href="https://github.com/nualagr/eeefitness">EEE Fitness</a></h1>
 
 <h2 align="center">Code Institute - Milestone Project 1</h2>
 
@@ -7,7 +7,7 @@
 EEE Fitness is a fictitious gym whose motto is Exercise Energize Empower. 
 This project is the first of four Milestone Projects that make up the Full Stack Web Development Program at The Code Institute, and the main requirements were to make a static but responsive website with a minimum of 3 pages using HTML5 and CSS3.
 
-Click <a href="http://index.html">here</a> view the website live.
+Click <a href="https://github.com/nualagr/eeefitness">here</a> view the website live.
 
 ## User Experience (UX)
 This section provides insight into the UX process, focusing on who the EEE Fitness website is for, the main aims of the project and how the website can help users meet their needs.
@@ -100,7 +100,7 @@ My mentor also helpfully showed me how to embed a Google Map in order to allow v
  
 
 ### Wireframes:
-[Home page for Desktop](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/desktop-classes.png)
+[Home page for Desktop](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/desktop-home.png)
 
 [Facilities page for Desktop](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/desktop-facilities.png)
 

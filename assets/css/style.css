@@ -3,14 +3,24 @@
 /*Fix to adjust the body of the site to full width - answer found on StackOverflow, user:  Dan Beaulieu (https://stackoverflow.com/questions/29595233/website-not-filling-entire-width-of-screen)*/
 html, body {
     max-width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll; /* Add the ability to scroll */
 }
 
 body {
     background-color: #FAFAFA;
     color: #2D3142;
     font-family: 'Roboto', sans-serif;
-    margin-top: 63px;
+    margin-top: 62px;
+}
+/*Fix to hide scrollbar but keep the scroll functionality found on W3Schools: https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
+body.hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+}
+
+body.hide-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */  
 }
 
 /*----------------------------------Colours*/
@@ -46,10 +56,10 @@ section#registrationFormSection {
     background-color: #FC7536;
 }
 /*----------------------------------Special paddings/margins/text*/
-.banner-image-container p i {
+/* .banner-image-container p i {
     font-size: 2rem;
     color: #D3D3D3;
-}
+} */
 
 .uppercase {
     text-transform: uppercase;
