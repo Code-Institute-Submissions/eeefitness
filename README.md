@@ -1,8 +1,8 @@
-<h1 align="center"><a href="https://github.com/nualagr/eeefitness">EEE Fitness</a></h1>
+<h1 align="center"><a href="https://github.com/nualagr/eeefitness" style="text-decoration: none; color: #2D3142; font-weight: bold">EEE Fitness</a></h1>
 
 <h2 align="center">Code Institute - Milestone Project 1</h2>
 
-<img src="documentation/eeefitness-responsive-screenshot-wider.png">
+<img src="documentation/eeefitness-responsive-screenshot-wider.png" />
 
 EEE Fitness is a fictitious gym whose motto is Exercise Energize Empower. 
 This project is the first of four Milestone Projects that make up the Full Stack Web Development Program at The Code Institute, and the main requirements were to make a static but responsive website with a minimum of 3 pages using HTML5 and CSS3.
@@ -166,7 +166,7 @@ Icons may be used alongside the text within the site in order to help the user t
 #### Colour Scheme
 The colour scheme was chose on the basis that I wanted a simple, clean and visually appealing site that evoked both an energetic, clean and professional atmosphere. Orange is colour that is traditionally associated with energy.  White is a colour associated with cleanliness.  Grey is a colour associated with business and professionalism. 
 
-<img src="documentation/eee-fitness-colour-palette.png" />
+<center><img src="documentation/eee-fitness-colour-palette.png" height="300" /></center>
 
 - For the navigation bar I will be using #2D3142, Space Cadet, which a relatively dark, professional looking grey.  As most gym equipment is grey in colour, shades of grey appeared to be appropriate for the functional navigational bar and the footer.
 - The background colour of site will be #FAFAFA, Cultured, a subtle white colour, to keep the website’s image clean and to provide easy contrast.
