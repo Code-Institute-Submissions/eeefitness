@@ -25,17 +25,17 @@ body.hide-scrollbar {
 
 /*----------------------------------Colours*/
 .bg-color-navbar {
-    background-color: rgba(45, 49, 66);
+    background-color: #2D3142;
 }
+
 .bg-color-footer-area-top {
     background-color:  #2D3142;    
 }
+
 .bg-color-footer-area-bottom {
     background-color: #2D3142;
 }
-.text-muted {
-  color: #4A516D !important;
-}
+
 section#testimonialsSection {
     background-color: #2D3142;
 }
@@ -56,10 +56,6 @@ section#registrationFormSection {
     background-color: #FC7536;
 }
 /*----------------------------------Special paddings/margins/text*/
-/* .banner-image-container p i {
-    font-size: 2rem;
-    color: #D3D3D3;
-} */
 
 .uppercase {
     text-transform: uppercase;
@@ -294,6 +290,8 @@ button:focus {
 .btn--registration {
     border-color: #FFFFFF;
     border-width: 1px;
+    background-color: #FFFFFF;
+    color: #FB5607;
 }
 /*----------------------------------Footer*/
 
@@ -414,6 +412,7 @@ section#servicesSection .services-icons i {
     font-size: 2.5rem;
     display: block;
     margin-bottom: 1rem;
+    line-height: 1.6;
 }
 
 section#servicesSection .services-find-out-more-button-row button {
