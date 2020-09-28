@@ -3,7 +3,7 @@
 /*Fix to adjust the body of the site to full width - answer found on StackOverflow, user:  Dan Beaulieu (https://stackoverflow.com/questions/29595233/website-not-filling-entire-width-of-screen)*/
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 body {
