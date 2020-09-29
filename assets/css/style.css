@@ -497,7 +497,6 @@ section#facilitiesSection .facility-info h2 {
 }
 
 /*----------------------------------Timetable Section*/
-
 section#timetableSection #nav-tab a:hover,
 section#timetableSection #nav-tab a:active,
 section#timetableSection #nav-tab a:focus,
@@ -540,7 +539,6 @@ section#timetableSection .timetable-class-row p{
     padding-top: 12px;
 }
 
-
 /*----------------------------------Classes Section*/
 section#classesSection .class-image img {
     position: relative;
@@ -558,8 +556,6 @@ section#classesSection h2 {
 }
 
 /*----------------------------------Membership Pricing Section*/
-
-
 section#membershipPricingSection h2.section-heading {
     color: #2D3142;
     margin-bottom: 3rem;
@@ -671,4 +667,8 @@ section#registrationFormSection form#registrationForm #registrationButton {
 }
 }
 
-
+@media screen and (max-width: 576px) {
+section#classesSection p {
+    text-align: center;
+}
+}
