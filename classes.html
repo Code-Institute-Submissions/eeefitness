@@ -66,41 +66,223 @@
         </div>
         <!-- /Banner Image and Jumbotron -->
         </section>
+        <!-- Timetable --> 
+        <!-- Tabbed Interface copied from Bootstap documentation - https://getbootstrap.com/docs/4.0/components/navs/ and then modified-->
+        <section class="page-section" id="timetableSection">
+        <div class="container-fluid timetable-container">
+            <div class="row">
+                <div class = "col-12">
+                    <h2 class="section-heading uppercase">Class Timetable</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <nav>
+                        <div class="nav nav-tabs nav-justified" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-monday-tab" data-toggle="tab" href="#nav-monday" role="tab" aria-controls="nav-monday" aria-selected="true">Monday</a>
+                            <a class="nav-item nav-link" id="nav-tuesday-tab" data-toggle="tab" href="#nav-tuesday" role="tab" aria-controls="nav-tuesday" aria-selected="false">Tuesday</a>
+                            <a class="nav-item nav-link" id="nav-wednesday-tab" data-toggle="tab" href="#nav-wednesday" role="tab" aria-controls="nav-wednesday" aria-selected="false">Wednesday</a>
+                            <a class="nav-item nav-link" id="nav-thursday-tab" data-toggle="tab" href="#nav-thursday" role="tab" aria-controls="nav-thursday" aria-selected="false">Thursday</a>
+                            <a class="nav-item nav-link" id="nav-friday-tab" data-toggle="tab" href="#nav-friday" role="tab" aria-controls="nav-friday" aria-selected="false">Friday</a>
+                            <a class="nav-item nav-link" id="nav-saturday-tab" data-toggle="tab" href="#nav-saturday" role="tab" aria-controls="nav-saturday" aria-selected="false">Saturday</a>
+                            <a class="nav-item nav-link" id="nav-sunday-tab" data-toggle="tab" href="#nav-sunday" role="tab" aria-controls="nav-sunday" aria-selected="false">Sunday</a>                                                       
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-monday" role="tabpanel" aria-labelledby="nav-monday-tab">
+                            <div class="container-fluid p-2 my-3">
+                                <div class="row timetable-class-row">
+                                    <div class="col-12 col-md-4">
+                                        <p>Spinning</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <p>6.00am - 6.30am</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <a href="#spinning">
+                                            <button class="btn btn--cta btn--grey--bright">Learn More
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row timetable-class-row">
+                                    <div class="col-12 col-md-4">
+                                        <p>Kettlebells</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <p>7.00am - 7.30am</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <a href="#kettlebells">
+                                            <button class="btn btn--cta btn--grey--bright">Learn More
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row timetable-class-row">
+                                    <div class="col-12 col-md-4">
+                                        <p>Boxercise</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <p>1.00pm - 1.30pm</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <a href="#boxercise">
+                                            <button class="btn btn--cta btn--grey--bright">Learn More
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row timetable-class-row">
+                                    <div class="col-12 col-md-4">
+                                        <p>Spinning</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <p>6.00pm - 6.30pm</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <a href="#spinning">
+                                            <button class="btn btn--cta btn--grey--bright">Learn More
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row timetable-class-row">
+                                    <div class="col-12 col-md-4">
+                                        <p>Pilates</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <p>7.00pm - 7.30pm</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <a href="#pilates">
+                                            <button class="btn btn--cta btn--grey--bright">Learn More
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>                        
+                        </div>
+                        <div class="tab-pane fade" id="nav-tuesday" role="tabpanel" aria-labelledby="nav-tuesday-tab">
+                        <div class="container-fluid p-2 my-3">
+                                <div class="row timetable-class-row">
+                                    <div class="col-12 col-md-4">
+                                        <p>Yoga</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <p>6.00am - 6.30am</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <a href="#yoga">
+                                            <button class="btn btn--cta btn--grey--bright">Learn More
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row timetable-class-row">
+                                    <div class="col-12 col-md-4">
+                                        <p>Boxercise</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <p>7.00am - 7.30am</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <a href="#boxercise">
+                                            <button class="btn btn--cta btn--grey--bright">Learn More
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row timetable-class-row">
+                                    <div class="col-12 col-md-4">
+                                        <p>Pilates</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <p>1.00pm - 1.30pm</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <a href="#pilates">
+                                            <button class="btn btn--cta btn--grey--bright">Learn More
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row timetable-class-row">
+                                    <div class="col-12 col-md-4">
+                                        <p>Zumba</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <p>6.00pm - 6.30pm</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <a href="#zumba">
+                                            <button class="btn btn--cta btn--grey--bright">Learn More
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row timetable-class-row">
+                                    <div class="col-12 col-md-4">
+                                        <p>Spinning</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <p>7.00pm - 7.30pm</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <a href="#spinning">
+                                            <button class="btn btn--cta btn--grey--bright">Learn More
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>                    
+                        </div>
+                        <div class="tab-pane fade" id="nav-wednesday" role="tabpanel" aria-labelledby="nav-wednesday-tab">...</div>
+                        <div class="tab-pane fade" id="nav-thursday" role="tabpanel" aria-labelledby="nav-thursday-tab">...</div>
+                        <div class="tab-pane fade" id="nav-friday" role="tabpanel" aria-labelledby="nav-friday-tab">...</div>
+                        <div class="tab-pane fade" id="nav-saturday" role="tabpanel" aria-labelledby="nav-saturday-tab">...</div>
+                        <div class="tab-pane fade" id="nav-sunday" role="tabpanel" aria-labelledby="nav-sunday-tab">...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section> 
+        <!-- /Timetable -->  
         <!-- Classes -->  
         <section class="page-section" id="classesSection">
             <div class="container classes-container">
                 <div class="row">
                     <div class="col-12 mb-4 col-md-6 mb-lg-6 class-image">
-                        <h2>Pilates</h2>
+                        <h2 id="pilates">Pilates</h2>
                         <img src="assets/images/female-pilates-class.jpg" alt="Female pilates class participants.">
                         <p>The art of controlled movements.  Pilates improves flexibility, builds strength and develops control and endurance in the entire body. It puts emphasis on alignment, breathing, developing a strong core, and improving coordination and balance.</p> 
                     </div>
                     <div class="col-12 mb-4 col-md-6 mb-lg-6 class-image">
-                        <h2>Kettlebells</h2>
+                        <h2 id="kettlebells">Kettlebells</h2>
                         <img src="assets/images/line-of-kettlebells.jpg" alt="Line of kettlebells on floor.">
                         <p> Typical kettlebell exercises build strength and endurance, particularly in the lower back, legs, and shoulders, and increase grip strength. The basic movements, such as the swing, snatch, and the clean and jerk, engage the entire body at once. A full-body workout.</p>    
                     </div>
                  </div>
                  <div class="row">
                     <div class="col-12 mb-4 col-md-6 mb-lg-6 class-image">
-                        <h2>Spinning</h2>
+                        <h2 id="spinning">Spinning</h2>
                         <img src="assets/images/empty-exercise-bicycles.jpg" alt="Empty exercise bicycles.">
                         <p>These classes focus on endurance, strength, intervals, high intensity and recovery.  Our well-trained instructors uses music, motivation, visualization and enthusiastic coaching to lead you through a routine that best suits your fitness level and goals. </p>    
                     </div>
                     <div class="col-12 mb-4 col-md-6 mb-lg-6 class-image">
-                        <h2>Zumba</h2>
+                        <h2 id="zumba">Zumba</h2>
                         <img src="assets/images/female-zumba-class-from-behind.jpg" alt="Female zuma class participants dancing in front of a mirror.">
                         <p>If you like to dance but hate to work out, Zumba is perfect for you. It is an aerobic dance and fitness workout utilises Latin beats to get your body moving. This is a total-body cardio and aerobic workout.</p>    
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 mb-4 col-md-6 mb-lg-6 class-image">
-                        <h2>Yoga</h2>
+                        <h2 id="yoga">Yoga</h2>
                         <img src="assets/images/group-yoga-class-from-back.jpg" alt="Female yoga class participants.">
                         <p>Our yoga classes incorporate systematic exercises and self-development techniques for body, mind and spirit. After gentle warm-up exercises our qualified yogis will guide you through a series of postures, flowing sequences, breathing exercises which will work your entire body, burn fat, and tone muscle.</p>    
                     </div>
                     <div class="col-12 mb-4 col-md-6 mb-lg-6 class-image">
-                        <h2>Boxercise</h2>
+                        <h2 id="boxercise">Boxercise</h2>
                         <img src="assets/images/man-kicking-boxing-pad-held-by-woman.jpg" alt="Man kicking boxing pad held by woman.">
                         <p>Boxercise is a high intensity interval training class based on boxing training. Classes involve shadow-boxing, skipping, hitting pads, kicking punchbags, press-ups, shuttle-runs and sit-ups. It is a fun, challenging and safe workout which is great for stress busting and accessible to all ages and fitness levels.</p>
                     </div>

@@ -297,6 +297,22 @@ button:focus {
     background-color: #FFFFFF;
     color: #FB5607;
 }
+
+.btn--grey--bright {
+    color: #FFFFFF;
+    background-color: #ADADAD;
+    margin: 5px;
+}
+
+.btn--grey--bright:hover,
+.btn--grey--bright:active,
+.btn--grey--bright:focus,
+.btn--grey--bright:active:focus {
+    color:#FFFFFF;
+    background-color: #2D3142;
+    border-color: #2D3142;
+}
+
 /*----------------------------------Footer*/
 
 footer {
@@ -463,7 +479,6 @@ section#trainersSection .trainers-container img {
 section#trainersSection .trainers-container p {
     margin-bottom: 2em;
 }
-/*----------------------------------Call To Action Section*/
 
 /*----------------------------------Facilities Section*/
 
@@ -480,6 +495,51 @@ section#facilitiesSection .facility-info h2 {
     text-align: center;
     margin: 0.7em 0;
 }
+
+/*----------------------------------Timetable Section*/
+
+section#timetableSection #nav-tab a:hover,
+section#timetableSection #nav-tab a:active,
+section#timetableSection #nav-tab a:focus,
+section#timetableSection #nav-tab a:active:focus {
+    color: #FAFAFA;
+    text-decoration: none;
+    background-color: #FC7536;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #2D3142 !important;
+    background-color: #FC7536;
+    border-color: transparent;
+}
+
+.nav-tabs .nav-link {
+    border-radius: 0.5rem;
+    background-color: #D3D3D3;
+    border-color: #FAFAFA;
+    border-width: 5px;
+}
+
+section#timetableSection .nav-tabs {
+    border: transparent;
+}
+
+section#timetableSection .timetable-class-row {
+    background-color: #FC7536;
+    border: 3px solid #FAFAFA;
+    color: #FAFAFA;
+    text-align: center;
+    border-radius: .5rem;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+section#timetableSection .timetable-class-row p{
+    margin: 0;
+    padding-top: 12px;
+}
+
 
 /*----------------------------------Classes Section*/
 section#classesSection .class-image img {
