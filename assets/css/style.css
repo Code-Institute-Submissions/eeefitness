@@ -552,6 +552,7 @@ section#classesSection .class-image img {
 
 section#classesSection h2 {
     text-align: center;
+    font-weight: 400;
     margin: 0.7em 0;
 }
 
@@ -664,6 +665,13 @@ section#registrationFormSection form#registrationForm #registrationButton {
 @media screen and (max-width: 1650px) {
 .gym-member-comment {
     text-align: center;
+}
+}
+
+@media screen and (min-width: 1650px) {
+section#timetableSection #nav-tabContent .timetable-class-row {
+    margin-left: 8rem;
+    margin-right: 8rem;
 }
 }
 
