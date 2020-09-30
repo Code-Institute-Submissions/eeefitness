@@ -348,13 +348,18 @@ footer {
     width: 80%;
     height: 80%;
     padding-bottom: 25px;
-    border-radius: 0.25rem;
 }
 
 .footer-area-top ul {
     margin: 0;
     padding: 0 0 0 2em;
     list-style-type: none;
+    text-align: left;
+    display: inline-block;
+}
+
+.footer-gym-address-phone-email-container {
+    text-align: center;
 }
 
 #footerGymAddress ul li i {
@@ -383,9 +388,14 @@ footer {
 
 table
 {
-    width: 90%;
+    width: 70%;
     height: 100%;
-    margin: 0 auto;
+    margin: 0 15% 0 15%;
+    text-align: left;
+}
+
+.opening-hours-table-container {
+    align-content: center;
 }
 
 .footer-area-bottom {
@@ -667,6 +677,13 @@ section#registrationFormSection form#registrationForm #registrationButton {
     .gym-member-comment {
     text-align: center;
 }
+}
+
+@media only screen and (min-width:600px) and (max-width:768px) {
+
+.opening-hours-table-container table {
+    width: 100%;
+    margin: 0 auto;
 }
 
 @media screen and (min-width: 1650px) {
