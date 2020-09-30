@@ -383,7 +383,7 @@ footer {
 
 table
 {
-    width: 80%;
+    width: 90%;
     height: 100%;
     margin: 0 auto;
 }
@@ -652,7 +652,7 @@ section#registrationFormSection form#registrationForm #registrationButton {
 @media screen and (min-width: 1650px) {
     .hero-image-container {
     height: 95vh;
-   background-position: center 0px;
+    background-position: center 0px;
    }
 }
 
@@ -663,7 +663,8 @@ section#registrationFormSection form#registrationForm #registrationButton {
 }
 
 @media screen and (max-width: 1650px) {
-.gym-member-comment {
+    .facility-info,
+    .gym-member-comment {
     text-align: center;
 }
 }
