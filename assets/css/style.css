@@ -262,7 +262,6 @@ button:focus {
     background-color: #FB5607;
     border-color: #FB5607;
     border-width: 2px;
-    /* box-shadow: 0 .5rem 1rem rgba(0,0,0,.4) */
 }
 
 .btn--orange:hover,
@@ -279,7 +278,6 @@ button:focus {
     background-color: #2D3142;
     border-color: #2D3142;
     border-width: 2px;
-    /* box-shadow: 0 .5rem 1rem rgba(0,0,0,.4) */
 }
 
 .btn--grey:hover,
@@ -301,16 +299,14 @@ button:focus {
 .btn--grey--bright {
     color: #FFFFFF;
     background-color: #D3D3D3;
-    margin: 5px;
+    margin: 4px;
 }
 
 .btn--grey--bright:hover,
-.btn--grey--bright:active,
 .btn--grey--bright:focus,
-.btn--grey--bright:active:focus {
-    color:#FFFFFF;
-    background-color: #2D3142;
-    border-color: #2D3142;
+{
+    color:#D3D3D3;
+    background-color: #FFFFFF;
 }
 
 /*----------------------------------Footer*/
@@ -483,7 +479,6 @@ section#trainersSection .trainers-container img {
     width: 100%;
     height: auto;
     justify-content: center;
-    /* box-shadow: 0 .5rem 1rem rgba(0,0,0,.4) */
 }
 
 section#trainersSection .trainers-container p {
@@ -498,7 +493,6 @@ section#facilitiesSection .facility-image img {
     height: auto;
     justify-content: center;
     border-radius: 0.25rem;
-    /* box-shadow: 0 .5rem 1rem rgba(0,0,0,.4) */
 }
 
 section#facilitiesSection .facility-info h2 {
@@ -507,17 +501,17 @@ section#facilitiesSection .facility-info h2 {
 }
 
 /*----------------------------------Timetable Section*/
-section#timetableSection #nav-tab a:hover,
-section#timetableSection #nav-tab a:active,
-section#timetableSection #nav-tab a:focus,
-section#timetableSection #nav-tab a:active:focus {
+section#timetableSection #navTab a:hover,
+section#timetableSection #navTab a:active,
+section#timetableSection #navTab a:focus,
+section#timetableSection #navTab a:active:focus {
     color: #FAFAFA;
     text-decoration: none;
     background-color: #FC7536;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: #2D3142 !important;
+
     background-color: #FC7536;
     border-color: transparent;
 }
@@ -526,7 +520,7 @@ section#timetableSection #nav-tab a:active:focus {
     border-radius: 0.5rem;
     background-color: #D3D3D3;
     border-color: #FAFAFA;
-    border-width: 5px;
+    margin: 4px;
 }
 
 section#timetableSection .nav-tabs {
@@ -544,9 +538,11 @@ section#timetableSection .timetable-class-row {
     margin-right: 15px;
 }
 
-section#timetableSection .timetable-class-row p{
+section#timetableSection .timetable-class-row p {
     margin: 0;
-    padding-top: 12px;
+    padding-top: 7px;
+    font-size: 1.25em;
+    vertical-align: center;
 }
 
 /*----------------------------------Classes Section*/
@@ -557,7 +553,6 @@ section#classesSection .class-image img {
     justify-content: center;
     border-radius: 0.25rem;
     margin-bottom: 1rem;
-    /* box-shadow: 0 .5rem 1rem rgba(0,0,0,.4) */
 }
 
 section#classesSection h2 {
@@ -574,7 +569,6 @@ section#membershipPricingSection h2.section-heading {
 
 section#membershipPricingSection .card-deck .card {
     margin-bottom: 35px;
-    /* box-shadow: 0 .5rem 1rem rgba(0,0,0,.4) */
 }
 
 section#membershipPricingSection .card-header {
@@ -593,7 +587,7 @@ section#membershipPricingSection .card-list ul li {
 }
 
 section#membershipPricingSection .membership-sign-up-button-row {
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 /*----------------------------------Contact Us Form*/
 
@@ -604,7 +598,6 @@ section#contactUsSection form#contactForm .form-group {
 section#contactUsSection form#contactForm .form-group input,
 section#contactUsSection form#contactForm .form-group textarea {
     padding: 1.25rem;
-    /* box-shadow: 0 .5rem 1rem rgba(0,0,0,.4); */
     border-color: #FC7536;
     border-width: 3px;
 }
@@ -617,7 +610,7 @@ section#contactUsSection form#contactForm .form-group input.form-control {
 section#contactUsSection form#contactForm .form-control:focus {
     border-color: #FC7536;
     border-width: 2px;
-    /* box-shadow: none; */
+    box-shadow: none;
 }
 
 section#contactUsSection form#contactForm .form-group textarea {
@@ -635,13 +628,11 @@ section#registrationFormSection form#registrationForm .form-group {
 
 section#registrationFormSection form#registrationForm .form-group input {
     padding: 1.25rem;
-    /* box-shadow: 0 .5rem 1rem rgba(0,0,0,.4) */
 } 
 
 section#registrationFormSection form#registrationForm .form-group .form-control#membershipPackage {
     padding: 1.25rem;
     height: auto;
-    /* box-shadow: 0 .5rem 1rem rgba(0,0,0,.4) */
 } 
 
 /* Code to make the input areas in the Contact Us Form taller found at: https://startbootstrap.com/themes/agency/ */
@@ -651,7 +642,6 @@ section#registrationFormSection form#registrationForm .form-group input.form-con
 
 section#registrationFormSection form#registrationForm .form-control:focus {
     border-color: #4F5D75;
-    /* box-shadow: none; */
 }
 
 section#registrationFormSection form#registrationForm #registrationButton {
@@ -679,8 +669,7 @@ section#registrationFormSection form#registrationForm #registrationButton {
 }
 }
 
-@media only screen and (min-width:600px) and (max-width:768px) {
-
+@media only screen and (min-width:768px) and (max-width:900px) {
 .opening-hours-table-container table {
     width: 100%;
     margin: 0 auto;
