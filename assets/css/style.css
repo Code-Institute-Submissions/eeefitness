@@ -303,9 +303,11 @@ button:focus {
 }
 
 .btn--grey--bright:hover,
+.btn--grey--bright:active,
 .btn--grey--bright:focus,
+.btn--grey--bright:active:focus 
 {
-    color:#D3D3D3;
+    color: #D3D3D3 !important;
     background-color: #FFFFFF;
 }
 
@@ -441,6 +443,10 @@ section#servicesSection .services-icons i {
     line-height: 1.6;
 }
 
+section#servicesSection h5 {
+    line-height: 1.6;
+}
+
 section#servicesSection .services-find-out-more-button-row button {
     font-size: 1rem;
     margin-bottom: 3.5rem;
@@ -497,10 +503,14 @@ section#facilitiesSection .facility-image img {
 
 section#facilitiesSection .facility-info h2 {
     text-align: center;
+    font-weight: 400;
     margin: 0.7em 0;
 }
 
 /*----------------------------------Timetable Section*/
+.page-section#classesSection {
+    padding-top: 0;
+}
 section#timetableSection #navTab a:hover,
 section#timetableSection #navTab a:active,
 section#timetableSection #navTab a:focus,
@@ -546,6 +556,12 @@ section#timetableSection .timetable-class-row p {
 }
 
 /*----------------------------------Classes Section*/
+/*code for divider found at https://codepen.io/careecodes/pen/vGyNxN*/
+section#classesSection div.shadow-page-divider{
+  padding: 20px 0;
+  box-shadow: 0 1em 1em -1em rgba(0, 0, 0, .25);
+}
+
 section#classesSection .class-image img {
     position: relative;
     width: 100%;
@@ -602,7 +618,6 @@ section#contactUsSection form#contactForm .form-group textarea {
     border-width: 3px;
 }
 
-/* Code to make the input areas in the Contact Us Form taller found at: https://startbootstrap.com/themes/agency/ */
 section#contactUsSection form#contactForm .form-group input.form-control {
     height: auto;
 }
@@ -618,6 +633,10 @@ section#contactUsSection form#contactForm .form-group textarea {
 }
 
 /*----------------------------------Registration Form*/
+section.page-section#registrationFormSection {
+    padding-bottom: 3rem;
+}
+
 section#registrationFormSection .section-heading {
     color: #2D3142;
 }
@@ -635,13 +654,14 @@ section#registrationFormSection form#registrationForm .form-group .form-control#
     height: auto;
 } 
 
-/* Code to make the input areas in the Contact Us Form taller found at: https://startbootstrap.com/themes/agency/ */
 section#registrationFormSection form#registrationForm .form-group input.form-control {
     height: auto;
 }
 
 section#registrationFormSection form#registrationForm .form-control:focus {
-    border-color: #4F5D75;
+    border-color: #2D3142;
+    border-width: 1px;
+    box-shadow: none;
 }
 
 section#registrationFormSection form#registrationForm #registrationButton {
@@ -659,14 +679,14 @@ section#registrationFormSection form#registrationForm #registrationButton {
 @media screen and (min-width: 1650px) {
 .banner-image-contact-container {
     background-position: center 0px;
-}
+    }
 }
 
 @media screen and (max-width: 1650px) {
     .facility-info,
     .gym-member-comment {
     text-align: center;
-}
+    }
 }
 
 @media only screen and (min-width:768px) and (max-width:900px) {
@@ -679,11 +699,11 @@ section#registrationFormSection form#registrationForm #registrationButton {
 section#timetableSection #nav-tabContent .timetable-class-row {
     margin-left: 8rem;
     margin-right: 8rem;
-}
+    }
 }
 
 @media screen and (max-width: 576px) {
 section#classesSection p {
     text-align: center;
-}
+    }
 }
