@@ -358,6 +358,7 @@ footer {
 
 .footer-gym-address-phone-email-container {
     text-align: center;
+    margin-bottom: 25px;
 }
 
 #footerGymAddress ul li i {
@@ -367,10 +368,6 @@ footer {
 
 #footerGymAddress ul li p {
     margin: 0px 0px 0px 28px;
-}
-
-.footer-area-top ul li a {
-    padding-bottom: 25px;
 }
 
 .footer-area-top ul li a:link,  
