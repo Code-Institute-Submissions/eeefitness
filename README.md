@@ -208,6 +208,7 @@ My mentor also helpfully showed me how to embed a Google Map in order to allow v
   * [Code Institute](https://codeinstitute.net/). Used to review concepts covered in preceding modules and walk-through projects. 
   * [Slack](code-institute-room.slack.com). Used during all phases of development and testing to find the answers to questions and the solutions to problems enountered.
   * [Stack Overflow](https://stackoverflow.com/). Used to search for the answers to problems encountered during the development and testing of the website.
+
 - Apps:
   * [Balsamiq](https://balsamiq.com/). Used to create the project wireframes.
   * [Inkscape](https://inkscape.org/). Used to edit FontAwesome icons that were used as bullet images and as the Favicon.
@@ -216,20 +217,57 @@ My mentor also helpfully showed me how to embed a Google Map in order to allow v
 Chrome Developer Tools were used extensively throughout the development process in order to test whether elements were responsive when viewed on mobile and tablet devices. When problems were encountered the Device Selector was used to target the element.  Using the Elements Panel in Developer Tools the code in question was altered in order to achieve the desired result. 
 Working code snippets were then replicated in the style.css file in Gitpod. Other solutions for errors were found in the Code Institute Slack channels, on Stac.  
 
-W3C HTML Validator was used to validate the code. It highlighted some errors across the site which have since been recitified: button tags used within anchor tags, 
-At the moment the website has been tested on Samsung Internet, Google Chrome, Microsoft Edge, Opera & Mozilla Firefox. The website works and functions as expected on Samsung Internet, Google Chrome, Microsoft Edge and Opera.  When opened in Firefox, however the custom svg bullet points do not always render.  
+W3C HTML Validator was used to validate the code. It highlighted some errors across the site which have since been recitified: 
+- button tags were used incorrectly within anchor tags
+- paragraph tags and text that would have displayed if the browser did not support iframes appeared as an error in the HTML validator and were therefore removed
+- the frameborder attribute on the iframe element was removed as it is now obsolete.
+- errant spaces in the tel attribute of the anchor tags in the footer were deleted.
+- a break element was moved from being a child of the unordered list tag in the footer and placed inside the list element.
+- another errant break tag, also a descendant of the unordered list in the footer, was removed entirely and a bottom margin was added to the container in its place.
+- the section tags were removed from around the jumbotron on each page as they did not directly contain a heading tag and were showing up as a warning in the HTML validator.
+
+The site currently has no errors:
+<img src="documentation/html-validator-no-errors-page.png" height="auto" width="100%" />
+
+
+W3C CSS Validator was used to validate the style.css file.  It highlighted some errors which were then resolved:
+- the scrollbar-width property was removed from the .hide-scrollbar class as it no longer exists as a property.
+- a missing curly brace was inserted in the CSS file.
+- a forward-slash character, left over from a deleted comment, was causing a parse error in the CSS file and was removed.
+
+The style.css file currently has no errors:
+<img src="documentation/css-validator-no-errors-page.png" height="auto" width="100%" />
+
+The website was then tested using the Google Chrome Developer Tools Lighthouse test. 
+Initially the site received a 72% rating on performance, largely due to the size of the images.
+<img src="documentation/lighthouse-first-results-mobile.png" height="auto" width="100%" />
+
+The images were then compressed using Optimizilla and uploaded to the site.  
+The subsequent test results were not satisfactory.  Smaller versions of the images were then downloaded from their respective sites and these images were compressed before being uploaded to Gitpod. The third test resulted in a marked improvement in performance when tested in Lighthouse.
+<img src="documentation/lighthouse-third-results-mobile.png" height="auto" width="100%" />
+
+<img src="documentation/lighthouse-third-results-mobile-performance-breakdown.png" height="auto" width="100%" />
+
+
+The site performed well in the Lighthouse test for desktop viewing:
+<img src="documentation/lighthouse-third-results-desktop.png" height="auto" width="100%" />
+<img src="documentation/lighthouse-third-results-desktop-performance-breakdown.png" height="auto" width="100%" />
+
+### Browsers Tested
+The website has been tested in the following browsers:
+- Chrome Version 85.0.4183.121 
+- Samsung Internet Version 12.0.1.47	
+- Microsoft Edge Version 85.0.564.63 
+- Opera 70
+- Mozilla Firefox 81.0.1
+The website works and functions as expected on Samsung Internet, Google Chrome, Microsoft Edge and Opera.  When opened in Firefox, however the custom svg bullet points do not always render.  
 This is a known issue. I have decided to leave it for now and detail it in the README as the only current error I have come across on the project.
 
-## Browsers Tested
-- Chrome Version 85.0.4183.121 (Official Build) (64-bit)
-- Samsung Internet Version 12.0.1.47	Chromium 79
-- Microsoft Edge Version 85.0.564.63 (Official build) (64-bit)
-- Opera 70, based on Chromium 84.
-
-## Bugs
+### Bugs
 The custom svg bullet point images do no render in Mozilla Firefox 81.0.1 (64-bit). 
 
 ## Deployment
+
 
 ## Acknowledgements
 - 
