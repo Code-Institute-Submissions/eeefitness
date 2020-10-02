@@ -139,7 +139,7 @@ My mentor also helpfully showed me how to embed a Google Map in order to allow v
 
 ## Features
 
-The project consists of five different pages, all of which can be accessed through the menu in the navigation bar.
+The project consists of six different pages, all of which can be accessed through the menu in the navigation bar.
 
 #### Consistent features across all pages:
 - The fixed navigation bar containing the menu at the top of the page is consistent across all pages, however it has been condensed into a drop-down menu on tablet and mobile devices in order to streamline the appearance.
@@ -185,7 +185,7 @@ The colour scheme was chose on the basis that I wanted a simple, clean and visua
 - Websites
 
   * [coolors.co](https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff). Used to choose a colour scheme.
-  * [Optimizilla](https://imagecompressor.com/). Used to compress the photographs in order to speed up loading time.
+  * [Optimizilla](https://imagecompressor.com/). Used to compress the photographs in order to speed up the loading time.
 
 ## Credits
 - 

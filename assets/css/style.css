@@ -689,17 +689,10 @@ section#registrationFormSection form#registrationForm #registrationButton {
     }
 }
 
-@media only screen and (min-width:768px) and (max-width:900px) {
+@media screen and (min-width:768px) and (max-width:900px) {
 .opening-hours-table-container table {
     width: 100%;
     margin: 0 auto;
-}
-
-@media screen and (min-width: 1650px) {
-section#timetableSection #nav-tabContent .timetable-class-row {
-    margin-left: 8rem;
-    margin-right: 8rem;
-    }
 }
 
 @media screen and (max-width: 576px) {
