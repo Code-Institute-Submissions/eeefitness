@@ -61,14 +61,6 @@ section#registrationFormSection {
     text-transform: uppercase;
 }
 
-.general-sub {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 500;
-    color: #FAFAFA; 
-    padding: 20px 0;
-    text-align: center;
-}
-
 .page-section {
   padding: 2rem 0;
 }
@@ -102,6 +94,14 @@ section#registrationFormSection h2.section-heading-white {
   font-style: italic;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 4rem;
+}
+
+.general-sub {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: #FAFAFA; 
+    padding: 20px 0;
+    text-align: center;
 }
 /*----------------------------------Navigation Bar*/
 /* over-write the Bootstrap navbar class */
