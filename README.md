@@ -7,7 +7,7 @@
 EEE Fitness is a fictitious gym whose motto is Exercise Energize Empower. 
 This project is the first of four Milestone Projects that make up the Full Stack Web Development Program at The Code Institute, and the main requirements were to make a static but responsive website with a minimum of 3 pages using HTML5 and CSS3.
 
-Click <a href="https://github.com/nualagr/eeefitness">here</a> view the website live.
+Click <a href="https://nualagr.github.io/eeefitness/">here</a> view the website live.
 
 ## User Experience (UX)
 This section provides insight into the UX process, focusing on who the EEE Fitness website is for, the main aims of the project and how the website can help users meet their needs.

@@ -159,7 +159,7 @@ button:focus {
 
 .hero-image-container {
     height: 100vh;
-    background:  #2D3142 url("../images/woman-weightlifting-orange.jpg") fixed center no-repeat;
+    background:  #2D3142 url("../images/woman-weightlifting-orange-min.jpg") fixed center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -186,18 +186,9 @@ button:focus {
     position: relative;
 }
 
-.banner-image-membership-container {
-    background:   
-   #2D3142 url("../images/hands-grasping-kettlebell-on-floor.jpg") fixed center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 .banner-image-facilities-container {
     background: 
-    #2D3142 url("../images/orange-dumbbells-on-shelf.jpg") fixed center no-repeat;
+    #2D3142 url("../images/orange-dumbbells-on-shelf-min.jpg") fixed center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -206,7 +197,16 @@ button:focus {
 
 .banner-image-classes-container {
     background: 
-    #2D3142 url("../images/female-gym-class-arms-outstretched.jpg") fixed center no-repeat;
+    #2D3142 url("../images/female-gym-class-arms-outstretched-min.jpg") fixed center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.banner-image-membership-container {
+    background:   
+   #2D3142 url("../images/hands-grasping-kettlebell-on-floor-min.jpg") fixed center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -215,7 +215,7 @@ button:focus {
 
 .banner-image-contact-container {
     background: 
-    #2D3142 url("../images/man-battlerope-exercise.jpg") fixed center no-repeat;
+    #2D3142 url("../images/man-battlerope-exercise-min.jpg") fixed center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -224,7 +224,7 @@ button:focus {
 
 .banner-image-registration-container {
     background: 
-    #2D3142 url("../images/legs-on-treadmill.jpg") fixed center no-repeat;
+    #2D3142 url("../images/legs-on-treadmill-min.jpg") fixed center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
