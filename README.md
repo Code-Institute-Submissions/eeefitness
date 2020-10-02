@@ -186,8 +186,9 @@ The colour scheme was chose on the basis that I wanted a simple, clean and visua
 
   * [coolors.co](https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff). Used to choose a colour scheme.
   * [Optimizilla](https://imagecompressor.com/). Used to compress the photographs in order to speed up the loading time.
-
-## Credits
+  * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator). Used to validate the CSS file.
+  
+## Acknowledgements
 - 
 - [statistica.com](https://www.statista.com/outlook/313/140/fitness/ireland#market-age)’s digital marketing outlook article on the Fitness Sector in Ireland.
 - [offsprout.com](https://offsprout.com/blog/10-best-website-designs-for-gyms-2019/)’s article on The 10 Best Website Designs for Gyms and Fitness (2019 edition). 
