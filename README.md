@@ -7,45 +7,40 @@
 <sup>*Created using* [Am I Responsive](http://ami.responsivedesign.is/)</sup>
 
 EEE Fitness is a fictitious gym whose motto is Exercise Energize Empower. 
-This project is the first of four Milestone Projects that make up the Full Stack Web Development Program at The Code Institute, 
+This project is the first of four Milestone Projects that make up the Full Stack Web Development Program at the [Code Institue](https://codeinstitute.net/), 
 and the main requirements were to make a static but responsive website with a minimum of three pages using HTML5 and CSS3.
 
 Click <a href="https://nualagr.github.io/eeefitness/">here</a> view the website live.
 <br />
 ## **Table of Contents**
 1. [**User Experience (UX)**](#user-experience-(ux))
-    - [**User Stories**](#user-stories)
+    - [User Stories](#user-stories)
         - [New User](#new-user)
         - [Returning User](#returning-user)
         - [Business Owner](#business-owner)
 2. [**User Centered Design**](#user-centered-design)
-    - [**1) The Strategy Plane**](#1-strategy-plane)
-    - [**2) The Scope Plane**](#2-scope-plane)
-    - [**3) The Structure Plane**](#3-structure-plane)
-    - [**4) The Skeleton Plane**](#4-skeleton-plane)
+    - [1) The Strategy Plane](#1-strategy-plane)
+    - [2) The Scope Plane](#2-scope-plane)
+    - [3) The Structure Plane](#3-structure-plane)
+    - [4) The Skeleton Plane](#4-skeleton-plane)
         - [Wireframes](#wireframes)
         - [Features](#features)
-    - [**5) The Surface Plane**](#5-surface-plane) 
+    - [5) The Surface Plane](#5-surface-plane) 
         - [Design](#design)
         - [Colour Scheme](#colour-scheme)
         - [Icons](#icons)
         - [Typography](#typography)
-
-2. [**Features**](#features)
-    - [**Existing Features**](#existing-features)
-    - [**Future Features**](#future-features)
-
-3. [**Technologies Used**](#technologies-used)
-    - [**Front-End Technologies**](#front-end-technologies)
-
-4. [**Testing**](#testing)
-
-5. [**Deployment**](#deployment)
-
-6. [**Credits**](#credits)
-    - [**Content**](#content)
-    - [**Media**](#media)
-    - [**Acknowledgments**](#acknowledgments)
+3. [**Development**](#development)
+    - [Existing Features](#existing-features)
+    - [Future Features](#future-features)
+4. [**Technologies Used**](#technologies-used)
+5. [**Testing**](#testing)
+6. [**Deployment**](#deployment)
+7. [**Credits**](#credits)
+    - [Content](#content)
+    - [Imagery Used](#imagery-used)
+    - [Acknowledgments](#acknowledgments)
+    - [References](#references)
 
 <br/>
 
@@ -260,61 +255,119 @@ on gym websites, it was chosen as the main font for the body of the website.
 
 ## Development
 In Mentor Session 1, Mr. Reuben Ferrante suggested that a more efficient layout for the About page was necessary as the wireframe layout chosen would result in an unpleasant user experience for the mobile user.  Both tab and dashboard layouts were considered before the final layout of separate pages for Services, Facilities and Classes was chosen. 
-The About page information relating to the gym staff and services were included on the Home page and the site structure create six main pages: Home, Facilities, Classes, Membership, Contact and Sign Up.  This structure should allow the end user to access the information that they seek with fewer clicks, hopefully leading the user toward continuing the browsing experience.
+The About page information relating to the gym staff and services were included on the Home page and the final site structure 
+consists of six main pages: Home, Facilities, Classes, Membership, Contact and Sign Up.  This structure should ensure that the end user
+has a pleasant and efficient experience as they are able to access the information that they seek with fewer clicks, hopefully leading them to continue their browsing experience.
 <img src="documentation/eeefitness-site-map.jpg" height="auto" width="100%" alt="EEE Fitness site map" />
 <sup>*Site Map was created using* [Microsoft Word](https://www.microsoft.com/en-ie/microsoft-365/p/word/cfq7ttc0k7c7?=&ef_id=Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB%3aG%3as&OCID=AID2100139_SEM_Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB%3aG%3as&lnkd=Google_O365SMB_App&gclid=Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB&activetab=pivot%3aoverviewtab).</sub>
 
 
-My mentor also helpfully showed me how to embed a Google Map in order to allow visitors to the site to locate the gym more easily.  Initially this was included soley in the Footer section of the desktop view, however when it came to building the site it was also added to the footer when viewed on a tablet.  This decision was taken partly for aesthetic reasons and partly because it was pointed out to me that many tablet users use their device as a replacement for a desktop computer and therefore expect much of the functionality of the desktop view when browsing online.
-
 ## Features
 
-The project consists of different pages, all of which can be accessed through the menu in the navigation bar.
+### Existing Features
+
+The project consists of six different pages, all of which can be accessed through the menu in the navigation bar.
 
 #### Consistent features across all pages:
-- The fixed navigation bar containing the menu at the top of the page is consistent across all pages, however it has been condensed into a drop-down menu on tablet and mobile devices in order to streamline the appearance.
-- The footer containing contact details and social media icons is consistent across all pages.
 
-#### Features to be implemented in the future:
-- An online booking system for classes that current gym members can access through the website.
-- A payment system so that people can buy their membership package immediately from the site.
-- A link to TrustPilot or a similar consumer review website where the gym’s current members can share their positive experiences at EEE Fitness.
+**Favicon** displayed on the web brower's tab, this allows the user to identify the site by sight.
 
-## Technologies Used:
+**Title** displayed on the web browser's tab after the favicon it states the company's title, clarifies that it is a gym and states its location.
+
+**Header**
+
+- **Company Logo**: created using [Font Awesome](https://fontawesome.com/) and [Inkscape](https://inkscape.org/).  This allows the user to instantly recognise the companies brand. 
+- **Navigation Bar**: allows the user to navigate through the site easily. Fully responsive it condenses to a'hamburger icon' for a more streamlined appearance on tablet and mobile devices.
+ 
+
+**Footer**
+
+- **Contact Details**: make it easy for any user to find out the gyms location, email address, phone number and opening hours without leaving any page
+  - an **iframe** shows the user the location of the gym (visible on desktop and tablet view only)
+  - gym postal address
+  - gym **telephone number with active link** so the user can call the gym immediately
+  - gym **email address with active link** so that the user can email the gym directly if they have a query
+  - table displaying the gym's opening hours so that the user can see at a glance when the gym is open
+- **Social Media Links**: allows the user to easily access the gym's fictitious Facebook, Instagram, YouTube and Twitter accounts.
+
+#### index.html features
+  - full-screen **hero image** with 'Sign Up' **call-to-action button** to entice the user to sign up immediately upon entering the site.
+  - EEE Fitness Services Section provides the user with a concise description of the services on offer.  **Eye-catching icons** provide them with an understanding of the services at a glance.  **Call-to-action buttons** facilitate the user's curiosity by linking to further information about each service, located elsewhere on the site.  
+  - a **carousel** featuring client testimonials and accompanying photographs allows the user to read positive reviews of the gym, its staff and facilities.
+  - Meet the Team section with photographs of the gym trainers and accompanying information allows the users to see the staff members in a visually appealing way and to find out about their qualifications.
+  - **Call-to-action banner** in orange with a **call-to-action button** enabling the user to click and sign-up without having to scroll back up to the top of the page or to click the menu button.
+
+#### facilities.html features
+  - **banner image** with motivational heading 
+  - **high quality images** of gym members and gym equipment allows the user to see the gym's facilities.  The images show both male and female gym members in order to appeal to prospective users of both genders. Short descriptions of the gym's different zones explain succintly what is on offer to the gym's members.
+
+#### classes.html features
+  - **banner image** with motivational heading
+  - a **tabbed navigation pane** allows the user to easily tab, rather than scroll, through the different days of the week in order to see what classes are on offer.
+  - **call-to-action** 'Learn More' buttons have been placed next to each class to quickly bring the user to a class description and accompanying image located further down the page.
+
+#### membership.html features
+  - **banner image** with motivational heading
+  - A **card deck** clearly displays the different membership packages on offer, their components and price.
+  - a **call-to-action** 'Sign Up' button allows the user to navigate straight to the Sign Up form without having to use the navigation bar.
+
+#### contact.html features
+  - **banner image** with motivational heading
+  - **form** allows the user to contact the company. They can their name, email address, phone number type their enquiry and send it straight to the gym via a **call-to-action** 'Submit' button.
+
+#### register.html features
+  - **banner image** with motivational heading
+  - **form** allows the user to sign up to become a member of the gym.  They can submit their name, email address, phone number and choose their desired membership package from a drop-down list.
+  - **call-to-action** 'Sign Up' button
+
+### Future Features
+ - An online booking system for classes that current gym members can access through the website.
+ - A payment system so that new users can buy their membership package immediately from the site.
+ - A link to TrustPilot or a similar consumer review website where the gym’s current members can share their positive experiences at EEE Fitness.
+
+##### back to [top](#table-of-contents)
+---
+
+## Technologies Used
 - Languages: 
 
   * [HTML5](http://en.wikipedia.org/wiki/HTML5)
-  * [CSS](http://en.wikipedia.org/wiki/CSS)
-  * [JavaScript](https://en.wikipedia.org/wiki/JavaScript). JavaScript was imported from Bootstrap for the responsive navbar, the testimonial carousel and the tabbed navigation pane on the classes.html page.
+  * [CSS3](http://en.wikipedia.org/wiki/CSS)
+  * [JavaScript](https://en.wikipedia.org/wiki/JavaScript). JavaScript was imported from the [Bootstrap Framework](https://getbootstrap.com/) for the responsive navbar used throughout the site, the testimonial carousel on index.html, the tabbed navigation pane used for the class timetable on classes.html and the card deck on the membership.html page.
 
 - Websites
-  * [Gitpod](https://www.gitpod.io/). Online IDE used to build and develop the website.
-  * [Coolors](https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff). Used to choose a colour scheme.
+  * [Am I Responsive](http://ami.responsivedesign.is/). Used to create the mock-up image at the top of this document which shows the site as it would behave when viewed on desktop, mobile and tablet devices. 
   * [Bootstrap Framework](https://getbootstrap.com/). Used to structure the website layout and ensure that it was responsive on all devices.
-  * [Github](https://github.com/). Used to host the deployed site and used as a respository for all previous versions of the build.
+  * [Burst](https://burst.shopify.com). Used to source royalty free images.
+  * [Code Institute](https://codeinstitute.net/). Used to review concepts covered in preceding modules and walk-through projects. 
+  * [Code Pen](https://codepen.io/careecodes/pen/vGyNxN*/). The code for the shadow-box page divider on the classes.html page was initially sourced from the codepen.io site.
+  * [Coolors](https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff). Used to choose a colour scheme.
+  * [Font Awesome](https://fontawesome.com/). Used to source the free icons used in the Services section, used as the social media links in the footer and used for the favicon.
   * [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools). Used extensively throughout the project to test the responsiveness of elements, to target and apply CSS styles during the design phase and to test the site's performance once built. 
   * [Google Fonts](https://fonts.google.com/). Used to choose and source the fonts used on the site.
-  * [Font Awesome](https://fontawesome.com/). Used to source the free icons used in the Services section, used as the social media links in the footer and used for the favicon.
-  * [Pexels](www.pexels.com). Used to source royalty free images.
-  * [Unsplash](www.unsplash.com). Used to source royalty free images.
-  * [Burst](https://burst.shopify.com). Used to source royalty free images.
-  * [Pixabay](www.pixabay.com). Used to source royalty free images.
+  * [Github](https://github.com/). Used to host the deployed site and used as a respository for all previous versions of the build.
+  * [Gitpod](https://www.gitpod.io/). Online IDE used to build and develop the website.
   * [Optimizilla](https://imagecompressor.com/). Used during the testing phase in order to compress the photographs to reduce the site loading time.
-  * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator). Used to validate the CSS file.
-  * [W3C HTML Validation Service](https://validator.w3.org/#validate_by_uri). Used to validate the HTML files.
-  * [Code Institute](https://codeinstitute.net/). Used to review concepts covered in preceding modules and walk-through projects. 
+  * [Pexels](www.pexels.com). Used to source royalty free images.
+  * [Pixabay](www.pixabay.com). Used to source royalty free images.
   * [Slack](code-institute-room.slack.com). Used during all phases of development and testing to find the answers to questions and the solutions to problems enountered.
   * [Stack Overflow](https://stackoverflow.com/). Used to search for the answers to problems encountered during the development and testing of the website.
-  * [Am I Responsive](http://ami.responsivedesign.is/). Used to create the mock-up image at the top of this document which shows the site as it would behave when viewed on desktop, mobile and tablet devices. 
+  * [Unsplash](www.unsplash.com). Used to source royalty free images.
+  * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator). Used to validate the CSS file.
+  * [W3C HTML Validation Service](https://validator.w3.org/#validate_by_uri). Used to validate the HTML files.
+  * [W3Schools](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp). The code to hide the scrollbar but keep the scroll functionality was found on W3Schools.
+
 - Apps:
   * [Balsamiq](https://balsamiq.com/). Used to create the project wireframes.
   * [Inkscape](https://inkscape.org/). Used to edit FontAwesome icons that were used as bullet images and as the Favicon.
   * [Microsoft Word](https://www.microsoft.com/en-ie/microsoft-365/p/word/cfq7ttc0k7c7?=&ef_id=Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB%3aG%3as&OCID=AID2100139_SEM_Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB%3aG%3as&lnkd=Google_O365SMB_App&gclid=Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB&activetab=pivot%3aoverviewtab). Used to create the hierarchical representation of the site layout.
 
-  
-## Testing.
+##### back to [top](#table-of-contents)
+---
+
+## Testing
 [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) were used extensively throughout the development process in order to test whether elements were responsive when viewed on mobile and tablet devices. When problems were encountered the Device Selector was used to target the element.  Using the Elements Panel in Developer Tools the code in question was altered in order to achieve the desired result. 
-Working code snippets were then replicated in the style.css file in Gitpod. Other solutions for errors were found in the Code Institute Slack channels, on Stac.  
+Working code snippets were then replicated in the style.css file in [Gitpod](https://www.gitpod.io/). Other solutions for errors were found in the Code Institute Slack channels, on Stac.  
 
 [W3C HTML Validation Service](https://validator.w3.org/#validate_by_uri) was used to validate the code. It highlighted some errors across the site which have since been recitified: 
 - button tags were used incorrectly within anchor tags
@@ -365,21 +418,70 @@ This is a known issue. I have decided to leave it for now and detail it in the R
 ### Bugs
 The custom svg bullet point images do no render in Mozilla Firefox 81.0.1 (64-bit). 
 
+##### back to [top](#table-of-contents)
+---
+
 ## Deployment
 
+This project is hosted on [GitHub Pages](https://pages.github.com/)
 
-## Acknowledgements
-- 
-- [statistica.com](https://www.statista.com/outlook/313/140/fitness/ireland#market-age)’s digital marketing outlook article on the Fitness Sector in Ireland.
-- [offsprout.com](https://offsprout.com/blog/10-best-website-designs-for-gyms-2019/)’s article on The 10 Best Website Designs for Gyms and Fitness (2019 edition). 
-- [ilovewp.com](https://www.ilovewp.com/resources/wordpress-for-gyms/most-used-google-fonts-on-gym-websites/)’s article, “Most Used Google Fonts on Gym Websites”. 
-- [Code Institue](https://codeinstitute.net/5-day-coding-challenge/?utm_term=code%20institute&utm_campaign=a%26c_BR_IRL_Code_Institute&utm_source=adwords&utm_medium=ppc&hsa_net=adwords&hsa_tgt=kwd-319867646331&hsa_ad=417883007028&hsa_acc=8983321581&hsa_grp=56427889338&hsa_mt=e&hsa_cam=1378516521&hsa_kw=code%20institute&hsa_ver=3&hsa_src=g&gclid=CjwKCAjw74b7BRA_EiwAF8yHFIDc09EJev6sA8NIXe-u-TOM6nIkNPI8co9lLsTOpib4Oe8QaJ7k6xoCgNQQAvD_BwE&gclsrc=aw.ds) and the very helpful tutors.
-- My mentor for this project Reuben Ferrante for his help and guidance. 
+### Deployment Procedure Followed:
 
-## Images Used:
+1) When logged in to the [Github](https://github.com/) website the *EEE Fitness* repository was selected from the repositories list in the top left-hand corner of the screen.
+
+2) When in the selected respository, **Settings** was chosen from the navigation bar below the repository title.
+
+3) Scrolling down the **Settings** page revealed the **GitHub Pages** heading.  Under the **Source** subheading, the dropdown menu, whose default value is 'None', was clicked.  'Master' was selected from the dropdown list.
+
+4) The **Save** button to the right of the newly selected 'Branch: master' was then clicked to deploy the site.
 
 
-### index.html
+### To find the link to the newly deployed site:
+
+1) When logged in to the [Github](https://github.com/) website, navigate to the desired repository.
+
+2) In the navigation pane on the right of the screen, under the heading **Environments** click on the 'github-pages' link.
+
+3) Under the heading **Deployments/Activity Log** click on the 'View deployment' button to the right of the screen. 
+The website will open in a separate browser window.
+
+
+### To clone the repository:
+
+1) Log in to [Github](https://github.com/).
+
+2) Navigate to the main page of the repository.
+
+3) Select the green **Code** button from the navigation bar below the repository title.
+
+4) Under the heading **Clone** select 'HTTPS'
+
+5) Click the image of a clipboard to the right of the URL in order to copy the address. 
+
+6) Open Git Bash.
+
+7) Navigate to the desired directory in which you wish to place the cloned directory.
+
+8) Type git clone, space, and then paste the copied URL.  
+
+9) Press 'Enter' to create the clone.
+
+##### back to [top](#table-of-contents)
+---
+
+## Credits
+
+### Content
+- The following Boostrap components were used and modified: 
+   - [Collapsible navbar and toggler](https://getbootstrap.com/docs/4.5/components/navbar/#toggler) 
+   - [Carousel with controls](https://getbootstrap.com/docs/4.5/components/carousel/#with-controls)
+   - [Card Deck](https://getbootstrap.com/docs/4.5/components/card/#card-decks)
+   - [Navigational Tabs](https://getbootstrap.com/docs/4.5/components/navs/#tabs)
+   - [Form](https://getbootstrap.com/docs/4.1/components/forms/#form-groups)
+
+### Imagery Used
+
+#### index.html
 - hero image   
 https://www.pexels.com/photo/woman-kneeling-with-barbel-on-shoulders-3076514/
 Photo by Jonathan Borba from Pexels
@@ -402,7 +504,7 @@ Photo by ŞULE MAKAROĞLU on Unsplash
 https://www.pexels.com/photo/man-in-black-tank-top-holding-orange-towel-3917685/
 Photo by Andrea Piacquadio from Pexels
 
-### facilities.html
+#### facilities.html
 - banner image  
 https://www.pexels.com/photo/brown-wooden-chess-piece-on-black-computer-keyboard-4753885/
 Photo by cottonbro from Pexels
@@ -419,7 +521,7 @@ Photo by Andrea Piacquadio from Pexels
 https://www.pexels.com/photo/adult-athlete-body-bodybuilding-414029/
 Image by Pixabay
 
-### classes.html
+#### classes.html
 - banner image   
 https://www.pexels.com/photo/group-of-women-doing-exercise-3768695/
 Photo by Andrea Piacquadio from Pexels
@@ -442,17 +544,37 @@ Photo by Gustavo Fring from Pexels
 https://burst.shopify.com/photos/kick-boxing-fitness?q=kickboxing
 Photo by: Nicole De Khors on Burst
 
-### membership.html 
+#### membership.html 
 - banner image  
 https://www.pexels.com/photo/people-holding-a-weights-3766211/
 Photo by Andrea Piacquadio from Pexels
 
-### contact.html
+#### contact.html
 - banner image  
 https://www.pexels.com/photo/man-holding-brown-rope-3253501/
 Photo by Cesar Galeão from Pexels
 
-### register.html
+#### register.html
 - banner image  
 https://www.pexels.com/photo/photo-of-person-using-treadmill-3757957/
 Photo by Andrea Piacquadio from Pexels
+
+##### back to [top](#table-of-contents)
+---
+
+## Acknowledgements
+
+- [Code Institue](https://codeinstitute.net/) and the very helpful tutors.
+- My project mentor [Reuben Ferrante](https://uk.linkedin.com/in/reuben-ferrante) for his help and guidance during the design and build process. 
+- The [Code Institue](https://codeinstitute.net/) community on [Slack](code-institute-room.slack.com) for their support.
+
+##### back to [top](#table-of-contents)
+---
+
+## References
+- [statistica.com](https://www.statista.com/outlook/313/140/fitness/ireland#market-age)’s digital marketing outlook article on the Fitness Sector in Ireland.
+- [offsprout.com](https://offsprout.com/blog/10-best-website-designs-for-gyms-2019/)’s article on The 10 Best Website Designs for Gyms and Fitness (2019 edition). 
+- [ilovewp.com](https://www.ilovewp.com/resources/wordpress-for-gyms/most-used-google-fonts-on-gym-websites/)’s article, “Most Used Google Fonts on Gym Websites”. 
+
+##### back to [top](#table-of-contents)
+---
