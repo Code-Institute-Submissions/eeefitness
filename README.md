@@ -3,14 +3,16 @@
 <h2 align="center">Code Institute - Milestone Project 1</h2>
 
 <img src="documentation/eeefitness-responsive-screenshot-different-screens.png" />
-*Created at* [coolors.co](https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff).
+
+<sup>*Created using* [Am I Responsive](http://ami.responsivedesign.is/)</sup>
 
 EEE Fitness is a fictitious gym whose motto is Exercise Energize Empower. 
-This project is the first of four Milestone Projects that make up the Full Stack Web Development Program at The Code Institute, and the main requirements were to make a static but responsive website with a minimum of 3 pages using HTML5 and CSS3.
+This project is the first of four Milestone Projects that make up the Full Stack Web Development Program at The Code Institute, 
+and the main requirements were to make a static but responsive website with a minimum of three pages using HTML5 and CSS3.
 
 Click <a href="https://nualagr.github.io/eeefitness/">here</a> view the website live.
 <br />
-## Table of Contents
+## **Table of Contents**
 1. [**User Experience (UX)**](#user-experience-(ux))
     - [**User Stories**](#user-stories)
         - [New User](#new-user)
@@ -24,10 +26,10 @@ Click <a href="https://nualagr.github.io/eeefitness/">here</a> view the website 
         - [Wireframes](#wireframes)
         - [Features](#features)
     - [**5) The Surface Plane**](#5-surface-plane) 
-        - [**Design**](#design)
-        - [**Color Scheme**](#color-scheme)
-        - [**Icons**](#icons)
-        - [**Typography**](#typography)
+        - [Design](#design)
+        - [Colour Scheme](#colour-scheme)
+        - [Icons](#icons)
+        - [Typography](#typography)
 
 2. [**Features**](#features)
     - [**Existing Features**](#existing-features)
@@ -108,9 +110,12 @@ I am the owner of EEE Fitness:
 - I want prospective clients to be able to sign up easily.
 - I want to encourage more visitors to follow the gym on social media and thereby raise the profile of the gym.
 - I want to showcase positive reviews that the gym has received.
-<br>
+
+<br />
+
 ##### back to [top](#table-of-contents)
 ---
+
 ## User Centered Design
 ### 1 Strategy Plane
 The User Centered Design process started with the creation of the User Stories.  These influenced subsequent feature, layout and design decisions.
@@ -162,7 +167,7 @@ After identifying the needs of the site's users and after visiting many gym webs
   *  gym-member reviews
 
 For ease of navigation it was decided to opt for a multi-page site, grouped into four pages: ‘Home’, ‘About, ‘Membership’ and ‘Contact’. 
-
+<br>
 
 ### 4 Skeleton Plane
 
@@ -216,29 +221,20 @@ A footer, which contains the most sought after information: the site address, em
 
 ### 5 Surface Plane
 
-#### Design Choices
+#### Design
 According to [statistica.com](https://www.statista.com/outlook/313/140/fitness/ireland#market-age) the highest percentage of gym-going users in Ireland in 2019 were in the 25 to 34 year-old age category. 
 This cohort of society are mobile savvy and therefore a mobile-first approach was taken, helped by the use of the [Bootstrap Framework](https://getbootstrap.com/). 
 These young professionals have disposable income it can be assumed they are looking for a professional gym that achieves results and provides them with a wide variety of workout options.
 People in this age category are likely to be busy, working, commuting, socialising and to have family commitments, therefore time is a 
 precious commodity to them. Because of this it is imperative that the site to be easy to navigate with key information intuitively located. 
 
-#### Typography
-According to [ilovewp.com](https://www.ilovewp.com/resources/wordpress-for-gyms/most-used-google-fonts-on-gym-websites/)’s article, 'Most Used Google Fonts on Gym Websites' *Open Sans* was the most popular font, 
-therefore it was chosen as the main heading font.  [Google Fonts](https://fonts.google.com/) suggested *Roboto* as a complimentary font to *Open Sans*.  As this font was also the third most popular font choice
-on gym websites, it was chosen as the main font for the body of the website.   
-
-#### Icons
-Icons were used alongside the text within the site in order to help the user to understand the content at a glance. 
-They were taken from [Font Awesome](https://fontawesome.com/) and chosen to be self explanatory.
-
 #### Colour Scheme
 The colour scheme was chosen in order to convey a simple, clean and visually appealing site that evoked both an energetic, yet clean and professional atmosphere. Orange is colour that is traditionally associated with energy.  
 White is a colour associated with cleanliness.  Grey is a colour associated with business and professionalism. 
 
-<center><img src="documentation/eee-fitness-colour-palette.png" height="300" width="600" alt="EEE Fitness colour palette" /></center>
+<img src="documentation/eee-fitness-colour-palette.png" height="300" width="600" alt="EEE Fitness colour palette" />
 
-*Colour palette created at* [coolors.co](https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff).
+<sup>*Colour palette created at* [coolors.co](https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff).</sup>
 
 - #2D3142, Space Cadet, which a relatively dark, professional looking grey, was chosen for the navigation bar and the footer. 
 As most gym equipment is grey in colour, shades of grey appeared to be appropriate for the functional navigational bar and the footer.
@@ -250,15 +246,23 @@ To be consistent the social media links in the footer behave in a similar fashio
 used as a muted text colour in the footer and as a background colour for the inactive class timetable tabs. 
 - Text colour throughout the site is Cultured, Light Grey or Space Cadet, depending on which proved easier for the user to read against the assigned background colour of the element in question.
 
+#### Icons
+Icons were used alongside the text within the site in order to help the user to understand the content at a glance. 
+They were taken from [Font Awesome](https://fontawesome.com/) and chosen to be self explanatory.
+
+#### Typography
+According to [ilovewp.com](https://www.ilovewp.com/resources/wordpress-for-gyms/most-used-google-fonts-on-gym-websites/)’s article, 'Most Used Google Fonts on Gym Websites' *Open Sans* was the most popular font, 
+therefore it was chosen as the main heading font.  [Google Fonts](https://fonts.google.com/) suggested *Roboto* as a complimentary font to *Open Sans*.  As this font was also the third most popular font choice
+on gym websites, it was chosen as the main font for the body of the website.   
+
 ##### back to [top](#table-of-contents)
 ---
 
 ## Development
-In Mentor Session 1, Mr. Reuben Ferrante suggested that a more efficient layout for the About page was necessary as the wireframe layout chosen would result in an unpleasant user experience for the mobile user.  
-Both tab and dashboard layouts were considered before the final layout of separate pages for Services, Facilities and Classes was chosen.  
+In Mentor Session 1, Mr. Reuben Ferrante suggested that a more efficient layout for the About page was necessary as the wireframe layout chosen would result in an unpleasant user experience for the mobile user.  Both tab and dashboard layouts were considered before the final layout of separate pages for Services, Facilities and Classes was chosen. 
 The About page information relating to the gym staff and services were included on the Home page and the site structure create six main pages: Home, Facilities, Classes, Membership, Contact and Sign Up.  This structure should allow the end user to access the information that they seek with fewer clicks, hopefully leading the user toward continuing the browsing experience.
 <img src="documentation/eeefitness-site-map.jpg" height="auto" width="100%" alt="EEE Fitness site map" />
-*Site Map was created using* [Microsoft Word](https://www.microsoft.com/en-ie/microsoft-365/p/word/cfq7ttc0k7c7?=&ef_id=Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB%3aG%3as&OCID=AID2100139_SEM_Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB%3aG%3as&lnkd=Google_O365SMB_App&gclid=Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB&activetab=pivot%3aoverviewtab).
+<sup>*Site Map was created using* [Microsoft Word](https://www.microsoft.com/en-ie/microsoft-365/p/word/cfq7ttc0k7c7?=&ef_id=Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB%3aG%3as&OCID=AID2100139_SEM_Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB%3aG%3as&lnkd=Google_O365SMB_App&gclid=Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB&activetab=pivot%3aoverviewtab).</sub>
 
 
 My mentor also helpfully showed me how to embed a Google Map in order to allow visitors to the site to locate the gym more easily.  Initially this was included soley in the Footer section of the desktop view, however when it came to building the site it was also added to the footer when viewed on a tablet.  This decision was taken partly for aesthetic reasons and partly because it was pointed out to me that many tablet users use their device as a replacement for a desktop computer and therefore expect much of the functionality of the desktop view when browsing online.
@@ -301,7 +305,7 @@ The project consists of different pages, all of which can be accessed through th
   * [Code Institute](https://codeinstitute.net/). Used to review concepts covered in preceding modules and walk-through projects. 
   * [Slack](code-institute-room.slack.com). Used during all phases of development and testing to find the answers to questions and the solutions to problems enountered.
   * [Stack Overflow](https://stackoverflow.com/). Used to search for the answers to problems encountered during the development and testing of the website.
-  * [Am I Responsive](http://ami.responsivedesign.is/).  Used to create the mock-up image at the top of this document which shows the site as it would behave when viewed on desktop, mobile and tablet devices. 
+  * [Am I Responsive](http://ami.responsivedesign.is/). Used to create the mock-up image at the top of this document which shows the site as it would behave when viewed on desktop, mobile and tablet devices. 
 - Apps:
   * [Balsamiq](https://balsamiq.com/). Used to create the project wireframes.
   * [Inkscape](https://inkscape.org/). Used to edit FontAwesome icons that were used as bullet images and as the Favicon.
