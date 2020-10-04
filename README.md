@@ -4,7 +4,7 @@
 
 <img src="documentation/eeefitness-responsive-screenshot-different-screens.png" />
 
-<sup>*Created using* [Am I Responsive](http://ami.responsivedesign.is/)</sup>
+<sub>*Created using* [Am I Responsive](http://ami.responsivedesign.is/)</sub>
 
 EEE Fitness is a fictitious gym whose motto is Exercise Energize Empower. 
 This project is the first of four Milestone Projects that make up the Full Stack Web Development Program at the [Code Institue](https://codeinstitute.net/), 
@@ -36,6 +36,13 @@ Click <a href="https://nualagr.github.io/eeefitness/">here</a> view the website 
     - [Future Features](#future-features)
 4. [**Technologies Used**](#technologies-used)
 5. [**Testing**](#testing)
+    - [Performance](#performance)
+    - [HTML Validation](#html-validation)
+    - [CSS Validation](#css-validation)
+    - [Manual Testing](#manual-testing)
+    - [Responsiveness](#responsiveness)
+    - [Tested User Stories](#tested-user-stories)
+    - [Bugs](#bugs)
 6. [**Deployment**](#deployment)
 7. [**Credits**](#credits)
     - [Content](#content)
@@ -228,9 +235,9 @@ precious commodity to them. Because of this it is imperative that the site to be
 The colour scheme was chosen in order to convey a simple, clean and visually appealing site that evoked both an energetic, yet clean and professional atmosphere. Orange is colour that is traditionally associated with energy.  
 White is a colour associated with cleanliness.  Grey is a colour associated with business and professionalism. 
 
-<img src="documentation/eee-fitness-colour-palette.png" height="300" width="600" alt="EEE Fitness colour palette" />
+<img src="documentation/eee-fitness-colour-palette.png" height="auto%" width="100%" alt="EEE Fitness colour palette" />
 
-<sup>*Colour palette created at* [coolors.co](https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff).</sup>
+<sub>*Colour palette created at* [coolors.co](https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff).</sub>
 
 - #2D3142, Space Cadet, which a relatively dark, professional looking grey, was chosen for the navigation bar and the footer. 
 As most gym equipment is grey in colour, shades of grey appeared to be appropriate for the functional navigational bar and the footer.
@@ -260,7 +267,7 @@ The About page information relating to the gym staff and services were included 
 consists of six main pages: Home, Facilities, Classes, Membership, Contact and Sign Up.  This structure should ensure that the end user
 has a pleasant and efficient experience as they are able to access the information that they seek with fewer clicks, hopefully leading them to continue their browsing experience.
 <img src="documentation/eeefitness-site-map.jpg" height="auto" width="100%" alt="EEE Fitness site map" />
-<sup>*Site Map was created using* [Microsoft Word](https://www.microsoft.com/en-ie/microsoft-365/p/word/cfq7ttc0k7c7?=&ef_id=Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB%3aG%3as&OCID=AID2100139_SEM_Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB%3aG%3as&lnkd=Google_O365SMB_App&gclid=Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB&activetab=pivot%3aoverviewtab).</sub>
+<sub>*Site Map was created using* [Microsoft Word](https://www.microsoft.com/en-ie/microsoft-365/p/word/cfq7ttc0k7c7?=&ef_id=Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB%3aG%3as&OCID=AID2100139_SEM_Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB%3aG%3as&lnkd=Google_O365SMB_App&gclid=Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB&activetab=pivot%3aoverviewtab).</sub>
 
 
 ## Features
@@ -372,6 +379,7 @@ The project consists of six different pages, all of which can be accessed throug
 ---
 
 ## Testing
+### Performance
 [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) were used extensively throughout the development process in order to test whether elements were responsive when viewed on mobile and tablet devices. When problems were encountered the Device Selector was used to target the element.  Using the Elements Panel in Developer Tools the code in question was altered in order to achieve the desired result. 
 Working code snippets were then replicated in the style.css file in [Gitpod](https://www.gitpod.io/). Other solutions for errors were found in the Code Institute [Slack](code-institute-room.slack.com) channels, on [Stack Overflow](https://stackoverflow.com/), on [W3Schools](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp) and on [Code Pen](https://codepen.io/careecodes/pen/vGyNxN*/).  
 
@@ -394,7 +402,7 @@ The site performed well in the Lighthouse test for desktop viewing:
 <img src="documentation/lighthouse-third-results-desktop-performance-breakdown.png" height="auto" width="100%" />
 <br>
 
-**HTML Validation**
+### HTML Validation
 
 [W3C HTML Validation Service](https://validator.w3.org/#validate_by_uri) was used to validate the HTML documents. It highlighted some errors across the site which have since been recitified: 
 - button tags were used incorrectly within anchor tags
@@ -409,7 +417,7 @@ The site currently has no errors:
 <img src="documentation/html-validator-no-errors-page.png" height="auto" width="100%" />
 <br>
 
-**CSS Valiation**
+### CSS Validation
 
 [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator) was used to validate the style.css file. 
 It highlighted some errors which have since been resolved:
@@ -432,9 +440,129 @@ The website has been tested in the following browsers:
 
 The website works and functions as expected on Samsung Internet, Google Chrome, Microsoft Edge and Opera.  When opened in Firefox, however the custom svg bullet points do not always render.  
 This is a known issue with Firefox.  Several solutions were attempted but were not successful. 
+<br>
+
+### Responsiveness
+The website was tested for responsive design using [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools).  
+It was tested with regard to the following:
+
+**Mobile devices:**
+- Moto G4
+- Galaxy S5
+- Pixel 2
+- Pixel 2 XL
+- iPhone 5/SE
+- iPhone 6/7/8
+- iPhone 6/7/8 Plus
+- iPhone X
+
+**Tablet devices:**
+- iPad
+- iPad Pro
+- Surface Duo
+- Galaxy Fold
+
+**Laptop dimensions:**
+- 15" Laptop (1024 x 800)
+- 13" Laptop (1024 x 800)
+
+**Desktop dimensions:**
+- 24" Desktop (1920 x 1200)
+- 22" Desktop (1680 x 1050)
+- 20" Desktop (1600 x 900)
+
+
+<br>
+
+### Tested User Stories
+#### New User
+I am a prospective gym member: 
+
+&#9745; I need to be convinced as to why I should become a member of this gym. 
+
+&#9745; I want to find out about the gym’s ethos.
+
+&#9745; I want to find out where the gym is located.
+
+&#9745; I want to find out the opening hours.
+
+&#9745; I want to find out what gym facilities are available. 
+
+&#9745; I want to find out what classes are on offer.
+
+&#9745; I want to find out when those classes are run.
+
+&#9745; I want to be able to read reviews of the gym written by gym members.
+
+&#9745; I want to find out about the personal trainers and their qualifications.
+
+&#9745; I want to find out what services are on offer at the gym.
+
+&#9745; I want to find out how much membership to the gym will cost.
+
+<br>
+If I decide that I am interested in joining the gym: 
+
+&#9745; I want to be able to contact the gym.
+
+&#9745; I want to be able to sign up to become a gym member.
+
+#### Returning User
+I am a current gym member:
+
+&#9745; I want to view the gym opening hours.
+
+&#9745; I want to see what classes are on offer.
+
+&#9745; I want to see what times the classes are running.
+
+&#9745; I want to be able to book a place in a class. 
+
+<sub>(This can be achieved through the Contact Us Form currently. A fully-integrated booking system is envisaged for a future rollout).</sub>
+
+&#9745; I want to be able to contact the gym and make an enquiry.
+
+&#9745; I want to be able to leave a gym review. 
+
+<sub>(This can be achieved through the Contact Us Form or conceivably through the website's social media platforms.)</sub>
+
+
+I am a former gym member:
+
+&#9745; I want to view the gym opening hours.
+
+&#9745; I want to view the classes on offer.
+
+&#9745; I want to see what times the classes are running.
+
+&#9745; I want to be able to find out what services are on offer.
+
+&#9745; I want to find out about the personal trainers and their qualifications.
+
+&#9745; I want to find out how much membership to the gym now costs.
+
+&#9745; I want to be able to contact the gym and make an enquiry about whether there is any discount for returning members.
+
+#### Business Owner
+I am the owner of EEE Fitness: 
+
+&#9745; I want to encourage more people to sign up to the gym.
+
+&#9745; I want to clearly display information about the gym in an attractive and informative way for both current and prospective members.
+
+&#9745; I want visitors to the site to be able to contact the gym easily.
+
+&#9745; I want prospective clients to be able to sign up easily.
+
+&#9745; I want to encourage more visitors to follow the gym on social media and thereby raise the profile of the gym.
+
+&#9745; I want to showcase positive reviews that the gym has received.
+
+<br>
+
 
 ### Bugs
-The custom svg bullet point images in the card deck on membership.html do no render in Mozilla Firefox 81.0.1 (64-bit). 
+The custom svg bullet point images in the card deck on membership.html do not render consistently in Mozilla Firefox 81.0.1. 
 
 ##### back to [top](#table-of-contents)
 ---
@@ -577,8 +705,9 @@ Photo by Cesar Galeão from Pexels
 https://www.pexels.com/photo/photo-of-person-using-treadmill-3757957/
 Photo by Andrea Piacquadio from Pexels
 
-##### back to [top](#table-of-contents)
----
+
+<br>
+
 
 ## Acknowledgements
 
@@ -589,8 +718,8 @@ Photo by Andrea Piacquadio from Pexels
   - https://www.transformfitness.ie/
   - https://gymx.ie/
 
-##### back to [top](#table-of-contents)
----
+
+<br>
 
 ## References
 - [statistica.com](https://www.statista.com/outlook/313/140/fitness/ireland#market-age)’s digital marketing outlook article on the Fitness Sector in Ireland.
