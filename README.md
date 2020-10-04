@@ -39,8 +39,8 @@ Click <a href="https://nualagr.github.io/eeefitness/">here</a> view the website 
 6. [**Deployment**](#deployment)
 7. [**Credits**](#credits)
     - [Content](#content)
-    - [Imagery Used](#imagery-used)
-    - [Acknowledgments](#acknowledgments)
+    - [Media](#media)
+    - [Acknowledgements](#acknowledgements)
     - [References](#references)
 
 <br>
@@ -422,13 +422,14 @@ The style.css file currently has no errors:
 
 
 
-### Browsers Tested
+### Manual Testing
 The website has been tested in the following browsers:
 - Chrome Version 85.0.4183.121 
 - Samsung Internet Version 12.0.1.47	
 - Microsoft Edge Version 85.0.564.63 
 - Opera 70
 - Mozilla Firefox 81.0.1
+
 The website works and functions as expected on Samsung Internet, Google Chrome, Microsoft Edge and Opera.  When opened in Firefox, however the custom svg bullet points do not always render.  
 This is a known issue with Firefox.  Several solutions were attempted but were not successful. 
 
@@ -496,7 +497,7 @@ The website will open in a separate browser window.
    - [Navigational Tabs](https://getbootstrap.com/docs/4.5/components/navs/#tabs)
    - [Form](https://getbootstrap.com/docs/4.1/components/forms/#form-groups)
 
-### Imagery Used
+### Media
 
 #### index.html
 - hero image   
@@ -584,6 +585,9 @@ Photo by Andrea Piacquadio from Pexels
 - [Code Institue](https://codeinstitute.net/) and the very helpful tutors.
 - My project mentor [Reuben Ferrante](https://uk.linkedin.com/in/reuben-ferrante) for his help and guidance during the design and build process. 
 - The [Code Institue](https://codeinstitute.net/) community on [Slack](code-institute-room.slack.com) for their support.
+- I received inspiration for this project from:
+  - https://www.transformfitness.ie/
+  - https://gymx.ie/
 
 ##### back to [top](#table-of-contents)
 ---
