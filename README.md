@@ -58,8 +58,8 @@ This section provides insight into the UX process, focusing on who the EEE Fitne
 how the website can help users meet their needs.
 
 Project goals:
-- To get users to sign up to become gym members
-- To get users to enquire about becoming a gym member
+- To encourage users to sign up to become gym members
+- To encourage users to enquire about becoming a gym member
 - To facilitate those who wish to contact EEE Fitness
 - To present users with information about the EEE Fitness gym so that they understand what facilities and services are available there, 
   where it is located, its opening hours, its membership packages and their respective prices.
@@ -126,8 +126,8 @@ The User Centered Design process started with the creation of the User Stories. 
 The main business goal of the website is to attract new members to the gym or to encourage them to enquire about becoming members. 
 The website follows the Business to Consumer model and is aimed at a fitness conscious audience. 
 The site has been designed to provide minimal, but relevant, content that is easy to access, which satisfies the needs of both the business and its consumers. 
-Imagery of fit individuals working out have been used extensively throughout the site in order to showcase the results the gym members can achieved.
-Imagery of a wide variety of exercise equipment, the gym's facilities, has also been showcased.
+Imagery of fit individuals working out have been used extensively throughout the site in order to showcase the results that gym members can aspire to achieve.
+Imagery of a wide variety of exercise equipment has been used in order to showcase the gym's facilities.
 
 ### 2 Scope Plane
 The key features of the website were developed based on the user needs. 
@@ -153,13 +153,13 @@ Users should be able to do the following on the website:
 
 After identifying the needs of the site's users and after visiting many gym websites the following website features were chosen
 
-  *  opening times table
-  *  gym address
+  *  table displaying opening times
+  *  gym postal address
   *  map showing the gym's location
   *  gym telephone number
   *  gym social media links
-  *  contact us form
-  *  sign up form
+  *  Contact Us form
+  *  sign Up form
   *  hero images
   *  gym logo
   *  gym membership packages and pricing information section
@@ -221,6 +221,7 @@ A footer, which contains the most sought after information: the site address, em
 
 - [Contact Us page for Mobile](https://github.com/nualagr/eeefitness/blob/master/documentation/wireframe/mobile-contact.png)
 
+<br>
 
 ### 5 Surface Plane
 
@@ -229,7 +230,7 @@ According to [statistica.com](https://www.statista.com/outlook/313/140/fitness/i
 This cohort of society are mobile savvy and therefore a mobile-first approach was taken, helped by the use of the [Bootstrap Framework](https://getbootstrap.com/). 
 These young professionals have disposable income it can be assumed they are looking for a professional gym that achieves results and provides them with a wide variety of workout options.
 People in this age category are likely to be busy, working, commuting, socialising and to have family commitments, therefore time is a 
-precious commodity to them. Because of this it is imperative that the site to be easy to navigate with key information intuitively located. 
+precious commodity to them. Because of this it is imperative that the site be easy to navigate with key information intuitively located. 
 
 #### Colour Scheme
 The colour scheme was chosen in order to convey a simple, clean and visually appealing site that evoked both an energetic, yet clean and professional atmosphere. Orange is colour that is traditionally associated with energy.  
@@ -239,10 +240,10 @@ White is a colour associated with cleanliness.  Grey is a colour associated with
 
 <sub>*Colour palette created at* [coolors.co](https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff).</sub>
 
-- #2D3142, Space Cadet, which a relatively dark, professional looking grey, was chosen for the navigation bar and the footer. 
+- #2D3142, Space Cadet, a relatively dark, professional-looking grey, was chosen for the navigation bar and the footer. 
 As most gym equipment is grey in colour, shades of grey appeared to be appropriate for the functional navigational bar and the footer.
 - The background colour of site is #FAFAFA, Cultured, a subtle white colour, to keep the website’s image clean and to provide easy contrast.
-- Active links are be displayed in #FC7536, Orange Crayola.  Non-active links change from Cultured to Orange Crayola when hovered over in orer to provide visual feedback to the user. 
+- Active links are be displayed in #FC7536, Orange Crayola.  Non-active links change from Cultured to Orange Crayola when hovered over in order to provide visual feedback to the user. 
 To be consistent the social media links in the footer behave in a similar fashion.
 - #FC7536, Orange Crayola, is used as an accent colour throughout the site, from the logo to providing a striking contrasting background colour, to call-to-action buttons.  Where a stronger contrast was desired #FB5607, Orange Pantone was used in its stead.
 - #D3D3D3, Light Grey, was used instead of Cultured in areas where it was deemed that it would produce a softer contrast, for example it was 
@@ -280,7 +281,7 @@ The project consists of six different pages, all of which can be accessed throug
 
 **Favicon** displayed on the web brower's tab, this allows the user to identify the site by sight.
 
-**Title** displayed on the web browser's tab after the favicon it states the company's title, clarifies that it is a gym and states its location.
+**Title** displayed on the web browser's tab at all times.  This clearly identifies the company's title, clarifies that it is a gym and states its location.
 
 **Header**
 
@@ -298,16 +299,20 @@ The project consists of six different pages, all of which can be accessed throug
   - table displaying the gym's opening hours so that the user can see at a glance when the gym is open
 - **Social Media Links**: allows the user to easily access the gym's fictitious Facebook, Instagram, YouTube and Twitter accounts.
 
+#### Features by page
+
 #### index.html features
   - Full-screen **hero image** with 'Sign Up' **call-to-action button** to entice the user to sign up immediately upon entering the site.
   - EEE Fitness Services Section provides the user with a concise description of the services on offer.  **Eye-catching icons** provide them with an understanding of the services at a glance.  **Call-to-action buttons** facilitate the user's curiosity by linking to further information about each service, located elsewhere on the site.  
   - A **carousel** featuring client testimonials and accompanying photographs allows the user to read positive reviews of the gym, its staff and facilities.
-  - Meet the Team section with photographs of the gym trainers and accompanying information allows the users to see the staff members in a visually appealing way and to find out about their qualifications.
+  - Meet the Team section with photographs of the gym trainers and accompanying information allows the user to see the staff members in a visually appealing way and to find out about their qualifications.
   - **Call-to-action banner** in orange with a **call-to-action button** enabling the user to click and sign-up without having to scroll back up to the top of the page or to click the menu button.
 
 #### facilities.html features
   - **Banner image** with motivational heading 
-  - **High quality images** of gym members and gym equipment allows the user to see the gym's facilities.  The images show both male and female gym members in order to appeal to prospective users of both genders. Short descriptions of the gym's different zones explain succintly what is on offer to the gym's members.
+  - **High quality images** of gym members and gym equipment allow the user to see the gym's facilities. 
+  The images show both male and female gym members in order to appeal to prospective users of both genders. 
+  Short descriptions of the gym's different zones explain succintly what is on offer to the gym's members.
 
 #### classes.html features
   - **Banner image** with motivational heading
@@ -322,18 +327,20 @@ The project consists of six different pages, all of which can be accessed throug
 #### contact.html features
   - **Banner image** with motivational heading
   - A full page **Contact Us Form** allows the user to contact the company without having to open their own email provider's website or app. 
-  They are asked to provide their name, email address, phone number and to type their enquiry into a textarea.  
+  They are asked to provide their name, email address, phone number and to type their enquiry into a textarea.
   This will enable staff members to greet the user by name and to provide them with a more efficient service when they contact them to follow up on the enquiry.
   - A **call-to-action** 'Submit' button to encourage the user to send their enquiry to the gym.
 
 #### register.html features
   - **banner image** with motivational heading
   - A **Sign-Up Form** enables the user to sign up to become a member of the gym.  
-  Users are asked to submit their name, email address, phone number and choose their desired membership package from a drop-down list.
+  Users are asked to submit their name, email address, phone number and choose their desired membership package from a drop-down list. This provides the gym staff 
+  with vital information about how to contact their new member and what package they wish to purchase. It also enables staff to greet them by the customer by name 
+  when contacting them and should make the subsequent sign-up procedure smoother for the client.
   - A **Call-to-action** 'Sign Up' button encourages the user to complete the registration process.
 
 ### Future Features
- - A payment system so that new users can buy their membership package immediately from the site.
+ - A online payment system so that new users can buy their membership package immediately from the site.
  - An online booking system for classes that current gym members can access through the website.  
  - A link to TrustPilot or a similar consumer review website where the gym’s current members can share their positive experiences at EEE Fitness.
 
@@ -379,10 +386,13 @@ The project consists of six different pages, all of which can be accessed throug
 ---
 
 ## Testing
-### Performance
+
 [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) were used extensively throughout the development process in order to test whether elements were responsive when viewed on mobile and tablet devices. When problems were encountered the Device Selector was used to target the element.  Using the Elements Panel in Developer Tools the code in question was altered in order to achieve the desired result. 
 Working code snippets were then replicated in the style.css file in [Gitpod](https://www.gitpod.io/). Other solutions for errors were found in the Code Institute [Slack](code-institute-room.slack.com) channels, on [Stack Overflow](https://stackoverflow.com/), on [W3Schools](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp) and on [Code Pen](https://codepen.io/careecodes/pen/vGyNxN*/).  
 
+<br>
+
+### Performance
 Once completed the website was tested using the Google Chrome Developer Tools Lighthouse test. 
 Initially the site received a 72% rating on performance, largely due to the size of the images.
 <img src="documentation/lighthouse-first-results-mobile.png" height="auto" width="100%" />
@@ -415,6 +425,7 @@ The site performed well in the Lighthouse test for desktop viewing:
 
 The site currently has no errors:
 <img src="documentation/html-validator-no-errors-page.png" height="auto" width="100%" />
+
 <br>
 
 ### CSS Validation
