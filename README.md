@@ -2,7 +2,7 @@
 
 <h2 align="center">Code Institute - Milestone Project 1</h2>
 
-<img src="documentation/eeefitness-responsive-screenshot-different-screens.png" />
+<img src="documentation/eeefitness-responsive-screenshot-different-screens.png" height="auto" width="100%" alt="Mockup of EEE Fitness index.html page when viewed on a desktop, tablet and mobile device." />
 
 <sub>*Created using* [Am I Responsive](http://ami.responsivedesign.is/)</sub>
 
@@ -395,21 +395,21 @@ Working code snippets were then replicated in the style.css file in [Gitpod](htt
 ### Performance
 Once completed the website was tested using the Google Chrome Developer Tools Lighthouse test. 
 Initially the site received a 72% rating on performance, largely due to the size of the images.
-<img src="documentation/lighthouse-first-results-mobile.png" height="auto" width="100%" />
+<img src="documentation/lighthouse-first-results-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
 
 The images were then compressed using Optimizilla and uploaded to the site. The subsequent test results were not satisfactory. 
 Smaller versions of the images were then downloaded from their respective sites and these images were compressed before being uploaded to Gitpod. 
 The third test resulted in a marked improvement in performance when tested in Lighthouse.
-<img src="documentation/lighthouse-third-results-mobile.png" height="auto" width="100%" />
+<img src="documentation/lighthouse-third-results-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores" />
 
-<img src="documentation/lighthouse-third-results-mobile-performance-breakdown.png" height="auto" width="100%" />
+<img src="documentation/lighthouse-third-results-mobile-performance-breakdown.png" height="auto" width="100%" alt="A breakdown of Google Chrome Developer Lighthouse's Performance Scores for EEE Fitness" />
 
 <br>
 <br>
 
 The site performed well in the Lighthouse test for desktop viewing:
-<img src="documentation/lighthouse-third-results-desktop.png" height="auto" width="100%" />
-<img src="documentation/lighthouse-third-results-desktop-performance-breakdown.png" height="auto" width="100%" />
+<img src="documentation/lighthouse-third-results-desktop.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores for EEE Fitness when viewed on a desktop device."/>
+<img src="documentation/lighthouse-third-results-desktop-performance-breakdown.png" height="auto" width="100%" alt="A breakdown of Google Chrome Developer Lighthouse's Performance Scores for EEE Fitness when viewed on a desktop." />
 <br>
 
 ### HTML Validation
@@ -424,7 +424,7 @@ The site performed well in the Lighthouse test for desktop viewing:
 - the section tags were removed from around the jumbotron on each page as they did not directly contain a heading tag and were showing up as a warning in the HTML validator.
 
 The site currently has no errors:
-<img src="documentation/html-validator-no-errors-page.png" height="auto" width="100%" />
+<img src="documentation/html-validator-no-errors-page.png" height="auto" width="100%" alt="W3C HTML Validation screenshot showing that the site has no errors." />
 
 <br>
 
@@ -437,9 +437,9 @@ It highlighted some errors which have since been resolved:
 - a forward-slash character, left over from a deleted comment, was causing a parse error in the CSS file and was removed.
 
 The style.css file currently has no errors:
-<img src="documentation/css-validator-no-errors-page.png" height="auto" width="100%" />
+<img src="documentation/css-validator-no-errors-page.png" height="auto" width="100%" alt="W3C CSS Validation screenshot showing that the CSS file has no errors."/>
 
-
+<br>
 
 ### Manual Testing
 The website has been tested in the following browsers:
@@ -738,4 +738,5 @@ Photo by Andrea Piacquadio from Pexels
 - [ilovewp.com](https://www.ilovewp.com/resources/wordpress-for-gyms/most-used-google-fonts-on-gym-websites/)’s article, “Most Used Google Fonts on Gym Websites”. 
 
 ##### back to [top](#table-of-contents)
+---
 ---
