@@ -11,7 +11,8 @@ This project is the first of four Milestone Projects that make up the Full Stack
 and the main requirements were to make a static but responsive website with a minimum of three pages using HTML5 and CSS3.
 
 Click <a href="https://nualagr.github.io/eeefitness/">here</a> view the website live.
-<br />
+<br>
+
 ## **Table of Contents**
 1. [**User Experience (UX)**](#user-experience)
     - [User Stories](#user-stories)
@@ -42,7 +43,7 @@ Click <a href="https://nualagr.github.io/eeefitness/">here</a> view the website 
     - [Acknowledgments](#acknowledgments)
     - [References](#references)
 
-<br/>
+<br>
 
 ---
 ## User Experience
@@ -62,7 +63,7 @@ Project goals:
 
 #### New User
 I am a prospective gym member: 
-- I need to be convinced why I should become a member of this gym. 
+- I need to be convinced as to why I should become a member of this gym. 
 - I want to find out about the gym’s ethos.
 - I want to find out where the gym is located.
 - I want to find out the opening hours.
@@ -106,7 +107,7 @@ I am the owner of EEE Fitness:
 - I want to encourage more visitors to follow the gym on social media and thereby raise the profile of the gym.
 - I want to showcase positive reviews that the gym has received.
 
-<br />
+<br>
 
 ##### back to [top](#table-of-contents)
 ---
@@ -385,12 +386,17 @@ The third test resulted in a marked improvement in performance when tested in Li
 
 <img src="documentation/lighthouse-third-results-mobile-performance-breakdown.png" height="auto" width="100%" />
 
+<br>
+<br>
 
 The site performed well in the Lighthouse test for desktop viewing:
 <img src="documentation/lighthouse-third-results-desktop.png" height="auto" width="100%" />
 <img src="documentation/lighthouse-third-results-desktop-performance-breakdown.png" height="auto" width="100%" />
+<br>
 
-[W3C HTML Validation Service](https://validator.w3.org/#validate_by_uri) was used to validate the code. It highlighted some errors across the site which have since been recitified: 
+**HTML Validation**
+
+[W3C HTML Validation Service](https://validator.w3.org/#validate_by_uri) was used to validate the HTML documents. It highlighted some errors across the site which have since been recitified: 
 - button tags were used incorrectly within anchor tags
 - paragraph tags and text that would have displayed if the browser did not support iframes appeared as an error in the HTML validator and were therefore removed
 - the frameborder attribute on the iframe element was removed as it is now obsolete.
@@ -401,9 +407,12 @@ The site performed well in the Lighthouse test for desktop viewing:
 
 The site currently has no errors:
 <img src="documentation/html-validator-no-errors-page.png" height="auto" width="100%" />
+<br>
 
+**CSS Valiation**
 
-[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator) was used to validate the style.css file.  It highlighted some errors which were then resolved:
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator) was used to validate the style.css file. 
+It highlighted some errors which have since been resolved:
 - the scrollbar-width property was removed from the .hide-scrollbar class as it no longer exists as a property.
 - a missing curly brace was inserted in the CSS file.
 - a forward-slash character, left over from a deleted comment, was causing a parse error in the CSS file and was removed.
@@ -421,10 +430,10 @@ The website has been tested in the following browsers:
 - Opera 70
 - Mozilla Firefox 81.0.1
 The website works and functions as expected on Samsung Internet, Google Chrome, Microsoft Edge and Opera.  When opened in Firefox, however the custom svg bullet points do not always render.  
-This is a known issue. I have decided to leave it for now and detail it in the README as the only current error I have come across on the project.
+This is a known issue with Firefox.  Several solutions were attempted but were not successful. 
 
 ### Bugs
-The custom svg bullet point images do no render in Mozilla Firefox 81.0.1 (64-bit). 
+The custom svg bullet point images in the card deck on membership.html do no render in Mozilla Firefox 81.0.1 (64-bit). 
 
 ##### back to [top](#table-of-contents)
 ---
