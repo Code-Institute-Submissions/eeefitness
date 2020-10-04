@@ -66,6 +66,8 @@ Project goals:
 - To create a website that is visually appealing, and fully responsive on all devices and screen sizes
 - To make EEE Fitness seem a reputable business by creating a professional looking website
 
+<br>
+
 ### User Stories
 
 #### New User
@@ -129,6 +131,8 @@ The site has been designed to provide minimal, but relevant, content that is eas
 Imagery of fit individuals working out have been used extensively throughout the site in order to showcase the results that gym members can aspire to achieve.
 Imagery of a wide variety of exercise equipment has been used in order to showcase the gym's facilities.
 
+<br>
+
 ### 2 Scope Plane
 The key features of the website were developed based on the user needs. 
 
@@ -148,6 +152,8 @@ Users should be able to do the following on the website:
 - Contact the gym with a question
 - Visit the gym’s social media channels
 - Learn more about the gym and its ethos
+
+<br>
 
 ### 3 Structure Plane
 
@@ -170,6 +176,7 @@ After identifying the needs of the site's users and after visiting many gym webs
   *  gym-member reviews
 
 For ease of navigation it was decided to opt for a multi-page site, grouped into four pages: ‘Home’, ‘About, ‘Membership’ and ‘Contact’. 
+
 <br>
 
 ### 4 Skeleton Plane
@@ -270,6 +277,7 @@ has a pleasant and efficient experience as they are able to access the informati
 <img src="documentation/eeefitness-site-map.jpg" height="auto" width="100%" alt="EEE Fitness site map" />
 <sub>*Site Map was created using* [Microsoft Word](https://www.microsoft.com/en-ie/microsoft-365/p/word/cfq7ttc0k7c7?=&ef_id=Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB%3aG%3as&OCID=AID2100139_SEM_Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB%3aG%3as&lnkd=Google_O365SMB_App&gclid=Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB&activetab=pivot%3aoverviewtab).</sub>
 
+<br>
 
 ## Features
 
@@ -455,7 +463,7 @@ This is a known issue with Firefox.  Several solutions were attempted but were n
 
 ### Responsiveness
 The website was tested for responsive design using [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools).  
-It was tested with regard to the following:
+It was tested, and found to respond appropriately with regard to each of the following:
 
 **Mobile devices:**
 - Moto G4
@@ -518,6 +526,8 @@ If I decide that I am interested in joining the gym:
 
 &#9745; I want to be able to sign up to become a gym member.
 
+<br>
+
 #### Returning User
 I am a current gym member:
 
@@ -537,6 +547,7 @@ I am a current gym member:
 
 <sub>(This can be achieved through the Contact Us Form or conceivably through the website's social media platforms.)</sub>
 
+<br>
 
 I am a former gym member:
 
@@ -553,6 +564,8 @@ I am a former gym member:
 &#9745; I want to find out how much membership to the gym now costs.
 
 &#9745; I want to be able to contact the gym and make an enquiry about whether there is any discount for returning members.
+
+<br>
 
 #### Business Owner
 I am the owner of EEE Fitness: 
@@ -592,6 +605,7 @@ This project is hosted on [GitHub Pages](https://pages.github.com/)
 
 4) The **Save** button to the right of the newly selected 'Branch: master' was then clicked to deploy the site.
 
+<br>
 
 ### To find the link to the newly deployed site:
 
@@ -602,6 +616,7 @@ This project is hosted on [GitHub Pages](https://pages.github.com/)
 3) Under the heading **Deployments/Activity Log** click on the 'View deployment' button to the right of the screen. 
 The website will open in a separate browser window.
 
+<br>
 
 ### To clone the repository:
 
@@ -635,6 +650,8 @@ The website will open in a separate browser window.
    - [Card Deck](https://getbootstrap.com/docs/4.5/components/card/#card-decks)
    - [Navigational Tabs](https://getbootstrap.com/docs/4.5/components/navs/#tabs)
    - [Form](https://getbootstrap.com/docs/4.1/components/forms/#form-groups)
+
+<br>
 
 ### Media
 
@@ -716,9 +733,7 @@ Photo by Cesar Galeão from Pexels
 https://www.pexels.com/photo/photo-of-person-using-treadmill-3757957/
 Photo by Andrea Piacquadio from Pexels
 
-
 <br>
-
 
 ## Acknowledgements
 
@@ -729,7 +744,6 @@ Photo by Andrea Piacquadio from Pexels
   - https://www.transformfitness.ie/
   - https://gymx.ie/
 
-
 <br>
 
 ## References
@@ -738,5 +752,4 @@ Photo by Andrea Piacquadio from Pexels
 - [ilovewp.com](https://www.ilovewp.com/resources/wordpress-for-gyms/most-used-google-fonts-on-gym-websites/)’s article, “Most Used Google Fonts on Gym Websites”. 
 
 ##### back to [top](#table-of-contents)
----
 ---
