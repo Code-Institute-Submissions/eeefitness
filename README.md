@@ -13,7 +13,7 @@ and the main requirements were to make a static but responsive website with a mi
 Click <a href="https://nualagr.github.io/eeefitness/">here</a> view the website live.
 <br />
 ## **Table of Contents**
-1. [**User Experience (UX)**](#user-experience-(ux))
+1. [**User Experience (UX)**](#user-experience)
     - [User Stories](#user-stories)
         - [New User](#new-user)
         - [Returning User](#returning-user)
@@ -45,7 +45,7 @@ Click <a href="https://nualagr.github.io/eeefitness/">here</a> view the website 
 <br/>
 
 ---
-## User Experience (UX)
+## User Experience
 This section provides insight into the UX process, focusing on who the EEE Fitness website is for, the main aims of the project and 
 how the website can help users meet their needs.
 
@@ -234,7 +234,7 @@ White is a colour associated with cleanliness.  Grey is a colour associated with
 - #2D3142, Space Cadet, which a relatively dark, professional looking grey, was chosen for the navigation bar and the footer. 
 As most gym equipment is grey in colour, shades of grey appeared to be appropriate for the functional navigational bar and the footer.
 - The background colour of site is #FAFAFA, Cultured, a subtle white colour, to keep the website’s image clean and to provide easy contrast.
-- Active links are be displayed in #FC7536, Orange Crayola.  Non-active links change from Cultured Orange Crayola when hovered over in orer to provide visual feedback to the user. 
+- Active links are be displayed in #FC7536, Orange Crayola.  Non-active links change from Cultured to Orange Crayola when hovered over in orer to provide visual feedback to the user. 
 To be consistent the social media links in the footer behave in a similar fashion.
 - #FC7536, Orange Crayola, is used as an accent colour throughout the site, from the logo to providing a striking contrasting background colour, to call-to-action buttons.  Where a stronger contrast was desired #FB5607, Orange Pantone was used in its stead.
 - #D3D3D3, Light Grey, was used instead of Cultured in areas where it was deemed that it would produce a softer contrast, for example it was 
@@ -248,7 +248,7 @@ They were taken from [Font Awesome](https://fontawesome.com/) and chosen to be s
 #### Typography
 According to [ilovewp.com](https://www.ilovewp.com/resources/wordpress-for-gyms/most-used-google-fonts-on-gym-websites/)’s article, 'Most Used Google Fonts on Gym Websites' *Open Sans* was the most popular font, 
 therefore it was chosen as the main heading font.  [Google Fonts](https://fonts.google.com/) suggested *Roboto* as a complimentary font to *Open Sans*.  As this font was also the third most popular font choice
-on gym websites, it was chosen as the main font for the body of the website.   
+on gym websites, it was selected as the main font for the body of the website.   
 
 ##### back to [top](#table-of-contents)
 ---
@@ -277,12 +277,12 @@ The project consists of six different pages, all of which can be accessed throug
 **Header**
 
 - **Company Logo**: created using [Font Awesome](https://fontawesome.com/) and [Inkscape](https://inkscape.org/).  This allows the user to instantly recognise the companies brand. 
-- **Navigation Bar**: allows the user to navigate through the site easily. Fully responsive it condenses to a'hamburger icon' for a more streamlined appearance on tablet and mobile devices.
+- **Navigation Bar**: allows the user to navigate through the site easily. Fully responsive it condenses to a 'hamburger icon' for a more streamlined appearance on tablet and mobile devices.
  
 
 **Footer**
 
-- **Contact Details**: make it easy for any user to find out the gyms location, email address, phone number and opening hours without leaving any page
+- **Contact Details**: make it easy for any user to find the gyms location, email address, phone number and opening hours without leaving the page they are on.
   - an **iframe** shows the user the location of the gym (visible on desktop and tablet view only)
   - gym postal address
   - gym **telephone number with active link** so the user can call the gym immediately
@@ -291,38 +291,42 @@ The project consists of six different pages, all of which can be accessed throug
 - **Social Media Links**: allows the user to easily access the gym's fictitious Facebook, Instagram, YouTube and Twitter accounts.
 
 #### index.html features
-  - full-screen **hero image** with 'Sign Up' **call-to-action button** to entice the user to sign up immediately upon entering the site.
+  - Full-screen **hero image** with 'Sign Up' **call-to-action button** to entice the user to sign up immediately upon entering the site.
   - EEE Fitness Services Section provides the user with a concise description of the services on offer.  **Eye-catching icons** provide them with an understanding of the services at a glance.  **Call-to-action buttons** facilitate the user's curiosity by linking to further information about each service, located elsewhere on the site.  
-  - a **carousel** featuring client testimonials and accompanying photographs allows the user to read positive reviews of the gym, its staff and facilities.
+  - A **carousel** featuring client testimonials and accompanying photographs allows the user to read positive reviews of the gym, its staff and facilities.
   - Meet the Team section with photographs of the gym trainers and accompanying information allows the users to see the staff members in a visually appealing way and to find out about their qualifications.
   - **Call-to-action banner** in orange with a **call-to-action button** enabling the user to click and sign-up without having to scroll back up to the top of the page or to click the menu button.
 
 #### facilities.html features
-  - **banner image** with motivational heading 
-  - **high quality images** of gym members and gym equipment allows the user to see the gym's facilities.  The images show both male and female gym members in order to appeal to prospective users of both genders. Short descriptions of the gym's different zones explain succintly what is on offer to the gym's members.
+  - **Banner image** with motivational heading 
+  - **High quality images** of gym members and gym equipment allows the user to see the gym's facilities.  The images show both male and female gym members in order to appeal to prospective users of both genders. Short descriptions of the gym's different zones explain succintly what is on offer to the gym's members.
 
 #### classes.html features
-  - **banner image** with motivational heading
-  - a **tabbed navigation pane** allows the user to easily tab, rather than scroll, through the different days of the week in order to see what classes are on offer.
-  - **call-to-action** 'Learn More' buttons have been placed next to each class to quickly bring the user to a class description and accompanying image located further down the page.
+  - **Banner image** with motivational heading
+  - A **tabbed navigation pane** allows the user to easily tab, rather than scroll, through the different days of the week in order to see what classes are on offer.
+  - **Call-to-action** 'Learn More' buttons have been placed next to each class to quickly bring the user to a class description and accompanying image located further down the page.
 
 #### membership.html features
-  - **banner image** with motivational heading
-  - A **card deck** clearly displays the different membership packages on offer, their components and price.
-  - a **call-to-action** 'Sign Up' button allows the user to navigate straight to the Sign Up form without having to use the navigation bar.
+  - **Banner image** with motivational heading
+  - A **card deck** with bullet point statements clearly displays the different membership packages on offer to the user, their components and price.
+  - A **call-to-action** 'Sign Up' button allows the user to navigate straight to the Sign Up Form without having to use the navigation bar.
 
 #### contact.html features
-  - **banner image** with motivational heading
-  - **form** allows the user to contact the company. They can their name, email address, phone number type their enquiry and send it straight to the gym via a **call-to-action** 'Submit' button.
+  - **Banner image** with motivational heading
+  - A full page **Contact Us Form** allows the user to contact the company without having to open their own email provider's website or app. 
+  They are asked to provide their name, email address, phone number and to type their enquiry into a textarea.  
+  This will enable staff members to greet the user by name and to provide them with a more efficient service when they contact them to follow up on the enquiry.
+  - A **call-to-action** 'Submit' button to encourage the user to send their enquiry to the gym.
 
 #### register.html features
   - **banner image** with motivational heading
-  - **form** allows the user to sign up to become a member of the gym.  They can submit their name, email address, phone number and choose their desired membership package from a drop-down list.
-  - **call-to-action** 'Sign Up' button
+  - A **Sign-Up Form** enables the user to sign up to become a member of the gym.  
+  Users are asked to submit their name, email address, phone number and choose their desired membership package from a drop-down list.
+  - A **Call-to-action** 'Sign Up' button encourages the user to complete the registration process.
 
 ### Future Features
- - An online booking system for classes that current gym members can access through the website.
  - A payment system so that new users can buy their membership package immediately from the site.
+ - An online booking system for classes that current gym members can access through the website.  
  - A link to TrustPilot or a similar consumer review website where the gym’s current members can share their positive experiences at EEE Fitness.
 
 ##### back to [top](#table-of-contents)
@@ -333,7 +337,8 @@ The project consists of six different pages, all of which can be accessed throug
 
   * [HTML5](http://en.wikipedia.org/wiki/HTML5)
   * [CSS3](http://en.wikipedia.org/wiki/CSS)
-  * [JavaScript](https://en.wikipedia.org/wiki/JavaScript). JavaScript was imported from the [Bootstrap Framework](https://getbootstrap.com/) for the responsive navbar used throughout the site, the testimonial carousel on index.html, the tabbed navigation pane used for the class timetable on classes.html and the card deck on the membership.html page.
+  * [JavaScript](https://en.wikipedia.org/wiki/JavaScript). JavaScript was imported from the [Bootstrap Framework](https://getbootstrap.com/) 
+  for the responsive navbar used throughout the site, the testimonial carousel on index.html and the tabbed navigation pane used for the class timetable on classes.html.
 
 - Websites
   * [Am I Responsive](http://ami.responsivedesign.is/). Used to create the mock-up image at the top of this document which shows the site as it would behave when viewed on desktop, mobile and tablet devices. 
@@ -342,9 +347,9 @@ The project consists of six different pages, all of which can be accessed throug
   * [Code Institute](https://codeinstitute.net/). Used to review concepts covered in preceding modules and walk-through projects. 
   * [Code Pen](https://codepen.io/careecodes/pen/vGyNxN*/). The code for the shadow-box page divider on the classes.html page was initially sourced from the codepen.io site.
   * [Coolors](https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff). Used to choose a colour scheme.
-  * [Font Awesome](https://fontawesome.com/). Used to source the free icons used in the Services section, used as the social media links in the footer and used for the favicon.
+  * [Font Awesome](https://fontawesome.com/). Used to source the free icons that were used in the Services section on index.html, as the social media links in the footer and as the favicon.
   * [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools). Used extensively throughout the project to test the responsiveness of elements, to target and apply CSS styles during the design phase and to test the site's performance once built. 
-  * [Google Fonts](https://fonts.google.com/). Used to choose and source the fonts used on the site.
+  * [Google Fonts](https://fonts.google.com/). Used to choose and source the fonts used throughout the site.
   * [Github](https://github.com/). Used to host the deployed site and used as a respository for all previous versions of the build.
   * [Gitpod](https://www.gitpod.io/). Online IDE used to build and develop the website.
   * [Optimizilla](https://imagecompressor.com/). Used during the testing phase in order to compress the photographs to reduce the site loading time.
@@ -367,7 +372,23 @@ The project consists of six different pages, all of which can be accessed throug
 
 ## Testing
 [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) were used extensively throughout the development process in order to test whether elements were responsive when viewed on mobile and tablet devices. When problems were encountered the Device Selector was used to target the element.  Using the Elements Panel in Developer Tools the code in question was altered in order to achieve the desired result. 
-Working code snippets were then replicated in the style.css file in [Gitpod](https://www.gitpod.io/). Other solutions for errors were found in the Code Institute Slack channels, on Stac.  
+Working code snippets were then replicated in the style.css file in [Gitpod](https://www.gitpod.io/). Other solutions for errors were found in the Code Institute [Slack](code-institute-room.slack.com) channels, on [Stack Overflow](https://stackoverflow.com/), on [W3Schools](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp) and on [Code Pen](https://codepen.io/careecodes/pen/vGyNxN*/).  
+
+Once completed the website was tested using the Google Chrome Developer Tools Lighthouse test. 
+Initially the site received a 72% rating on performance, largely due to the size of the images.
+<img src="documentation/lighthouse-first-results-mobile.png" height="auto" width="100%" />
+
+The images were then compressed using Optimizilla and uploaded to the site. The subsequent test results were not satisfactory. 
+Smaller versions of the images were then downloaded from their respective sites and these images were compressed before being uploaded to Gitpod. 
+The third test resulted in a marked improvement in performance when tested in Lighthouse.
+<img src="documentation/lighthouse-third-results-mobile.png" height="auto" width="100%" />
+
+<img src="documentation/lighthouse-third-results-mobile-performance-breakdown.png" height="auto" width="100%" />
+
+
+The site performed well in the Lighthouse test for desktop viewing:
+<img src="documentation/lighthouse-third-results-desktop.png" height="auto" width="100%" />
+<img src="documentation/lighthouse-third-results-desktop-performance-breakdown.png" height="auto" width="100%" />
 
 [W3C HTML Validation Service](https://validator.w3.org/#validate_by_uri) was used to validate the code. It highlighted some errors across the site which have since been recitified: 
 - button tags were used incorrectly within anchor tags
@@ -390,20 +411,7 @@ The site currently has no errors:
 The style.css file currently has no errors:
 <img src="documentation/css-validator-no-errors-page.png" height="auto" width="100%" />
 
-The website was then tested using the Google Chrome Developer Tools Lighthouse test. 
-Initially the site received a 72% rating on performance, largely due to the size of the images.
-<img src="documentation/lighthouse-first-results-mobile.png" height="auto" width="100%" />
 
-The images were then compressed using Optimizilla and uploaded to the site.  
-The subsequent test results were not satisfactory.  Smaller versions of the images were then downloaded from their respective sites and these images were compressed before being uploaded to Gitpod. The third test resulted in a marked improvement in performance when tested in Lighthouse.
-<img src="documentation/lighthouse-third-results-mobile.png" height="auto" width="100%" />
-
-<img src="documentation/lighthouse-third-results-mobile-performance-breakdown.png" height="auto" width="100%" />
-
-
-The site performed well in the Lighthouse test for desktop viewing:
-<img src="documentation/lighthouse-third-results-desktop.png" height="auto" width="100%" />
-<img src="documentation/lighthouse-third-results-desktop-performance-breakdown.png" height="auto" width="100%" />
 
 ### Browsers Tested
 The website has been tested in the following browsers:
