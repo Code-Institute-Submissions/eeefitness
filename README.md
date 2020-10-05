@@ -7,8 +7,8 @@
 <sub>*Created using* [Am I Responsive](http://ami.responsivedesign.is/)</sub>
 
 EEE Fitness is a fictitious gym whose motto is Exercise Energize Empower. 
-This project is the first of four Milestone Projects that make up the Full Stack Web Development Program at the [Code Institue](https://codeinstitute.net/), 
-and the main requirements were to make a static but responsive website with a minimum of three pages using HTML5 and CSS3.
+This project is the first of four Milestone Projects that make up the Full Stack Web Development Program at the [Code Institue](https://codeinstitute.net/). 
+The main requirements were to make a static but responsive website with a minimum of three pages using HTML5 and CSS3.
 
 Click <a href="https://nualagr.github.io/eeefitness/">here</a> view the website live.
 <br>
@@ -287,9 +287,9 @@ The project consists of six different pages, all of which can be accessed throug
 
 #### Consistent features across all pages:
 
-**Favicon** displayed on the web brower's tab, this allows the user to identify the site by sight.
+The company's **favicon**, displayed on the web brower's tab, allows the user to identify the website by sight.
 
-**Title** displayed on the web browser's tab at all times.  This clearly identifies the company's title, clarifies that it is a gym and states its location.
+The **Title**, displayed on the web browser's tab at all times, clearly identifies the company name, clarifies that it is a gym and states its location.
 
 **Header**
 
@@ -305,50 +305,54 @@ The project consists of six different pages, all of which can be accessed throug
   - gym **telephone number with active link** so the user can call the gym immediately
   - gym **email address with active link** so that the user can email the gym directly if they have a query
   - table displaying the gym's opening hours so that the user can see at a glance when the gym is open
-- **Social Media Links**: allows the user to easily access the gym's fictitious Facebook, Instagram, YouTube and Twitter accounts.
+- **Social Media Links**: allow the user to easily access the gym's fictitious Facebook, Instagram, YouTube and Twitter accounts.
+
+<br>
 
 #### Features by page
 
 #### index.html features
-  - Full-screen **hero image** with 'Sign Up' **call-to-action button** to entice the user to sign up immediately upon entering the site.
-  - EEE Fitness Services Section provides the user with a concise description of the services on offer.  **Eye-catching icons** provide them with an understanding of the services at a glance.  **Call-to-action buttons** facilitate the user's curiosity by linking to further information about each service, located elsewhere on the site.  
+  - A full-screen **hero image** with 'Sign Up' **call-to-action button** entices the user to sign up immediately upon entering the site.
+  - The EEE Fitness Services Section provides the user with a concise description of the services on offer.  **Eye-catching icons** provide them with an understanding of the services at a glance.  **Call-to-action buttons** facilitate the user's curiosity by linking to further information about each service, located elsewhere on the site.  
   - A **carousel** featuring client testimonials and accompanying photographs allows the user to read positive reviews of the gym, its staff and facilities.
-  - Meet the Team section with photographs of the gym trainers and accompanying information allows the user to see the staff members in a visually appealing way and to find out about their qualifications.
-  - **Call-to-action banner** in orange with a **call-to-action button** enabling the user to click and sign-up without having to scroll back up to the top of the page or to click the menu button.
+  - The Meet the Team section provides the user with **photographs** of the gym's personal trainers, the human face of the company.  Accompanying information showcases the professional and highly-qualified nature of EEE Fitness staff.
+  - A striking orange coloured **call-to-action banner** and **call-to-action button** draws the user's eye.  It enables the user to sign-up without having to scroll back up to the top of the page or to click the menu button.
 
 #### facilities.html features
-  - **Banner image** with motivational heading 
-  - **High quality images** of gym members and gym equipment allow the user to see the gym's facilities. 
-  The images show both male and female gym members in order to appeal to prospective users of both genders. 
+  - A **banner image** with motivational heading reaffirms the gym's brand by referencing part of the gym's motto.
+  - **High quality images** of gym members and gym equipment allow the user to see the gym's facilities in an attractive light. 
+  Images of both male and female gym members have been chosen in order to appeal to as wide an audience as possible. 
   Short descriptions of the gym's different zones explain succintly what is on offer to the gym's members.
 
 #### classes.html features
-  - **Banner image** with motivational heading
+  - A **banner image** with motivational heading emphasises part of the gym ethos - that EEE Fitness can make working out fun.
   - A **tabbed navigation pane** allows the user to easily tab, rather than scroll, through the different days of the week in order to see what classes are on offer.
   - **Call-to-action** 'Learn More' buttons have been placed next to each class to quickly bring the user to a class description and accompanying image located further down the page.
 
 #### membership.html features
-  - **Banner image** with motivational heading
+  - A **banner image** with motivational heading suggests the helpful and personalised service on offer in EEE Fitness.
   - A **card deck** with bullet point statements clearly displays the different membership packages on offer to the user, their components and price.
   - A **call-to-action** 'Sign Up' button allows the user to navigate straight to the Sign Up Form without having to use the navigation bar.
 
 #### contact.html features
-  - **Banner image** with motivational heading
+  - A **banner image** with rhetorical question and imperative statement encourages the user to take action and contact the gym.
   - A full page **Contact Us Form** allows the user to contact the company without having to open their own email provider's website or app. 
   They are asked to provide their name, email address, phone number and to type their enquiry into a textarea.
   This will enable staff members to greet the user by name and to provide them with a more efficient service when they contact them to follow up on the enquiry.
-  - A **call-to-action** 'Submit' button to encourage the user to send their enquiry to the gym.
+  - A **call-to-action** 'Submit' button enables the user to send their completed form to the gym.
 
 #### register.html features
-  - **banner image** with motivational heading
+  - A **banner image** with motivational statement confirms that the user has taken a positive step towards achieving their fitness goal by opening the Sign Up page.
   - A **Sign-Up Form** enables the user to sign up to become a member of the gym.  
   Users are asked to submit their name, email address, phone number and choose their desired membership package from a drop-down list. This provides the gym staff 
-  with vital information about how to contact their new member and what package they wish to purchase. It also enables staff to greet them by the customer by name 
-  when contacting them and should make the subsequent sign-up procedure smoother for the client.
+  with vital information about how to contact their new member and what package they wish to purchase. It also enables staff to greet the customer by name 
+  when contacting them and it should make the subsequent sign-up procedure smoother for the client.
   - A **Call-to-action** 'Sign Up' button encourages the user to complete the registration process.
 
+<br>
+
 ### Future Features
- - A online payment system so that new users can buy their membership package immediately from the site.
+ - An online payment system so that new users can buy their membership package immediately from the site.
  - An online booking system for classes that current gym members can access through the website.  
  - A link to TrustPilot or a similar consumer review website where the gym’s current members can share their positive experiences at EEE Fitness.
 
