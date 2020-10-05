@@ -13,6 +13,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin-top: 62px;
 }
+
 /*Fix to hide scrollbar but keep the scroll functionality found on W3Schools: https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
 body.hide-scrollbar::-webkit-scrollbar {
     display: none; /* Hide scrollbar for Chrome, Safari and Opera */
@@ -54,8 +55,8 @@ section#contactUsSection {
 section#registrationFormSection {
     background-color: #FC7536;
 }
-/*----------------------------------Special paddings/margins/text*/
 
+/*----------------------------------Special paddings/margins/text*/
 .uppercase {
     text-transform: uppercase;
 }
@@ -102,6 +103,7 @@ section#registrationFormSection h2.section-heading-white {
     padding: 20px 0;
     text-align: center;
 }
+
 /*----------------------------------Navigation Bar*/
 /* over-write the Bootstrap navbar class */
 .navbar {
@@ -155,7 +157,6 @@ button:focus {
 }
 
 /*----------------------------------Containers */
-
 .hero-image-container {
     height: 100vh;
     background:  #2D3142 url("../images/woman-weightlifting-orange-min.jpg") fixed center no-repeat;
@@ -249,7 +250,6 @@ button:focus {
 } 
 
 /*----------------------------------Buttons*/
-
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
@@ -311,7 +311,6 @@ button:focus {
 }
 
 /*----------------------------------Footer*/
-
 footer {
     color: #FAFAFA;
     min-height: 120px;
@@ -429,6 +428,7 @@ table
 .footer-bottom {
     font-size: small;
 }
+
 /*----------------------------------Services Section*/
 section#servicesSection .services-icons i {
     color: #FC7536;
@@ -447,8 +447,8 @@ section#servicesSection .services-find-out-more-button-row button {
     font-size: 1rem;
     margin-bottom: 3.5rem;
 }
-/*----------------------------------Testimonials Section*/
 
+/*----------------------------------Testimonials Section*/
 .comments {
     margin: 1em 0 1em 0;
 }
@@ -488,7 +488,6 @@ section#trainersSection .trainers-container p {
 }
 
 /*----------------------------------Facilities Section*/
-
 section#facilitiesSection .facility-image img {
     position: relative;
     width: 100%;
@@ -603,8 +602,8 @@ section#membershipPricingSection .card-list ul li {
 section#membershipPricingSection .membership-sign-up-button-row {
     margin-top: 2rem;
 }
-/*----------------------------------Contact Us Form*/
 
+/*----------------------------------Contact Us Form*/
 section#contactUsSection form#contactForm .form-group {
     margin-bottom: 1.35rem;
 }

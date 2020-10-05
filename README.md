@@ -2,7 +2,7 @@
 
 <h2 align="center">Code Institute - Milestone Project 1</h2>
 
-<img src="documentation/eeefitness-responsive-screenshot-different-screens.png" height="auto" width="100%" alt="Mockup of EEE Fitness index.html page when viewed on a desktop, tablet and mobile device." />
+<img src="documentation/readme-images/eeefitness-responsive-screenshot-different-screens.png" height="auto" width="100%" alt="Mockup of EEE Fitness index.html page when viewed on a desktop, tablet and mobile device." />
 
 <sub>*Created using* [Am I Responsive](http://ami.responsivedesign.is/)</sub>
 
@@ -243,7 +243,7 @@ precious commodity to them. Because of this it is imperative that the site be ea
 The colour scheme was chosen in order to convey a simple, clean and visually appealing site that evoked both an energetic, yet clean and professional atmosphere. Orange is colour that is traditionally associated with energy.  
 White is a colour associated with cleanliness.  Grey is a colour associated with business and professionalism. 
 
-<img src="documentation/eee-fitness-colour-palette.png" height="auto%" width="100%" alt="EEE Fitness colour palette" />
+<img src="documentation/readme-images/eee-fitness-colour-palette.png" height="auto%" width="100%" alt="EEE Fitness colour palette" />
 
 <sub>*Colour palette created at* [coolors.co](https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff).</sub>
 
@@ -274,7 +274,7 @@ In Mentor Session 1, Mr. Reuben Ferrante suggested that a more efficient layout 
 The About page information relating to the gym staff and services were included on the Home page and the final site structure 
 consists of six main pages: Home, Facilities, Classes, Membership, Contact and Sign Up.  This structure should ensure that the end user
 has a pleasant and efficient experience as they are able to access the information that they seek with fewer clicks, hopefully leading them to continue their browsing experience.
-<img src="documentation/eeefitness-site-map.jpg" height="auto" width="100%" alt="EEE Fitness site map" />
+<img src="documentation/readme-images/eeefitness-site-map.jpg" height="auto" width="100%" alt="EEE Fitness site map" />
 <sub>*Site Map was created using* [Microsoft Word](https://www.microsoft.com/en-ie/microsoft-365/p/word/cfq7ttc0k7c7?=&ef_id=Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB%3aG%3as&OCID=AID2100139_SEM_Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB%3aG%3as&lnkd=Google_O365SMB_App&gclid=Cj0KCQjwwuD7BRDBARIsAK_5YhXETvfhSIhKaGdssIQw29SJmGZ4uWT6YF9Tfd1-1qMY2mSRD4t5F2oaAo-iEALw_wcB&activetab=pivot%3aoverviewtab).</sub>
 
 <br>
@@ -407,21 +407,21 @@ Working code snippets were then replicated in the style.css file in [Gitpod](htt
 ### Performance
 Once completed the website was tested using the Google Chrome Developer Tools Lighthouse test. 
 Initially the site received a 72% rating on performance, largely due to the size of the images.
-<img src="documentation/lighthouse-first-results-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
+<img src="documentation/testing-screenshots/lighthouse-first-results-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores"/>
 
 The images were then compressed using Optimizilla and uploaded to the site. The subsequent test results were not satisfactory. 
 Smaller versions of the images were then downloaded from their respective sites and these images were compressed before being uploaded to Gitpod. 
 The third test resulted in a marked improvement in performance when tested in Lighthouse.
-<img src="documentation/lighthouse-third-results-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores" />
+<img src="documentation/testing-screenshots/lighthouse-third-results-mobile.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores" />
 
-<img src="documentation/lighthouse-third-results-mobile-performance-breakdown.png" height="auto" width="100%" alt="A breakdown of Google Chrome Developer Lighthouse's Performance Scores for EEE Fitness" />
+<img src="documentation/testing-screenshots/lighthouse-third-results-mobile-performance-breakdown.png" height="auto" width="100%" alt="A breakdown of Google Chrome Developer Lighthouse's Performance Scores for EEE Fitness" />
 
 <br>
 <br>
 
 The site performed well in the Lighthouse test for desktop viewing:
-<img src="documentation/lighthouse-third-results-desktop.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores for EEE Fitness when viewed on a desktop device."/>
-<img src="documentation/lighthouse-third-results-desktop-performance-breakdown.png" height="auto" width="100%" alt="A breakdown of Google Chrome Developer Lighthouse's Performance Scores for EEE Fitness when viewed on a desktop." />
+<img src="documentation/testing-screenshots/lighthouse-third-results-desktop.png" height="auto" width="100%" alt="Google Chrome Developer Lighthouse Test Scores for EEE Fitness when viewed on a desktop device."/>
+<img src="documentation/testing-screenshots/lighthouse-third-results-desktop-performance-breakdown.png" height="auto" width="100%" alt="A breakdown of Google Chrome Developer Lighthouse's Performance Scores for EEE Fitness when viewed on a desktop." />
 <br>
 
 ### HTML Validation
@@ -436,7 +436,7 @@ The site performed well in the Lighthouse test for desktop viewing:
 - the section tags were removed from around the jumbotron on each page as they did not directly contain a heading tag and were showing up as a warning in the HTML validator.
 
 The site currently has no errors:
-<img src="documentation/html-validator-no-errors-page.png" height="auto" width="100%" alt="W3C HTML Validation screenshot showing that the site has no errors." />
+<img src="documentation/testing-screenshots/html-validator-no-errors-page.png" height="auto" width="100%" alt="W3C HTML Validation screenshot showing that the site has no errors." />
 
 <br>
 
@@ -449,7 +449,7 @@ It highlighted some errors which have since been resolved:
 - a forward-slash character, left over from a deleted comment, was causing a parse error in the CSS file and was removed.
 
 The style.css file currently has no errors:
-<img src="documentation/css-validator-no-errors-page.png" height="auto" width="100%" alt="W3C CSS Validation screenshot showing that the CSS file has no errors."/>
+<img src="documentation/testing-screenshots/css-validator-no-errors-page.png" height="auto" width="100%" alt="W3C CSS Validation screenshot showing that the CSS file has no errors."/>
 
 <br>
 
@@ -504,88 +504,164 @@ I am a prospective gym member:
 &#9745; I need to be convinced as to why I should become a member of this gym. 
 
 &#9745; I want to find out about the gym’s ethos.
+<img src="documentation/testing-screenshots/screenshot-new-user-ethos.png" height="auto" width="100%" alt="Screenshot of Desktop hero image, title and services section."/>
+
+<br>
 
 &#9745; I want to find out where the gym is located.
+<img src="documentation/testing-screenshots/screenshot-new-user-gym-location.png" height="auto" width="100%" alt="Screenshot of Desktop hero image, title and services section."/>
+
+<br>
 
 &#9745; I want to find out the opening hours.
+<img src="documentation/testing-screenshots/screenshot-new-user-gym-location.png" height="auto" width="100%" alt="Screenshot of Desktop hero image, title and services section."/>
+
+<br>
 
 &#9745; I want to find out what gym facilities are available. 
+<img src="documentation/testing-screenshots/screenshot-new-user-facilities-info.png" height="auto" width="100%" alt="Screenshot of desktop view of gym website facilities page."/>
 
+<br>
 &#9745; I want to find out what classes are on offer.
+<img src="documentation/testing-screenshots/screenshot-new-user-class-information.png" height="auto" width="100%" alt="Screenshot of desktop view of EEE Fitness exercise classes page showing Boxercise and Kettlebells images and information."/>
+
+<br>
+<br>
 
 &#9745; I want to find out when those classes are run.
+<img src="documentation/testing-screenshots/screenshot-new-user-class-timetable.png" height="auto" width="100%" alt="Screenshot of desktop view of EEE Fitness exercise classes timetable."/>
 
+<br>
 &#9745; I want to be able to read reviews of the gym written by gym members.
+<img src="documentation/testing-screenshots/screenshot-new-user-testimonial.png" height="auto" width="100%" alt="Screenshot of desktop view of testimonial carousel."/>
+
+<br>
+<br>
 
 &#9745; I want to find out about the personal trainers and their qualifications.
+<img src="documentation/testing-screenshots/screenshot-new-user-trainers-info.png" height="auto" width="100%" alt="Screenshot of desktop view of personal trainer profiles."/>
 
+<br>
 &#9745; I want to find out what services are on offer at the gym.
+<img src="documentation/testing-screenshots/screenshot-new-user-services.png" height="auto" width="100%" alt="Screenshot of desktop view of EEE Fitness Services Section."/>
+
+<br>
+<br>
 
 &#9745; I want to find out how much membership to the gym will cost.
+<img src="documentation/testing-screenshots/screenshot-new-user-membership-packages.png" height="auto" width="100%" alt="Screenshot of desktop view of website showing membership packages and pricing information."/>
 
+<br>
 <br>
 If I decide that I am interested in joining the gym: 
 
 &#9745; I want to be able to contact the gym.
+<img src="documentation/testing-screenshots/screenshot-new-user-contact-us-form.png" height="auto" width="100%" alt="Screenshot of desktop view of website showing the Contact Us form."/>
 
+<br>
 &#9745; I want to be able to sign up to become a gym member.
+<img src="documentation/testing-screenshots/screenshot-new-user-sign-up-form.png" height="auto" width="100%" alt="Screenshot of desktop view of website showing the Sign Up form."/>
 
+<br>
 <br>
 
 #### Returning User
 I am a current gym member:
 
 &#9745; I want to view the gym opening hours.
+<img src="documentation/testing-screenshots/screenshot-new-user-gym-location.png" height="auto" width="100%" alt="Screenshot of Desktop hero image, title and services section."/>
 
+<br>
 &#9745; I want to see what classes are on offer.
+<img src="documentation/testing-screenshots/screenshot-new-user-class-information.png" height="auto" width="100%" alt="Screenshot of desktop view of EEE Fitness exercise classes page showing Boxercise and Kettlebells images and information."/>
 
+<br>
 &#9745; I want to see what times the classes are running.
+<img src="documentation/testing-screenshots/screenshot-new-user-class-timetable.png" height="auto" width="100%" alt="Screenshot of desktop view of EEE Fitness exercise classes timetable."/>
 
+<br>
 &#9745; I want to be able to book a place in a class. 
 
 <sub>(This can be achieved through the Contact Us Form currently. A fully-integrated booking system is envisaged for a future rollout).</sub>
+<img src="documentation/testing-screenshots/screenshot-new-user-contact-us-form.png" height="auto" width="100%" alt="Screenshot of desktop view of website showing the Contact Us form."/>
 
+<br>
 &#9745; I want to be able to contact the gym and make an enquiry.
+<img src="documentation/testing-screenshots/screenshot-new-user-contact-us-form.png" height="auto" width="100%" alt="Screenshot of desktop view of website showing the Contact Us form."/>
 
+<br>
 &#9745; I want to be able to leave a gym review. 
 
 <sub>(This can be achieved through the Contact Us Form or conceivably through the website's social media platforms.)</sub>
+<img src="documentation/testing-screenshots/screenshot-new-user-contact-us-form.png" height="auto" width="100%" alt="Screenshot of desktop view of website showing the Contact Us form."/>
 
+<br>
 <br>
 
 I am a former gym member:
 
 &#9745; I want to view the gym opening hours.
+<img src="documentation/testing-screenshots/screenshot-new-user-gym-location.png" height="auto" width="100%" alt="Screenshot of Desktop hero image, title and services section."/>
 
+<br>
 &#9745; I want to view the classes on offer.
+<img src="documentation/testing-screenshots/screenshot-new-user-class-information.png" height="auto" width="100%" alt="Screenshot of desktop view of EEE Fitness exercise classes page showing Boxercise and Kettlebells images and information."/>
 
+<br>
 &#9745; I want to see what times the classes are running.
+<img src="documentation/testing-screenshots/screenshot-new-user-class-timetable.png" height="auto" width="100%" alt="Screenshot of desktop view of EEE Fitness exercise classes timetable."/>
 
+<br>
 &#9745; I want to be able to find out what services are on offer.
+<img src="documentation/testing-screenshots/screenshot-new-user-services.png" height="auto" width="100%" alt="Screenshot of desktop view of EEE Fitness Services Section."/>
 
+<br>
 &#9745; I want to find out about the personal trainers and their qualifications.
+<img src="documentation/testing-screenshots/screenshot-new-user-trainers-info.png" height="auto" width="100%" alt="Screenshot of desktop view of personal trainer profiles."/>
 
+<br>
 &#9745; I want to find out how much membership to the gym now costs.
+<img src="documentation/testing-screenshots/screenshot-new-user-membership-packages.png" height="auto" width="100%" alt="Screenshot of desktop view of website showing membership packages and pricing information."/>
+
+<br>
 
 &#9745; I want to be able to contact the gym and make an enquiry about whether there is any discount for returning members.
+<img src="documentation/testing-screenshots/screenshot-new-user-contact-us-form.png" height="auto" width="100%" alt="Screenshot of desktop view of website showing the Contact Us form."/>
 
+<br>
 <br>
 
 #### Business Owner
 I am the owner of EEE Fitness: 
 
 &#9745; I want to encourage more people to sign up to the gym.
+<img src="documentation/testing-screenshots/screenshot-new-user-motivation.png" height="auto" width="100%" alt="Screenshot of desktop view of hero image, motivational heading and Sign Up button."/>
+
+<br>
 
 &#9745; I want to clearly display information about the gym in an attractive and informative way for both current and prospective members.
+<img src="documentation/testing-screenshots/screenshot-new-user-facilities-info.png" height="auto" width="100%" alt="Screenshot of desktop view of gym website facilities page."/>
+
+<br>
 
 &#9745; I want visitors to the site to be able to contact the gym easily.
+<img src="documentation/testing-screenshots/screenshot-new-user-contact-us-form.png" height="auto" width="100%" alt="Screenshot of desktop view of website showing the Contact Us form."/>
 
+<br>
 &#9745; I want prospective clients to be able to sign up easily.
+<img src="documentation/testing-screenshots/screenshot-new-user-sign-up-form.png" height="auto" width="100%" alt="Screenshot of desktop view of website showing the Sign Up form."/>
+
+<br>
+<br>
 
 &#9745; I want to encourage more visitors to follow the gym on social media and thereby raise the profile of the gym.
+<img src="documentation/testing-screenshots/screenshot-new-user-gym-location.png" height="auto" width="100%" alt="Screenshot of website footer with visible social media icon links."/>
 
+<br>
 &#9745; I want to showcase positive reviews that the gym has received.
+<img src="documentation/testing-screenshots/screenshot-new-user-testimonial.png" height="auto" width="100%" alt="Screenshot of desktop view of testimonial carousel."/>
 
+<br>
 <br>
 
 
