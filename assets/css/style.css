@@ -595,8 +595,6 @@ section#membershipPricingSection .card-body {
 
 section#membershipPricingSection .card-list ul li {
     list-style-image: url("../images/check-solid-white.svg");
-    width: 15;
-    height: 15;
 }
 
 section#membershipPricingSection .membership-sign-up-button-row {
