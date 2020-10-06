@@ -76,21 +76,21 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <form id="contactForm" action="https://formdump.codeinstitute.net/" method="post">
+                        <form id="contactForm" onsubmit="alert('Thank you for contacting EEE Fitness! A member of the team will be in touch shortly.')">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="fname" placeholder="Your First Name *" required="required">
+                                <input type="text" class="form-control" id="fname" name="firstname" placeholder="Your First Name *" required="required">
                             </div>    
                             <div class="form-group">
-                                <input type="text" class="form-control" id="sname" placeholder="Your Surname *" required="required">
+                                <input type="text" class="form-control" id="sname" name="surname" placeholder="Your Surname *" required="required">
                             </div>                
                             <div class="form-group">
-                                <input type="email" class="form-control" id="email" placeholder="Your Email *" required="required">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email *" required="required">
                             </div>
                             <div class="form-group">
-                                <input type="tel" class="form-control" id="telephone" placeholder="Your Phone Number *" required="required">
+                                <input type="tel" class="form-control" id="telephone" name="telephone" placeholder="Your Phone Number *" required="required">
                             </div>
                             <div class="form-group contact-form-textarea">
-                                        <textarea class="form-control" id="message" rows="12" placeholder="Your Message *" required="required"></textarea>
+                                        <textarea class="form-control" id="message" name="message" rows="12" placeholder="Your Message *" required="required"></textarea>
                             </div>
                             <div class="text-center">
                                         <button type="submit" class="btn btn-lg btn--cta btn--orange">Submit</button>
