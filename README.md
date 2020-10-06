@@ -465,6 +465,10 @@ The website works and functions as expected on Samsung Internet, Google Chrome, 
 This is a known issue with Firefox.  Several solutions were attempted but were not successful. 
 <br>
 
+User feedback suggested that the classes.html page would benefit from the addition of 'back-to-top' links as users were forced to scroll back to the timetable at the top of the screen after 
+viewing the class information.  This advice was taken on board and back-to-top links were inserted after each class description.
+<br>
+
 ### Responsiveness
 The website was tested for responsive design using [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools).  
 It was tested, and found to respond appropriately with regard to each of the following:
