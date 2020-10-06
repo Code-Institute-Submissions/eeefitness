@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://github.com/nualagr/eeefitness" style="text-decoration: none; color: #2D3142; font-weight: bold">EEE Fitness</a></h1>
+<h1 align="center">EEE Fitness</h1>
 
 <h2 align="center">Code Institute - Milestone Project 1</h2>
 
