@@ -572,6 +572,20 @@ section#classesSection h2 {
     margin: 0.7em 0;
 }
 
+section#classesSection a {
+    color: #2D3142;
+}
+
+section#classesSection a:hover,
+section#classesSection a:active,
+section#classesSection a:focus,
+section#classesSection a:active:focus {
+    color: #FB5607;
+}
+
+section#classesSection a i {
+    vertical-align: bottom;
+}
 /*----------------------------------Membership Pricing Section*/
 section#membershipPricingSection h2.section-heading {
     color: #2D3142;
